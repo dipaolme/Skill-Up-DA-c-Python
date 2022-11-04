@@ -3,16 +3,18 @@ from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
+import pandas as pd
 
 
 POSTGRES_CONN_ID = "alkemy_db"
 
-def pg_extract2csv(copy_sql):
+def pg_extract2csv():
   pg_hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
   #logging.info("Exporting query to file")
-  #pg_hook.copy_expert(sql=f'/usr/local/airflow/include/{query}', filename="/usr/local/airflow/files/GAUflores_select.csv")
-  pg_hook.copy_expert(copy_sql, filename="/usr/local/airflow/files/GAUflores_select.csv")
-
+  with open('/usr/local/airflow/include/GAUFlores.sql','r') as sqlfile:
+    sql_stm= sqlfile.read()
+  df = pg_hook.get_pandas_df(sql = f'{sql_stm}')
+  df.to_csv('/usr/local/airflow/tests/GAUflores_select.csv')
 
 # Instantiate DAG
 with DAG(
@@ -27,13 +29,24 @@ with DAG(
     #    "retry_delay": timedelta(minutes=1),
     #},
     catchup=False,
-    #template_searchpath="/include/"
+    template_searchpath="/usr/local/airflow/include/"
 ) as dag:
     extract = PythonOperator(
         task_id="extract_task",
         python_callable=pg_extract2csv
-        op_kwargs={"copy_sql": "COPY(select universidad, carrera, fecha_de_inscripcion, name, nombre_de_usuario, sexo, codigo_postal, correo_electronico  from flores_comahue where universidad ='UNIVERSIDAD DE FLORES' and fecha_de_inscripcion between '2020-09-01' and '2021-02-01')TO STDOUT WITH CSV HEADER"
-        }
+        #op_args = ['GauFlores.sql']  probar pasarlo como para metro
+
     )
+
+    # transform = PythonOperator(
+    #     task_id="transform_task",
+    #     python_callable = 'funcion que haga cosas con pndas y los csv'
+    # )
+
+    # load = 'OperadorS3'(
+    #     task_id='load_task'
+    # )
+
+
  
-    extract
+    extract # >> transform >> load
