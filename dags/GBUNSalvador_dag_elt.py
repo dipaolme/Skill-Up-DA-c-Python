@@ -48,6 +48,7 @@ def extract():
 
     logging.info(df.head())
 
+    # pathCsv = createPath('include')
     pathCsv = createPath('files')
 
     # jsondat = json.load(df)

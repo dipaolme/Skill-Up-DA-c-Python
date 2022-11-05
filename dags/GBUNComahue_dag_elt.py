@@ -47,8 +47,8 @@ def extract():
     # logging.info('query')
 
     logging.info(df.head())
-
     pathCsv = createPath('files')
+    # pathCsv = createPath('include')  # Correccion a guardar localmente 
 
     # jsondat = json.load(df)
     js = df.to_json(orient='columns')
