@@ -1,0 +1,1 @@
+select  universidad , carrera , fecha_de_inscripcion,fc."name", sexo ,fecha_nacimiento,codigo_postal ,correo_electronico  from flores_comahue fc   where  (universidad =  'UNIV. NACIONAL DEL COMAHUE' and  (fecha_de_inscripcion  between '2020-09-01' and '2021-02-01' )) order  by  fecha_de_inscripcion  asc;
