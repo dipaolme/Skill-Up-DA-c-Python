@@ -3,6 +3,8 @@ from airflow.models import DAG
 from datetime import datetime, timedelta
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
+#from operators.s3_to_postgres_operator import S3ToPostgresOperator
+#from airflow.providers.amazon.aws.hooks.s3 import S3Hook
 import pandas as pd
 
 #defino un diccionario con las variables del DAG
@@ -42,6 +44,14 @@ with DAG(
         #op_args = [path_sql, path_csv]
     
     )
+
+    #tarea_2 = PythonOperator(
+    #    task_id = "transform",
+    #)
+
+    #tarea_3 = S3ToPostgresOperator(
+    #    task_id = "load",
+    #)
 
 # se definen las dependencias de las tareas
     tarea_1 # >> tarea_2 >> tarea_3
