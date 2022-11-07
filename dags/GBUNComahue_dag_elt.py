@@ -37,24 +37,29 @@ select_name = name_data+selec
 def extract():
     logging.info("Connect: %s", POSTGRES_CONN_ID)
     logging.info("Extract: %s", dag_)
-    hook = PostgresHook(postgress_conn_id=POSTGRES_CONN_ID)
+    hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
+    
     query = sqlCommand(
         file=query_name, point='include')
-
+    conn =hook.get_conn()
+    logging.info(conn)
     # logging.info(os.getcwd())
+    # conn = 
+    print(query)
     df = hook.get_pandas_df(sql=query)
+    # df = hook.get_pandas_df(sql=query)
 
     # logging.info('query')
 
     logging.info(df.head())
     pathCsv = createPath('files')
-    # pathCsv = createPath('include')  # Correccion a guardar localmente 
+    # pathCsv = createPath('include')  # Correccion a guardar localmente
 
     # jsondat = json.load(df)
     js = df.to_json(orient='columns')
     # print("Create csv")
     df.to_csv(pathCsv+'/'+select_name)
-
+    conn.close()
     # print(os.listdir(pathCsv))
 
 

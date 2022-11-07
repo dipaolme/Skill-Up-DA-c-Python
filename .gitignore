@@ -17,3 +17,5 @@ hookexample.py
 Dockerfile
 .dockerignore
 packages.txt
+docker-compose.yml
+docker-compose.override.yml

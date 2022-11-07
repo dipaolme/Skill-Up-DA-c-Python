@@ -35,34 +35,37 @@ select_name = name_data+selec
 
 #  Extract data with  hook,pandas .csv
 def extract():
-    logging.info("Connect: %s",POSTGRES_CONN_ID)
-    logging.info("Extract: %s",dag_)
-    hook = PostgresHook(postgress_conn_id=POSTGRES_CONN_ID)
+    logging.info("Connect: %s", POSTGRES_CONN_ID)
+    logging.info("Extract: %s", dag_)
+    hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
+
     query = sqlCommand(
         file=query_name, point='include')
-
-    # logging.info(os.getcwd())
+    conn = hook.get_conn()
+    logging.info(conn)
+ 
+    # print(query)
     df = hook.get_pandas_df(sql=query)
+    # df = hook.get_pandas_df(sql=query)
 
     # logging.info('query')
 
     logging.info(df.head())
-
-    # pathCsv = createPath('include')
     pathCsv = createPath('files')
+    # pathCsv = createPath('include')  # Correccion a guardar localmente
 
     # jsondat = json.load(df)
     js = df.to_json(orient='columns')
     # print("Create csv")
     df.to_csv(pathCsv+'/'+select_name)
-
+    conn.close()
     # print(os.listdir(pathCsv))
 
 
-#  Transform data with pandas 
+#  Transform data with pandas
 def transform():
     logging.info("Transform: %s", dag_)
-    
+
     pathfile = createPath('files')
 
     fileSelect = csvFile(pathfile, select_name)
@@ -70,7 +73,7 @@ def transform():
 
     # print(POSTGRES_CONN_ID)
 
-    
+
 #  Load data with S3 amazon .txt
 def load(some_parameter):
     logging.info("Load: %s", dag_)
