@@ -11,7 +11,7 @@ import pandas as pd
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 import logging
-
+from sqlalchemy import create_engine
 
 import os
 from airflow.providers.postgres.hooks.postgres import PostgresHook
@@ -43,7 +43,8 @@ def extract():
         file=query_name, point='include')
     conn = hook.get_conn()
     logging.info(conn)
- 
+    
+    
     # print(query)
     df = hook.get_pandas_df(sql=query)
     # df = hook.get_pandas_df(sql=query)
