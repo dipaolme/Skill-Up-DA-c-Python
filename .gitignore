@@ -19,3 +19,5 @@ Dockerfile
 packages.txt
 docker-compose.yml
 docker-compose.override.yml
+logging.conf
+dac.cfg

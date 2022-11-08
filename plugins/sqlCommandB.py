@@ -6,6 +6,8 @@ import logging
 
 def identExt(path,ext):
     contenido = os.listdir(path)
+    # print("conte:")
+    # logging.info(contenido)
     # print(contenido)
     data = []
     for fichero in contenido:
@@ -25,7 +27,7 @@ def createPath(target):
     return path
 
 def csvFile(path,select):
-    logging.info('Select_csv')
+    # logging.info('Select_csv')
     csv = identExt(path,'.csv')
 
     n = csv.index(select)
@@ -34,13 +36,23 @@ def csvFile(path,select):
     return path+'/'+selectCsv 
 
 
+def txtFile(path, select):
+    # logging.info('Select_txt')
+    txt = identExt(path, '.txt')
+
+    n = txt.index(select)
+
+    selectTxt = txt[n]
+    return path+'/'+selectTxt
+
+
 
 
 
 
 def sqlCommand(file,point):
 
-    logging.info('create_command_sql')
+    # logging.info('create_command_sql')
     # print("OS-path:")
     # print(os.getcwd())
     path = createPath(point)

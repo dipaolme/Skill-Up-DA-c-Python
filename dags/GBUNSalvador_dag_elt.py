@@ -1,7 +1,7 @@
 
 # BROC95
-from plugins.sqlCommandB import csvFile
-from plugins.connectionDag import configDag
+from plugins.sqlCommandB import csvFile, identExt
+from plugins.connectionDag import configDag, configLog
 from plugins.dataTrasB import dataTransf
 
 from datetime import datetime, timedelta
@@ -12,13 +12,11 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 import logging
 from sqlalchemy import create_engine
-
+import logging.config
 import os
 from airflow.providers.postgres.hooks.postgres import PostgresHook
+import logging
 
-
-logging.info("Def var dag")
-default_args, POSTGRES_CONN_ID = configDag()
 
 
 name_data = 'GBUNSalvador'
@@ -32,40 +30,46 @@ dag_ = name_data+dag_name
 query_name = name_data+sql_
 select_name = name_data+selec
 
+default_args, POSTGRES_CONN_ID = configDag()
+
+
+
 
 #  Extract data with  hook,pandas .csv
 def extract():
-    logging.info("Connect: %s", POSTGRES_CONN_ID)
-    logging.info("Extract: %s", dag_)
+  
+    logger = configLog(dag_)
+
+    logger.info(dag_)
+    logger.info("Extract")
+    logger.info("Connect: % s", POSTGRES_CONN_ID)
+
     hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
 
     query = sqlCommand(
         file=query_name, point='include')
     conn = hook.get_conn()
-    logging.info(conn)
+    # logging.info(conn)
     
     
-    # print(query)
+
     df = hook.get_pandas_df(sql=query)
-    # df = hook.get_pandas_df(sql=query)
 
-    # logging.info('query')
-
-    logging.info(df.head())
+    logger.info(df.head())
     pathCsv = createPath('files')
     # pathCsv = createPath('include')  # Correccion a guardar localmente
 
-    # jsondat = json.load(df)
     js = df.to_json(orient='columns')
     # print("Create csv")
     df.to_csv(pathCsv+'/'+select_name)
     conn.close()
-    # print(os.listdir(pathCsv))
+    
 
 
 #  Transform data with pandas
 def transform():
-    logging.info("Transform: %s", dag_)
+    logger = configLog(dag_)
+    logger.info("Transform")
 
     pathfile = createPath('files')
 
@@ -77,7 +81,8 @@ def transform():
 
 #  Load data with S3 amazon .txt
 def load(some_parameter):
-    logging.info("Load: %s", dag_)
+    logger = configLog(dag_)
+    logger.info("Load: %s", dag_)
     pass
 
 
@@ -91,3 +96,4 @@ with DAG(dag_id=dag_, start_date=datetime(2022, 11, 4), schedule_interval=timede
     #  Load
 
 task1 >> task2
+# task1 
