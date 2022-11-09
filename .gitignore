@@ -1,8 +1,9 @@
 .git
 # .env
+.ipynb_checkpoints
 .code
 .astro
-
+Cleandata.ipynb
 airflow_settings.yaml
 astro
 main.py

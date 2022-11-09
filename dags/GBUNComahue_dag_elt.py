@@ -2,7 +2,7 @@
 # BROC95
 from plugins.sqlCommandB import csvFile, identExt
 from plugins.connectionDag import configDag, configLog
-from plugins.dataTrasB import dataTransf
+from plugins.dataTrasB import data_transform
 
 from datetime import datetime, timedelta
 from plugins.sqlCommandB import sqlCommand, createPath
@@ -68,7 +68,8 @@ def transform():
     pathfile = createPath('files')
 
     fileSelect = csvFile(pathfile, select_name)
-    dataTransf(fileSelect)
+    
+    data_transform(fileSelect)
 
     # print(POSTGRES_CONN_ID)
 

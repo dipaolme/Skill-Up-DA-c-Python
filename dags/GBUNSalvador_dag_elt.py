@@ -2,7 +2,7 @@
 # BROC95
 from plugins.sqlCommandB import csvFile, identExt
 from plugins.connectionDag import configDag, configLog
-from plugins.dataTrasB import dataTransf
+from plugins.dataTrasB import data_transform
 
 from datetime import datetime, timedelta
 from plugins.sqlCommandB import sqlCommand, createPath
@@ -16,7 +16,6 @@ import logging.config
 import os
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 import logging
-
 
 
 name_data = 'GBUNSalvador'
@@ -33,11 +32,9 @@ select_name = name_data+selec
 default_args, POSTGRES_CONN_ID = configDag()
 
 
-
-
 #  Extract data with  hook,pandas .csv
 def extract():
-  
+
     logger = configLog(dag_)
 
     logger.info(dag_)
@@ -50,8 +47,6 @@ def extract():
         file=query_name, point='include')
     conn = hook.get_conn()
     # logging.info(conn)
-    
-    
 
     df = hook.get_pandas_df(sql=query)
 
@@ -63,7 +58,6 @@ def extract():
     # print("Create csv")
     df.to_csv(pathCsv+'/'+select_name)
     conn.close()
-    
 
 
 #  Transform data with pandas
@@ -74,7 +68,8 @@ def transform():
     pathfile = createPath('files')
 
     fileSelect = csvFile(pathfile, select_name)
-    dataTransf(fileSelect)
+
+    data_transform(fileSelect)
 
     # print(POSTGRES_CONN_ID)
 
@@ -96,4 +91,4 @@ with DAG(dag_id=dag_, start_date=datetime(2022, 11, 4), schedule_interval=timede
     #  Load
 
 task1 >> task2
-# task1 
+# task1

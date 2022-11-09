@@ -43,6 +43,9 @@ def configLog(name):
 
     logger = logging.getLogger(name)
 
+    return logger
+
+
 
     # print(logger)
 
@@ -58,8 +61,6 @@ def configLog(name):
     
 
     
-
-    return logger
 
 
 # print(POSTGRES_CONN_ID)
