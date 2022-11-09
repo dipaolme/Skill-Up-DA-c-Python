@@ -16,7 +16,8 @@ import logging.config
 import os
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 import logging
-
+import boto3
+from botocore.exceptions import ClientError
 
 name_data = 'GBUNComahue'
 
@@ -24,12 +25,15 @@ name_data = 'GBUNComahue'
 dag_name = '_dag_elt'
 selec = "_select.csv"
 sql_ = ".sql"
+process ="_process.txt"
 
 dag_ = name_data+dag_name
 query_name = name_data+sql_
 select_name = name_data+selec
+process_name = name_data+process
 
-default_args, POSTGRES_CONN_ID = configDag()
+
+default_args, POSTGRES_CONN_ID, ACCESS_KEY, SECRET_ACCESS_KEY, AWS_S3_CONN_ID = configDag()
 
 
 #  Extract data with  hook,pandas .csv
@@ -75,11 +79,35 @@ def transform():
 
 
 #  Load data with S3 amazon .txt
-def load(some_parameter):
+def load():
     logger = configLog(dag_)
     logger.info("Load: %s", dag_)
-    pass
 
+    # def upload_file(file_name, bucket, object_name):
+    """Upload a file to an S3 bucket
+
+    :param file_name: File to upload
+    :param bucket: Bucket to upload to
+    :param object_name: S3 object name. If not specified then file_name is used
+    :return: True if file was uploaded, else False
+    """
+    dest_file_path = createPath('datasets')
+    file_name = dest_file_path+'/' + process_name
+    bucket = 'alkemy-2022-broc'
+    object_name = 'preprocess/'+process_name
+
+    session = boto3.Session(
+        aws_access_key_id=ACCESS_KEY,
+        aws_secret_access_key=SECRET_ACCESS_KEY,
+    )
+    # client = session.client("s3")
+    s3_client = session.client('s3')
+    try:
+        response = s3_client.upload_file(file_name, bucket, object_name)
+    except ClientError as e:
+        logging.error(e)
+        return False
+    return True
 
 with DAG(dag_id=dag_, start_date=datetime(2022, 11, 4), schedule_interval=timedelta(hours=1), default_args=default_args, catchup=False) as dag:
     #  Extract
@@ -89,6 +117,8 @@ with DAG(dag_id=dag_, start_date=datetime(2022, 11, 4), schedule_interval=timede
     task2 = PythonOperator(task_id="TaskTransform",
                            python_callable=transform)
     #  Load
+    task3 = PythonOperator(task_id="TaskLoad",
+                            python_callable=load)
 
-task1 >> task2
+task1 >> task2>>task3
 # task1

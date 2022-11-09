@@ -38,7 +38,9 @@ def dateConvertI(da):
 def saveTxt(dat_file, df):
     path_datasets=createPath("datasets")
     dat_file_name =path_datasets+'/'+dat_file
-    df.to_csv(dat_file_name, sep=" ", quoting=csv.QUOTE_NONE, escapechar=" ")
+    df.to_csv(dat_file_name, sep="\t", quoting=csv.QUOTE_NONE,
+              escapechar=" ", index=False)
+            
 
 def dateConvert(da):
     num = int(da[2])
