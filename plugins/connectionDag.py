@@ -22,10 +22,11 @@ def configDag():
     ACCESS_KEY = decouple.config("ACCESS_KEY")
     SECRET_ACCESS_KEY = decouple.config("SECRET_ACCESS_KEY")
     AWS_S3_CONN_ID = decouple.config("AWS_S3_CONN_ID")
+    BUCKET = decouple.config("BUCKET")
     # print(".ENv connect->", POSTGRES_CONN_ID)
     # logger.info(".ENv connect-> %s", POSTGRES_CONN_ID)
     # logger.info("data: %s", name)
-    return default_args, POSTGRES_CONN_ID,ACCESS_KEY,SECRET_ACCESS_KEY,AWS_S3_CONN_ID
+    return default_args, POSTGRES_CONN_ID,ACCESS_KEY,SECRET_ACCESS_KEY,AWS_S3_CONN_ID,BUCKET
 
 
 # def configLog(name):

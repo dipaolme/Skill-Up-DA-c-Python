@@ -18,7 +18,7 @@ import logging
 import boto3
 from botocore.exceptions import ClientError
 
-name_data = 'GBUNComahue'
+name_data = '{{name_dag}}'
 
 
 dag_name = '_dag_elt'
@@ -113,7 +113,7 @@ def load():
     return True
 
 
-with DAG(dag_id=dag_, start_date=datetime(2022, 11, 4), schedule_interval=timedelta(hours=1), default_args=default_args, catchup=False) as dag:
+with DAG(dag_id=dag_, start_date=datetime(2022, 11, 4), schedule_interval=timedelta(hours={{schedule_interval}}), default_args=default_args, catchup={{catchup or False}}) as dag:
     #  Extract
     task1 = PythonOperator(task_id="TaskExtract",
                            python_callable=extract)

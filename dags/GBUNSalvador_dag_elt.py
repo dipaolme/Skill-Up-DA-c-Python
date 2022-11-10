@@ -3,7 +3,6 @@
 from plugins.sqlCommandB import csvFile, identExt
 from plugins.connectionDag import configDag, configLog
 from plugins.dataTrasB import data_transform
-
 from datetime import datetime, timedelta
 from plugins.sqlCommandB import sqlCommand, createPath
 import json
@@ -37,6 +36,7 @@ default_args, POSTGRES_CONN_ID, ACCESS_KEY, SECRET_ACCESS_KEY, AWS_S3_CONN_ID, B
 
 
 #  Extract data with  hook,pandas .csv
+
 def extract():
 
     logger = configLog(dag_)
@@ -65,6 +65,7 @@ def extract():
 
 
 #  Transform data with pandas
+
 def transform():
     logger = configLog(dag_)
     logger.info("Transform")
@@ -79,6 +80,7 @@ def transform():
 
 
 #  Load data with S3 amazon .txt
+
 def load():
     logger = configLog(dag_)
     logger.info("Load: %s", dag_)
