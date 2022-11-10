@@ -3,6 +3,9 @@ from airflow.models import DAG
 from datetime import datetime, timedelta
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
+from airflow.providers.amazon.aws.transfers.local_to_s3 import (
+    LocalFilesystemToS3Operator
+)
 #from operators.s3_to_postgres_operator import S3ToPostgresOperator
 #from airflow.providers.amazon.aws.hooks.s3 import S3Hook
 import pandas as pd
@@ -100,10 +103,10 @@ def transform_pandas():
 
 # se define el DAG
 with DAG(
-    dag_id = "DAG_Uni_LaPampa_ET",
+    dag_id = "DAG_Uni_LaPampa_ETL",
     default_args = default_args,
     schedule_interval="@hourly",
-    tags = ['ETL Universidad La Pampa (extract&transform)']
+    tags = ['ETL Universidad La Pampa (extract&transform&load)']
 ) as dag:
 
 # se definen los tasks
@@ -119,9 +122,15 @@ with DAG(
         python_callable = transform_pandas
     )
 
-    #tarea_3 = S3ToPostgresOperator(
-    #    task_id = "load",
-    #)
+    tarea_3 = LocalFilesystemToS3Operator(
+        task_id = "load",
+        filename='/usr/local/airflow/tests/GE_LaPampa_process.txt',
+        dest_key='GE_LaPampa_process.txt',
+        dest_bucket='dipa-s3',
+        aws_conn_id="aws_s3_bucket",
+        replace=True
+    )
+    
 
 # se definen las dependencias de las tareas
-    tarea_1 >> tarea_2 #>> tarea_3
+    tarea_1 >> tarea_2 >> tarea_3
