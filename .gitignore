@@ -1,6 +1,6 @@
 .git
 .vscode
-
+.env
 .ipynb_checkpoints
 .code
 .astro
@@ -27,5 +27,6 @@ dac.cfg
 webserver_config.py
 airflow.cfg
 S3update_dag.py
-.env
 
+
+.\Skill-Up-DA-c-PythonG1\.env
