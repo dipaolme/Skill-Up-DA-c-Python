@@ -33,7 +33,7 @@ select_name = name_data+selec
 process_name = name_data+process
 
 
-default_args, POSTGRES_CONN_ID, ACCESS_KEY, SECRET_ACCESS_KEY, AWS_S3_CONN_ID = configDag()
+default_args, POSTGRES_CONN_ID, ACCESS_KEY, SECRET_ACCESS_KEY, AWS_S3_CONN_ID, BUCKET = configDag()
 
 
 #  Extract data with  hook,pandas .csv
@@ -82,6 +82,7 @@ def transform():
 def load():
     logger = configLog(dag_)
     logger.info("Load: %s", dag_)
+    logger.info("Connect: % s", AWS_S3_CONN_ID)
 
     # def upload_file(file_name, bucket, object_name):
     """Upload a file to an S3 bucket
@@ -93,8 +94,8 @@ def load():
     """
     dest_file_path = createPath('datasets')
     file_name = dest_file_path+'/' + process_name
-    bucket = 'alkemy-2022-broc'
-    object_name = 'preprocess/'+process_name
+    bucket = BUCKET
+    object_name = process_name
 
     session = boto3.Session(
         aws_access_key_id=ACCESS_KEY,
@@ -105,7 +106,7 @@ def load():
     try:
         response = s3_client.upload_file(file_name, bucket, object_name)
     except ClientError as e:
-        logging.error(e)
+        logger.error(e)
         return False
     return True
 
