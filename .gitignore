@@ -8,6 +8,7 @@ Cleandata.ipynb
 airflow_settings.yaml
 astro
 main.py
+config.yaml
 __pycache__
 airflow_lab.py
 airtask.py
@@ -33,3 +34,7 @@ template_dag.jinja2
 .\Skill-Up-DA-c-PythonG1\.env
 
 /dags_dynamic/.
+.po.py
+nuevo.py
+coco.py
+po.py

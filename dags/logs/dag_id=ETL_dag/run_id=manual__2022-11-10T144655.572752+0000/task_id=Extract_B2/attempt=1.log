@@ -1,0 +1,47 @@
+INFO - Dependencies all met for <TaskInstance: ETL_dag.Extract_B2 manual__2022-11-10T14:46:55.572752+00:00 [queued]>
+INFO - Dependencies all met for <TaskInstance: ETL_dag.Extract_B2 manual__2022-11-10T14:46:55.572752+00:00 [queued]>
+INFO - 
+--------------------------------------------------------------------------------
+INFO - Starting attempt 1 of 2
+INFO - 
+--------------------------------------------------------------------------------
+ERROR - Did not find openlineage.yml and OPENLINEAGE_URL is not set
+WARNING - Couldn't initialize transport; will print events to console.
+INFO - {"eventTime": "2022-11-10T14:48:00.660488Z", "eventType": "START", "inputs": [], "job": {"facets": {"documentation": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/DocumentationJobFacet", "description": "this is an ETL dag!"}}, "name": "ETL_dag.Extract_B2", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"airflow_runArgs": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "externalTrigger": true}, "airflow_version": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "airflowVersion": "2.4.2+astro.1", "openlineageAirflowVersion": "0.15.1", "operator": "airflow.operators.python.PythonOperator", "taskInfo": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"dag": {"dag_id": "ETL_dag", "schedule_interval": "@daily"}, "owner": "BROC95", "python_callable": "<function extract at 0x7fcf691db3a0>", "retries": 1, "retry_delay": "0:05:00", "start_date": "2018-01-01T00:00:00+00:00", "task_id": "Extract_B2"}, "_BaseOperator__instantiated": true, "_dag": {"dag_id": "ETL_dag", "schedule_interval": "@daily"}, "_log": "<Logger airflow.task.operators (INFO)>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": "{'Transform_B2'}", "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "BROC95", "params": "{}", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<function extract at 0x7fcf691db3a0>", "queue": "default", "retries": 1, "retry_delay": "0:05:00", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "2018-01-01T00:00:00+00:00", "task_group": "<airflow.utils.task_group.TaskGroup object at 0x7fcf69079490>", "task_id": "Extract_B2", "trigger_rule": "all_success", "upstream_task_ids": "{'ETL'}", "wait_for_downstream": false, "weight_rule": "downstream"}}, "nominalTime": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/NominalTimeRunFacet", "nominalStartTime": "2022-11-10T14:46:55.572752Z"}, "parent": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "ETL_dag", "namespace": "default"}, "run": {"runId": "c875c6a8-3547-37e7-9172-3a00e7533021"}}, "parentRun": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "ETL_dag", "namespace": "default"}, "run": {"runId": "c875c6a8-3547-37e7-9172-3a00e7533021"}}, "unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"dag": "<<non-serializable: DAG>>", "owner": "BROC95", "python_callable": "<<non-serializable: function>>", "retries": 1, "retry_delay": "<<non-serializable: timedelta>>", "start_date": "<<non-serializable: DateTime>>", "task_id": "Extract_B2"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "BROC95", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 1, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "Extract_B2", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "2d3e8dad-9d31-42fe-9aff-e39f16f760d9"}}
+INFO - TaskInstance Details: dag_id=ETL_dag, task_id=Extract_B2, dagrun_id=manual__2022-11-10T14:46:55.572752+00:00, map_index=-1, run_start_date=2022-11-10 14:48:00.660488+00:00, try_number=1, job_id=11, op_classpath=airflow.operators.python.PythonOperator
+INFO - Executing <Task(PythonOperator): Extract_B2> on 2022-11-10 14:46:55.572752+00:00
+INFO - Started process 199 to run task
+INFO - Running: ['airflow', 'tasks', 'run', 'ETL_dag', 'Extract_B2', 'manual__2022-11-10T14:46:55.572752+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/dag_factory/factory.py', '--cfg-path', '/tmp/tmp60t8d0c3']
+INFO - Job 11: Subtask Extract_B2
+WARNING - /usr/local/lib/python3.9/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+INFO - Running <TaskInstance: ETL_dag.Extract_B2 manual__2022-11-10T14:46:55.572752+00:00 [running]> on host b33e9ad29d64
+INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=BROC95
+AIRFLOW_CTX_DAG_ID=ETL_dag
+AIRFLOW_CTX_TASK_ID=Extract_B2
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-10T14:46:55.572752+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-10T14:46:55.572752+00:00
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - GBUNSalvador_dag_elt
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - Extract
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - Connect: alkemy_db
+ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.9/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/usr/local/airflow/dags/GBUNSalvador_dag_elt.py", line 52, in extract
+    conn = hook.get_conn()
+  File "/usr/local/lib/python3.9/site-packages/airflow/providers/postgres/hooks/postgres.py", line 88, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/usr/local/lib/python3.9/site-packages/airflow/hooks/base.py", line 70, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/connection.py", line 432, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `alkemy_db` isn't defined
+INFO - Marking task as UP_FOR_RETRY. dag_id=ETL_dag, task_id=Extract_B2, execution_date=20221110T144655, start_date=20221110T144800, end_date=20221110T144802
+INFO - '2022-11-10' - airflow.listeners.events - session flush listener: added [<TaskInstanceState.UP_FOR_RETRY: 'up_for_retry'>] unchanged () deleted ['running'] - <TaskInstance: ETL_dag.Extract_B2 manual__2022-11-10T14:46:55.572752+00:00 [up_for_retry]>
+ERROR - Failed to execute job 11 for task Extract_B2 (The conn_id `alkemy_db` isn't defined; 199)
+INFO - Task exited with return code 1
+INFO - 0 downstream tasks scheduled from follow-on schedule check
