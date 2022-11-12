@@ -27,13 +27,13 @@ def extract_csv():
     hook = PostgresHook(postgres_conn_id="alkemy_db")
     #logging.info("Exporting query to file")
     df = hook.get_pandas_df(sql=query)
-    df.to_csv('/usr/local/airflow/tests/GE_Interamericana_select.csv')
+    df.to_csv('/usr/local/airflow/files/GE_Interamericana_select.csv')
 
 # defino la funcion de transformación
 def transform_pandas():
     #se cargan los datasets
-    df_cp = pd.read_csv('/usr/local/airflow/tests/codigos_postales.csv')
-    df = pd.read_csv('/usr/local/airflow/tests/GE_Interamericana_select.csv')
+    df_cp = pd.read_csv('/usr/local/airflow/assets/codigos_postales.csv')
+    df = pd.read_csv('/usr/local/airflow/files/GE_Interamericana_select.csv')
 
     #renombro la columna 'Unnamed: 0' por 'Id'
     df = df.rename(columns = {'Unnamed: 0': 'Id'})
@@ -42,10 +42,14 @@ def transform_pandas():
     df['university'] = df['university'].str.lower().str.replace("^-", "").str.replace("-", " ").str.replace("  ", " ")
 
     df['career'] = df['career'].astype(str)
-    df['career'] = df['career'].str.lower().str.replace("^-", "").str.replace("-", " ").str.replace("  ", " ")
+    df['career'] = df['career'].str.lower().str.replace("^-", "").str.replace("-$", "").str.replace(" $", "").str.replace("-", " ").str.replace("  ", " ")
 
-    df['last_name'] = df['last_name'].str.lower()
-    new = df['last_name'].str.split("-", n = 1, expand = True)
+    # se extraen los espacios y caracteres que no sirven
+    df['last_name'] = df['last_name'].str.lower().str.replace("^mrs.", "").str.replace("^mr.", "").str.replace("^ms.", "").str.replace("^dr.", "").str.replace("^miss", "").str.replace("^ ", "").str.replace("^-", "")
+    df['last_name'] = df['last_name'].str.replace("phd$", "").str.replace("md$", "").str.replace("dvm$", "").str.replace("dds$", "").str.replace(" $", "").str.replace("-$", "")
+    df['last_name'] = df['last_name'].str.replace("-", " ").str.replace("  ", " ")
+    # separo nombre de apellido (todo guardado en last_name)
+    new = df['last_name'].str.split(" ", n = 1, expand = True)
     df['first_name']= new[0]
     df['last_name']= new[1]
 
@@ -106,7 +110,7 @@ def transform_pandas():
     df['email'] = df['email'].str.lower().str.replace("-", " ").str.replace(" ", "")
 
     # Pasaje de dataframe a archivo de texto
-    df.to_csv('/usr/local/airflow/tests/GE_Interamericana_process.txt', sep='\t', index=False)
+    df.to_csv('/usr/local/airflow/files/GE_Interamericana_process.txt', sep='\t', index=False)
 
 
 # se define el DAG
@@ -132,8 +136,8 @@ with DAG(
 
     tarea_3 = LocalFilesystemToS3Operator(
         task_id = "load",
-        filename='/usr/local/airflow/tests/GE_Interamericana_process.txt',
-        dest_key='GE_LaPampa_process.txt',
+        filename='/usr/local/airflow/files/GE_Interamericana_process.txt',
+        dest_key='GEUNInteramericana.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
         replace=True
