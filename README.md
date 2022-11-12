@@ -48,3 +48,5 @@ grupo de universidades, utilizando Pandas.
 
 ## Integrantes y grupos asignados
 
+- Di Paola, Matias - Grupo A
+
