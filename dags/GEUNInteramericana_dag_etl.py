@@ -1,15 +1,26 @@
-#import logging
+import logging
 from airflow.models import DAG
 from datetime import datetime, timedelta
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
-#from operators.s3_to_postgres_operator import S3ToPostgresOperator
-#from airflow.providers.amazon.aws.hooks.s3 import S3Hook
 import pandas as pd
 from dateutil.relativedelta import relativedelta
 from airflow.providers.amazon.aws.transfers.local_to_s3 import (
     LocalFilesystemToS3Operator
 )
+import os
+
+# configuración de LOGs
+WORKING_DIR = os.getcwd()
+LOGS_DIR = os.path.join(WORKING_DIR, 'tests')  
+logger = logging.getLogger('GEUNInteramericana') # defino nombre del logger
+#Nivel de severidad INFO: el logger solo manejará mensajes de 
+# INFO, WARNING, ERROR, y CRITICAL e ignorará mensajes DEBUG.
+logger.setLevel(logging.INFO) 
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(message)s', '%Y-%m-%d')
+handler = logging.FileHandler(os.path.join(LOGS_DIR, 'GEUNInteramericana.log'))
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 #defino un diccionario con las variables del DAG
 default_args = {
@@ -22,18 +33,24 @@ default_args = {
 
 # defino la funcion de extraccion y generacion de los csv
 def extract_csv():
+    #generacion de logs en GEUNInteramericana.log
+    #logger.info("Iniciando DAG ...."),
+    #logger.info("Iniciando extracción ...."),
     with open (f'/usr/local/airflow/include/GE_UniInteramericana.sql', 'r') as sqfile:
         query = sqfile.read() 
     hook = PostgresHook(postgres_conn_id="alkemy_db")
     #logging.info("Exporting query to file")
     df = hook.get_pandas_df(sql=query)
-    df.to_csv('/usr/local/airflow/files/GE_Interamericana_select.csv')
+    df.to_csv('/usr/local/airflow/tests/GE_Interamericana_select.csv')
+    #logger.info("Terminando extracción ....")
 
 # defino la funcion de transformación
 def transform_pandas():
+    #generacion de logs en GEUNInteramericana.log
+    #logger.info("Iniciando transformacion ....")
     #se cargan los datasets
-    df_cp = pd.read_csv('/usr/local/airflow/assets/codigos_postales.csv')
-    df = pd.read_csv('/usr/local/airflow/files/GE_Interamericana_select.csv')
+    df_cp = pd.read_csv('/usr/local/airflow/tests/codigos_postales.csv')
+    df = pd.read_csv('/usr/local/airflow/tests/GE_Interamericana_select.csv')
 
     #renombro la columna 'Unnamed: 0' por 'Id'
     df = df.rename(columns = {'Unnamed: 0': 'Id'})
@@ -110,15 +127,17 @@ def transform_pandas():
     df['email'] = df['email'].str.lower().str.replace("-", " ").str.replace(" ", "")
 
     # Pasaje de dataframe a archivo de texto
-    df.to_csv('/usr/local/airflow/files/GE_Interamericana_process.txt', sep='\t', index=False)
+    df.to_csv('/usr/local/airflow/tests/GE_Interamericana_process.txt', sep='\t', index=False)
 
+    #logger.info("Terminando transformacion ....")
+    #logger.info("Iniciando carga ....")
 
 # se define el DAG
 with DAG(
-    dag_id = "DAG_Uni_Interamericana_ETL",
+    dag_id = "DAG_Uni_Interamericana_ETL_log",
     default_args = default_args,
     schedule_interval="@hourly",
-    tags = ['ETL Universidad Interamericana (extract&transform&load)']
+    tags = ['ETL Universidad Interamericana (extract&transform&load) con log']
 ) as dag:
 
 # se definen los tasks
@@ -136,8 +155,8 @@ with DAG(
 
     tarea_3 = LocalFilesystemToS3Operator(
         task_id = "load",
-        filename='/usr/local/airflow/files/GE_Interamericana_process.txt',
-        dest_key='GEUNInteramericana.txt',
+        filename='/usr/local/airflow/tests/GE_Interamericana_process.txt',
+        dest_key='GEUNInteramericana_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
         replace=True
