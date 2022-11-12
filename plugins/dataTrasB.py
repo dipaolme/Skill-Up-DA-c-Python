@@ -388,6 +388,6 @@ def data_transform(data):
 
 if __name__ == "__main__":
 
-    data = "./files/GBUNComahue_select.csv"
-    # data = "./files/GBUNSalvador_select.csv"
+    # data = "./files/GBUNComahue_select.csv"
+    data = "./files/GBUNSalvador_select.csv"
     data_transform(data)
