@@ -1,0 +1,4 @@
+dag_id : "GIUMoron"
+schedule_interval: "@hourly"
+catchup : False 
+input: 198

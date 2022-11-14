@@ -1,0 +1,4 @@
+dag_id : "GIUJujuy"
+schedule_interval: "@hourly"
+catchup : False 
+input: 126
