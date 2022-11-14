@@ -88,11 +88,10 @@ def pd_transform2txt():
 with DAG(
     "GAUNVillaMaria_ETL",
     start_date=datetime(2022, 3, 11),
-    max_active_runs=3,
-    schedule_interval="@daily",
-    #default_args={
-    #    "retries": 1,
-    #},
+    schedule_interval="@hourly",
+    default_args={
+        "retries": 5,
+    },
     catchup=False,
 ) as dag:
     extract = PythonOperator(

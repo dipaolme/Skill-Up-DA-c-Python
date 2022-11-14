@@ -62,7 +62,6 @@ def pd_transform2txt():
   today = datetime.now()
   df['age'] = np.floor((today - df['fecha_nacimiento']).dt.days / 365)
   df['age'] = df['age'].apply(lambda x: x if (x > 18.0) and (x < 80) else -1)
-  #df['age'] = np.where(df['age']== -1, df.loc[df['age'] !=-1, 'age'].mode(), df['age'])
   df['age'] = np.where(df['age']== -1, 21, df['age'])
   df['age'] = df['age'].astype(int)
 
@@ -90,11 +89,10 @@ def pd_transform2txt():
 with DAG(
     "GAUFlores_ETL",
     start_date=datetime(2022, 3, 11),
-    max_active_runs=3,
-    schedule_interval="@daily",
-    #default_args={
-    #    "retries": 1
-    #},
+    schedule_interval="@hourly",
+    default_args={
+        "retries": 5
+    },
     catchup=False,
 ) as dag:
 
