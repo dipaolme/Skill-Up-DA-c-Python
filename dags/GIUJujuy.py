@@ -81,10 +81,6 @@ def transform():
 #calcular edad 
    data_2['birth_day'] = pd.to_datetime(data_2['birth_day'], format='%Y-%m-%d')
    data_2['inscription_date'] = pd.to_datetime(data_2['inscription_date'], format='%Y-%m-%d')
-   data = len(data_2.axes[0])
-   for i in range(data):
-      if data_2['birth_day'][i].strftime('%Y') >= '2022':
-            data_2['birth_day'][i] = data_2['birth_day'][i] - relativedelta(years=100)
    data_2= data_2.drop(data_2[data_2['inscription_date'] <= data_2['birth_day']].index)
    data_2= data_2.reset_index(drop=True)
    data_2['age'] = datetime.now() - data_2['birth_day']
@@ -112,9 +108,9 @@ def transform():
    
 # Convertir csv a txt 
    data_2.to_csv("/usr/local/airflow/tests/GIUJujuy_process.txt")
-   #df = pd.read_csv("/usr/local/airflow/tests/GIUJujuy_process.csv")
-   #content = str(df)
-   #print(content, file=open('/usr/local/airflow/tests/GIUJujuy_process.txt', 'w'))
+   df = pd.read_csv("/usr/local/airflow/tests/GIUJujuy_process.csv")
+   content = str(df)
+   print(content, file=open('/usr/local/airflow/tests/GIUJujuy_process.txt', 'w'))
 
 
 with DAG(

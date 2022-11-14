@@ -82,11 +82,6 @@ def transform():
 
   data_1['birth_day'] = pd.to_datetime(data_1['birth_day'], format='%Y-%m-%d')
   data_1['inscription_date'] = pd.to_datetime(data_1['inscription_date'], format='%Y-%m-%d')
-    # a todas las fechas que son mayores a 2022, le resto 100 años
-  k = len(data_1.axes[0])
-  for i in range(k):
-      if data_1['birth_day'][i].strftime('%Y') >= '2022':
-            data_1['birth_day'][i] = data_1['birth_day'][i] - relativedelta(years=100)
   data_1= data_1.drop(data_1[data_1['inscription_date'] <= data_1['birth_day']].index)
   data_1= data_1.reset_index(drop=True)
   data_1['age'] = datetime.now() - data_1['birth_day']
@@ -102,9 +97,9 @@ def transform():
 
   # pasar archivo csv a txt 
   data_1.to_csv("/usr/local/airflow/tests/GIUMoron_process.txt")
-  #df = pd.read_csv("/usr/local/airflow/tests/GIUMoron_process.csv")
-  #content = str(df)
-  #print(content, file=open('/usr/local/airflow/tests/GIUMoron_process.txt', 'w'))
+  df = pd.read_csv("/usr/local/airflow/tests/GIUMoron_process.csv")
+  content = str(df)
+  print(content, file=open('/usr/local/airflow/tests/GIUMoron_process.txt', 'w'))
      
   
 
