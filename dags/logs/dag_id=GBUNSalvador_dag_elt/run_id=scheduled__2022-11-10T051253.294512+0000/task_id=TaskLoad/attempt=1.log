@@ -1,0 +1,124 @@
+INFO - Dependencies all met for <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T05:12:53.294512+00:00 [queued]>
+INFO - Dependencies all met for <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T05:12:53.294512+00:00 [queued]>
+INFO - 
+--------------------------------------------------------------------------------
+INFO - Starting attempt 1 of 6
+INFO - 
+--------------------------------------------------------------------------------
+ERROR - Did not find openlineage.yml and OPENLINEAGE_URL is not set
+WARNING - Couldn't initialize transport; will print events to console.
+INFO - {"eventTime": "2022-11-10T06:23:32.685070Z", "eventType": "START", "inputs": [], "job": {"facets": {}, "name": "GBUNSalvador_dag_elt.TaskLoad", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"airflow_runArgs": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "externalTrigger": false}, "airflow_version": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "airflowVersion": "2.4.2+astro.1", "openlineageAirflowVersion": "0.15.1", "operator": "airflow.operators.python.PythonOperator", "taskInfo": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<function load at 0x7fcc54451a60>", "retries": 5, "retry_delay": "0:10:00", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": {"dag_id": "GBUNSalvador_dag_elt", "schedule_interval": "1:00:00", "tags": []}, "_log": "<Logger airflow.task.operators (INFO)>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": "set()", "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "{}", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<function load at 0x7fcc54451a60>", "queue": "default", "retries": 5, "retry_delay": "0:10:00", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "2022-11-04T00:00:00+00:00", "task_group": "<airflow.utils.task_group.TaskGroup object at 0x7fcc5430b550>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": "{'TaskTransform'}", "wait_for_downstream": false, "weight_rule": "downstream"}}, "nominalTime": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/NominalTimeRunFacet", "nominalStartTime": "2022-11-10T05:12:53.294512Z"}, "parent": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNSalvador_dag_elt", "namespace": "default"}, "run": {"runId": "e9155918-c697-3e6b-9412-e58a42a96dee"}}, "parentRun": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNSalvador_dag_elt", "namespace": "default"}, "run": {"runId": "e9155918-c697-3e6b-9412-e58a42a96dee"}}, "unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<<non-serializable: function>>", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "82d0e649-2ec5-4721-b1c3-ea2620836804"}}
+INFO - TaskInstance Details: dag_id=GBUNSalvador_dag_elt, task_id=TaskLoad, dagrun_id=scheduled__2022-11-10T05:12:53.294512+00:00, map_index=-1, run_start_date=2022-11-10 06:23:32.685070+00:00, try_number=1, job_id=603, op_classpath=airflow.operators.python.PythonOperator
+INFO - Executing <Task(PythonOperator): TaskLoad> on 2022-11-10 05:12:53.294512+00:00
+INFO - Started process 2704 to run task
+INFO - Running: ['airflow', 'tasks', 'run', 'GBUNSalvador_dag_elt', 'TaskLoad', 'scheduled__2022-11-10T05:12:53.294512+00:00', '--job-id', '603', '--raw', '--subdir', 'DAGS_FOLDER/GBUNSalvador_dag_elt.py', '--cfg-path', '/tmp/tmp4hm321q4']
+INFO - Job 603: Subtask TaskLoad
+WARNING - /usr/local/lib/python3.9/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+INFO - Running <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T05:12:53.294512+00:00 [running]> on host 1fc2f66b12c6
+INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Breyner
+AIRFLOW_CTX_DAG_ID=GBUNSalvador_dag_elt
+AIRFLOW_CTX_TASK_ID=TaskLoad
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-10T05:12:53.294512+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-10T05:12:53.294512+00:00
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - Load: GBUNSalvador_dag_elt
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - Connect: aws_s3_bucket
+INFO - '2022-11-10' - botocore.hooks - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-call.apigateway to before-call.api-gateway
+INFO - '2022-11-10' - botocore.hooks - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+INFO - '2022-11-10' - botocore.hooks - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/endpoints.json
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/sdk-default-configuration.json
+INFO - '2022-11-10' - botocore.hooks - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fcc35d57310>
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/s3/2006-03-01/service-2.json
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fcc35de9160>
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fcc542868b0>
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fcc35de7ee0>
+INFO - '2022-11-10' - botocore.endpoint - Setting s3 timeout as (60, 60)
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/_retry.json
+INFO - '2022-11-10' - botocore.client - Registering retry handlers for service: s3
+INFO - '2022-11-10' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-10' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53be8e50>}) about to wait for the following futures []
+INFO - '2022-11-10' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53be8e50>}) done waiting for dependent futures
+INFO - '2022-11-10' - s3transfer.tasks - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53be8e50>}) with kwargs {'client': <botocore.client.S3 object at 0x7fcc53c2d1c0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7fcc53be8040>, 'osutil': <s3transfer.utils.OSUtils object at 0x7fcc53be80a0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7fcc53be8340>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53be8e50>}
+INFO - '2022-11-10' - s3transfer.futures - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7fcc53be8340> for transfer request: 0.
+INFO - '2022-11-10' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-10' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) about to wait for the following futures []
+INFO - '2022-11-10' - s3transfer.utils - Releasing acquire 0/None
+INFO - '2022-11-10' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) done waiting for dependent futures
+INFO - '2022-11-10' - s3transfer.tasks - Executing task PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x7fcc53c2d1c0>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7fcc53bf24c0>, 'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7fcc35cfcc10>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7fcc35cfc040>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7fcc35cfd550>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7fcc35cf8f70>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fcc53c2df40>>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fcc53c2df70>>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7fcc35cf8dc0>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x7fcc35e57280>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7fcc35cfc310>
+INFO - '2022-11-10' - botocore.handlers - Adding expect 100 continue header to request.
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7fcc53c2df40>>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7fcc35cf8a60>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7fcc35cfd670>
+INFO - '2022-11-10' - botocore.endpoint - Making request for OperationModel(name=PutObject) with params: {'url_path': '/dipa-s3/GBUNSalvador_process.txt', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': 'N6V18ZBB5L+/Ym0KCsbx3Q==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x7fcc53bf24c0>, 'url': 'https://s3.amazonaws.com/dipa-s3/GBUNSalvador_process.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7fcc53c2d4c0>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'dipa-s3'}}}
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7fcc35c00e50>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7fcc53c2d280>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x7fcc53be8070>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fcc5420a4c0>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7fcc35cf8ca0>
+INFO - '2022-11-10' - botocore.hooks - Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fcc53be8070>>
+INFO - '2022-11-10' - botocore.utils - Defaulting to S3 virtual host style addressing with path style addressing fallback.
+INFO - '2022-11-10' - botocore.utils - Checking for DNS compatible bucket for: https://s3.amazonaws.com/dipa-s3/GBUNSalvador_process.txt
+INFO - '2022-11-10' - botocore.utils - URI updated to: https://dipa-s3.s3.amazonaws.com/GBUNSalvador_process.txt
+INFO - '2022-11-10' - botocore.auth - Calculating signature using v4 auth.
+INFO - '2022-11-10' - botocore.auth - CanonicalRequest:
+PUT
+/GBUNSalvador_process.txt
+
+content-md5:N6V18ZBB5L+/Ym0KCsbx3Q==
+host:dipa-s3.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20221110T062333Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+INFO - '2022-11-10' - botocore.auth - StringToSign:
+AWS4-HMAC-SHA256
+20221110T062333Z
+20221110/us-east-1/s3/aws4_request
+130acf3f59fac28373d69bfa2811504c066d623a071fe74a8012263f2dd99480
+INFO - '2022-11-10' - botocore.auth - Signature:
+abaafc16c78f783b9a0049bf42590791869b2b256b5982936712fea935d75621
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7fcc35c00ee0>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7fcc35cfdd30>
+INFO - '2022-11-10' - botocore.endpoint - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dipa-s3.s3.amazonaws.com/GBUNSalvador_process.txt, headers={'User-Agent': b'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': b'N6V18ZBB5L+/Ym0KCsbx3Q==', 'Expect': b'100-continue', 'X-Amz-Date': b'20221110T062333Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAQB63F5PLYUADCDIP/20221110/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=abaafc16c78f783b9a0049bf42590791869b2b256b5982936712fea935d75621', 'amz-sdk-invocation-id': b'aa7b574c-7f5a-4414-b009-d8e717f258e6', 'amz-sdk-request': b'attempt=1', 'Content-Length': '256067'}>
+INFO - '2022-11-10' - botocore.httpsession - Certificate path: /usr/local/lib/python3.9/site-packages/certifi/cacert.pem
+INFO - '2022-11-10' - urllib3.connectionpool - Starting new HTTPS connection (1): dipa-s3.s3.amazonaws.com:443
+INFO - '2022-11-10' - botocore.awsrequest - Waiting for 100 Continue response.
+INFO - '2022-11-10' - botocore.awsrequest - 100 Continue response seen, now sending request body.
+INFO - '2022-11-10' - urllib3.connectionpool - https://dipa-s3.s3.amazonaws.com:443 "PUT /GBUNSalvador_process.txt HTTP/1.1" 200 0
+INFO - '2022-11-10' - botocore.parsers - Response headers: {'x-amz-id-2': 'pzf/hyK+x0oi8/YWX3pgQsj030/bB0+/kzp1DqgcI+RuW0gOXgJ4cVg3M4ybAeyN+hl30emHlGA=', 'x-amz-request-id': 'XFKHNNDASZHH3BRE', 'Date': 'Thu, 10 Nov 2022 06:23:33 GMT', 'ETag': '"37a575f19041e4bfbf626d0a0ac6f1dd"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+INFO - '2022-11-10' - botocore.parsers - Response body:
+b''
+INFO - '2022-11-10' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7fcc53c2de80>
+INFO - '2022-11-10' - botocore.retryhandler - No retry needed.
+INFO - '2022-11-10' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7fcc53c2df40>>
+INFO - '2022-11-10' - s3transfer.utils - Releasing acquire 0/None
+INFO - Done. Returned value was: True
+INFO - Marking task as SUCCESS. dag_id=GBUNSalvador_dag_elt, task_id=TaskLoad, execution_date=20221110T051253, start_date=20221110T062332, end_date=20221110T062334
+INFO - '2022-11-10' - airflow.listeners.events - session flush listener: added [<TaskInstanceState.SUCCESS: 'success'>] unchanged () deleted ['running'] - <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T05:12:53.294512+00:00 [success]>
+INFO - '2022-11-10' - airflow - OpenLineage listener got notification about task instance success
+INFO - '2022-11-10' - root - Using extractor PythonExtractor task_type=PythonOperator airflow_dag_id=GBUNSalvador_dag_elt task_id=TaskLoad airflow_run_id=scheduled__2022-11-10T05:12:53.294512+00:00
+INFO - '2022-11-10' - root - Found task metadata for operation TaskLoad: TaskMetadata(name='GBUNSalvador_dag_elt.TaskLoad', inputs=[], outputs=[], run_facets={'unknownSourceAttribute': UnknownOperatorAttributeRunFacet(_producer='https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow', _schemaURL='https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet', unknownItems=[UnknownOperatorInstance(name='PythonOperator', properties={'_BaseOperator__init_kwargs': {'task_id': 'TaskLoad', 'owner': 'Breyner', 'retries': 5, 'retry_delay': datetime.timedelta(seconds=600), 'python_callable': <function load at 0x7fcc54451a60>}, '_BaseOperator__from_mapped': False, 'task_id': 'TaskLoad', 'task_group': <airflow.utils.task_group.TaskGroup object at 0x7fcc5430b550>, 'owner': 'Breyner', 'email': None, 'email_on_retry': True, 'email_on_failure': True, 'execution_timeout': None, 'on_execute_callback': None, 'on_failure_callback': None, 'on_success_callback': None, 'on_retry_callback': None, '_pre_execute_hook': None, '_post_execute_hook': None, 'executor_config': {}, 'run_as_user': None, 'retries': 5, 'queue': 'default', 'pool': 'default_pool', 'pool_slots': 1, 'sla': None, 'trigger_rule': <TriggerRule.ALL_SUCCESS: 'all_success'>, 'depends_on_past': False, 'ignore_first_depends_on_past': True, 'wait_for_downstream': False, 'retry_delay': datetime.timedelta(seconds=600), 'retry_exponential_backoff': False, 'max_retry_delay': None, 'params': {}, 'priority_weight': 1, 'weight_rule': <WeightRule.DOWNSTREAM: 'downstream'>, 'resources': None, 'max_active_tis_per_dag': None, 'do_xcom_push': True, 'doc_md': None, 'doc_json': None, 'doc_yaml': None, 'doc_rst': None, 'doc': None, 'upstream_task_ids': {'TaskTransform'}, 'downstream_task_ids': set(), 'start_date': DateTime(2022, 11, 4, 0, 0, 0, tzinfo=Timezone('UTC')), 'end_date': None, '_dag': <DAG: GBUNSalvador_dag_elt>, '_log': <Logger airflow.task.operators (INFO)>, 'inlets': [], 'outlets': [], 'python_callable': <function load at 0x7fcc54451a60>, 'op_args': (), 'op_kwargs': {}, 'templates_dict': None, 'show_return_value_in_logs': True, '_BaseOperator__instantiated': True}, type='operator')])}, job_facets={})
+INFO - '2022-11-10' - root - Manually extracting lineage metadata from inlets and outlets
+INFO - '2022-11-10' - openlineage.client.transport.console - {"eventTime": "2022-11-10T06:23:34.951641Z", "eventType": "COMPLETE", "inputs": [], "job": {"facets": {}, "name": "GBUNSalvador_dag_elt.TaskLoad", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<<non-serializable: function>>", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "82d0e649-2ec5-4721-b1c3-ea2620836804"}}
+INFO - Task exited with return code 0
+INFO - 0 downstream tasks scheduled from follow-on schedule check

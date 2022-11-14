@@ -1,0 +1,122 @@
+INFO - Dependencies all met for <TaskInstance: ETL_dag.Load_B1 scheduled__2018-04-30T00:00:00+00:00 [queued]>
+INFO - Dependencies all met for <TaskInstance: ETL_dag.Load_B1 scheduled__2018-04-30T00:00:00+00:00 [queued]>
+INFO - 
+--------------------------------------------------------------------------------
+INFO - Starting attempt 1 of 2
+INFO - 
+--------------------------------------------------------------------------------
+ERROR - Did not find openlineage.yml and OPENLINEAGE_URL is not set
+WARNING - Couldn't initialize transport; will print events to console.
+INFO - {"eventTime": "2022-11-11T00:41:45.725886Z", "eventType": "START", "inputs": [], "job": {"facets": {}, "name": "ETL_dag.Load_B1", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"airflow_runArgs": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "externalTrigger": false}, "airflow_version": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "airflowVersion": "2.4.2+astro.1", "openlineageAirflowVersion": "0.15.1", "operator": "airflow.operators.python.PythonOperator", "taskInfo": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"dag": {"dag_id": "ETL_dag", "schedule_interval": "@daily"}, "owner": "BROC95", "python_callable": "<function load at 0x7fe2f5136790>", "retries": 1, "retry_delay": "0:05:00", "start_date": "2018-03-01T00:00:00+00:00", "task_id": "Load_B1"}, "_BaseOperator__instantiated": true, "_dag": {"dag_id": "ETL_dag", "schedule_interval": "@daily"}, "_log": "<Logger airflow.task.operators (INFO)>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": "set()", "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "BROC95", "params": "{}", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<function load at 0x7fe2f5136790>", "queue": "default", "retries": 1, "retry_delay": "0:05:00", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "2018-03-01T00:00:00+00:00", "task_group": "<airflow.utils.task_group.TaskGroup object at 0x7fe2f504a130>", "task_id": "Load_B1", "trigger_rule": "all_success", "upstream_task_ids": "{'Transform_B1'}", "wait_for_downstream": false, "weight_rule": "downstream"}}, "nominalTime": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/NominalTimeRunFacet", "nominalStartTime": "2018-04-30T00:00:00.000000Z"}, "parent": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "ETL_dag", "namespace": "default"}, "run": {"runId": "f86a48d3-5241-3b37-95f4-011011410112"}}, "parentRun": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "ETL_dag", "namespace": "default"}, "run": {"runId": "f86a48d3-5241-3b37-95f4-011011410112"}}, "unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"dag": "<<non-serializable: DAG>>", "owner": "BROC95", "python_callable": "<<non-serializable: function>>", "retries": 1, "retry_delay": "<<non-serializable: timedelta>>", "start_date": "<<non-serializable: DateTime>>", "task_id": "Load_B1"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "BROC95", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 1, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "Load_B1", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "6bf2b309-2d4c-4bd1-9053-96026c980e1b"}}
+INFO - TaskInstance Details: dag_id=ETL_dag, task_id=Load_B1, dagrun_id=scheduled__2018-04-30T00:00:00+00:00, map_index=-1, run_start_date=2022-11-11 00:41:45.725886+00:00, try_number=1, job_id=418, op_classpath=airflow.operators.python.PythonOperator
+INFO - Executing <Task(PythonOperator): Load_B1> on 2018-04-30 00:00:00+00:00
+INFO - Started process 3332 to run task
+INFO - Running: ['airflow', 'tasks', 'run', 'ETL_dag', 'Load_B1', 'scheduled__2018-04-30T00:00:00+00:00', '--job-id', '418', '--raw', '--subdir', 'DAGS_FOLDER/factory.py', '--cfg-path', '/tmp/tmprl19c3b7']
+INFO - Job 418: Subtask Load_B1
+WARNING - /usr/local/lib/python3.9/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+INFO - Running <TaskInstance: ETL_dag.Load_B1 scheduled__2018-04-30T00:00:00+00:00 [running]> on host 1a42983a4dbb
+INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=BROC95
+AIRFLOW_CTX_DAG_ID=ETL_dag
+AIRFLOW_CTX_TASK_ID=Load_B1
+AIRFLOW_CTX_EXECUTION_DATE=2018-04-30T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2018-04-30T00:00:00+00:00
+INFO - '2022-11-11' - GBUNComahue_dag_elt - Load: GBUNComahue_dag_elt
+INFO - '2022-11-11' - GBUNComahue_dag_elt - Connect: aws_s3_bucket
+INFO - '2022-11-11' - botocore.hooks - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+INFO - '2022-11-11' - botocore.hooks - Changing event name from before-call.apigateway to before-call.api-gateway
+INFO - '2022-11-11' - botocore.hooks - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+INFO - '2022-11-11' - botocore.hooks - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+INFO - '2022-11-11' - botocore.hooks - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+INFO - '2022-11-11' - botocore.hooks - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+INFO - '2022-11-11' - botocore.hooks - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+INFO - '2022-11-11' - botocore.hooks - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+INFO - '2022-11-11' - botocore.hooks - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+INFO - '2022-11-11' - botocore.hooks - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+INFO - '2022-11-11' - botocore.hooks - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+INFO - '2022-11-11' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/endpoints.json
+INFO - '2022-11-11' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/sdk-default-configuration.json
+INFO - '2022-11-11' - botocore.hooks - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fe2d6c00310>
+INFO - '2022-11-11' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/s3/2006-03-01/service-2.json
+INFO - '2022-11-11' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fe2d6c92160>
+INFO - '2022-11-11' - botocore.hooks - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fe2f4fa4f70>
+INFO - '2022-11-11' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fe2d6c90ee0>
+INFO - '2022-11-11' - botocore.endpoint - Setting s3 timeout as (60, 60)
+INFO - '2022-11-11' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/_retry.json
+INFO - '2022-11-11' - botocore.client - Registering retry handlers for service: s3
+INFO - '2022-11-11' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-11' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fe2f48aa8e0>}) about to wait for the following futures []
+INFO - '2022-11-11' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fe2f48aa8e0>}) done waiting for dependent futures
+INFO - '2022-11-11' - s3transfer.tasks - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fe2f48aa8e0>}) with kwargs {'client': <botocore.client.S3 object at 0x7fe2f48e8ca0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7fe2f4912a00>, 'osutil': <s3transfer.utils.OSUtils object at 0x7fe2f4912af0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7fe2f4912d90>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fe2f48aa8e0>}
+INFO - '2022-11-11' - s3transfer.futures - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'alkemy-2022-broc', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7fe2f4912d90> for transfer request: 0.
+INFO - '2022-11-11' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-11' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'alkemy-2022-broc', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) about to wait for the following futures []
+INFO - '2022-11-11' - s3transfer.utils - Releasing acquire 0/None
+INFO - '2022-11-11' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'alkemy-2022-broc', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) done waiting for dependent futures
+INFO - '2022-11-11' - s3transfer.tasks - Executing task PutObjectTask(transfer_id=0, {'bucket': 'alkemy-2022-broc', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x7fe2f48e8ca0>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7fe2f48aaf10>, 'bucket': 'alkemy-2022-broc', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7fe2d6ba5c10>
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7fe2d6ba5040>
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7fe2d6ba6550>
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7fe2d6ba1f70>
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fe2f49129d0>>
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fe2f4912a60>>
+INFO - '2022-11-11' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7fe2d6ba1dc0>
+INFO - '2022-11-11' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x7fe2d6cff280>
+INFO - '2022-11-11' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7fe2d6ba5310>
+INFO - '2022-11-11' - botocore.handlers - Adding expect 100 continue header to request.
+INFO - '2022-11-11' - botocore.hooks - Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7fe2f49129d0>>
+INFO - '2022-11-11' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7fe2d6ba1a60>
+INFO - '2022-11-11' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7fe2d6ba6670>
+INFO - '2022-11-11' - botocore.endpoint - Making request for OperationModel(name=PutObject) with params: {'url_path': '/alkemy-2022-broc/GBUNComahue_process.txt', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': 'Db7gB+JznlLrMVIe1RAxdw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x7fe2f48aaf10>, 'url': 'https://s3.amazonaws.com/alkemy-2022-broc/GBUNComahue_process.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7fe2f48e8f10>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'alkemy-2022-broc'}}}
+INFO - '2022-11-11' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7fe2d6aa2e50>
+INFO - '2022-11-11' - botocore.hooks - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7fe2f48e8d60>>
+INFO - '2022-11-11' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x7fe2f4912ac0>>
+INFO - '2022-11-11' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fe2f4f49be0>>
+INFO - '2022-11-11' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7fe2d6ba1ca0>
+INFO - '2022-11-11' - botocore.hooks - Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fe2f4912ac0>>
+INFO - '2022-11-11' - botocore.utils - Defaulting to S3 virtual host style addressing with path style addressing fallback.
+INFO - '2022-11-11' - botocore.utils - Checking for DNS compatible bucket for: https://s3.amazonaws.com/alkemy-2022-broc/GBUNComahue_process.txt
+INFO - '2022-11-11' - botocore.utils - URI updated to: https://alkemy-2022-broc.s3.amazonaws.com/GBUNComahue_process.txt
+INFO - '2022-11-11' - botocore.auth - Calculating signature using v4 auth.
+INFO - '2022-11-11' - botocore.auth - CanonicalRequest:
+PUT
+/GBUNComahue_process.txt
+
+content-md5:Db7gB+JznlLrMVIe1RAxdw==
+host:alkemy-2022-broc.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20221111T004146Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+INFO - '2022-11-11' - botocore.auth - StringToSign:
+AWS4-HMAC-SHA256
+20221111T004146Z
+20221111/us-east-1/s3/aws4_request
+1c8fc7f1ab2b4857f8e0361c071f28d9ffea28411b9d8c6a0a85ac87552c23c4
+INFO - '2022-11-11' - botocore.auth - Signature:
+0aed5220d2a0939672dbe1cb4690451a2770ab7d0ba13ea2c37a65bf1bdf09c5
+INFO - '2022-11-11' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7fe2d6aa2ee0>
+INFO - '2022-11-11' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7fe2d6ba6d30>
+INFO - '2022-11-11' - botocore.endpoint - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://alkemy-2022-broc.s3.amazonaws.com/GBUNComahue_process.txt, headers={'User-Agent': b'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': b'Db7gB+JznlLrMVIe1RAxdw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20221111T004146Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA2T3AUJQ2GX7XHUHJ/20221111/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=0aed5220d2a0939672dbe1cb4690451a2770ab7d0ba13ea2c37a65bf1bdf09c5', 'amz-sdk-invocation-id': b'0cd55426-438f-4421-b8a9-a8fcde616215', 'amz-sdk-request': b'attempt=1', 'Content-Length': '251030'}>
+INFO - '2022-11-11' - botocore.httpsession - Certificate path: /usr/local/lib/python3.9/site-packages/certifi/cacert.pem
+INFO - '2022-11-11' - botocore.awsrequest - Waiting for 100 Continue response.
+INFO - '2022-11-11' - botocore.awsrequest - 100 Continue response seen, now sending request body.
+INFO - '2022-11-11' - botocore.parsers - Response headers: {'x-amz-id-2': '2MJmMdUdI3+WeOLnBVz9WQfoJuIoyWZ3/xuXJe4XC0m6+ZA8R5JiCCSX+1w1uWCvUFmc0F/yHdk=', 'x-amz-request-id': '57CNXJ2464SJ8RSB', 'Date': 'Fri, 11 Nov 2022 00:41:46 GMT', 'ETag': '"0dbee007e2739e52eb31521ed5103177"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+INFO - '2022-11-11' - botocore.parsers - Response body:
+b''
+INFO - '2022-11-11' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7fe2f4912910>
+INFO - '2022-11-11' - botocore.retryhandler - No retry needed.
+INFO - '2022-11-11' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7fe2f49129d0>>
+INFO - '2022-11-11' - s3transfer.utils - Releasing acquire 0/None
+INFO - Done. Returned value was: True
+INFO - Marking task as SUCCESS. dag_id=ETL_dag, task_id=Load_B1, execution_date=20180430T000000, start_date=20221111T004145, end_date=20221111T004147
+INFO - '2022-11-11' - airflow.listeners.events - session flush listener: added [<TaskInstanceState.SUCCESS: 'success'>] unchanged () deleted ['running'] - <TaskInstance: ETL_dag.Load_B1 scheduled__2018-04-30T00:00:00+00:00 [success]>
+INFO - '2022-11-11' - airflow - OpenLineage listener got notification about task instance success
+INFO - '2022-11-11' - root - Using extractor PythonExtractor task_type=PythonOperator airflow_dag_id=ETL_dag task_id=Load_B1 airflow_run_id=scheduled__2018-04-30T00:00:00+00:00
+INFO - '2022-11-11' - root - Found task metadata for operation Load_B1: TaskMetadata(name='ETL_dag.Load_B1', inputs=[], outputs=[], run_facets={'unknownSourceAttribute': UnknownOperatorAttributeRunFacet(_producer='https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow', _schemaURL='https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet', unknownItems=[UnknownOperatorInstance(name='PythonOperator', properties={'_BaseOperator__init_kwargs': {'task_id': 'Load_B1', 'dag': <DAG: ETL_dag>, 'owner': 'BROC95', 'retries': 1, 'retry_delay': datetime.timedelta(seconds=300), 'start_date': DateTime(2018, 3, 1, 0, 0, 0, tzinfo=Timezone('UTC')), 'python_callable': <function load at 0x7fe2f5136790>}, '_BaseOperator__from_mapped': False, 'task_id': 'Load_B1', 'task_group': <airflow.utils.task_group.TaskGroup object at 0x7fe2f504a130>, 'owner': 'BROC95', 'email': None, 'email_on_retry': True, 'email_on_failure': True, 'execution_timeout': None, 'on_execute_callback': None, 'on_failure_callback': None, 'on_success_callback': None, 'on_retry_callback': None, '_pre_execute_hook': None, '_post_execute_hook': None, 'start_date': DateTime(2018, 3, 1, 0, 0, 0, tzinfo=Timezone('UTC')), 'executor_config': {}, 'run_as_user': None, 'retries': 1, 'queue': 'default', 'pool': 'default_pool', 'pool_slots': 1, 'sla': None, 'trigger_rule': <TriggerRule.ALL_SUCCESS: 'all_success'>, 'depends_on_past': False, 'ignore_first_depends_on_past': True, 'wait_for_downstream': False, 'retry_delay': datetime.timedelta(seconds=300), 'retry_exponential_backoff': False, 'max_retry_delay': None, 'params': {}, 'priority_weight': 1, 'weight_rule': <WeightRule.DOWNSTREAM: 'downstream'>, 'resources': None, 'max_active_tis_per_dag': None, 'do_xcom_push': True, 'doc_md': None, 'doc_json': None, 'doc_yaml': None, 'doc_rst': None, 'doc': None, 'upstream_task_ids': {'Transform_B1'}, 'downstream_task_ids': set(), 'end_date': None, '_dag': <DAG: ETL_dag>, '_log': <Logger airflow.task.operators (INFO)>, 'inlets': [], 'outlets': [], 'python_callable': <function load at 0x7fe2f5136790>, 'op_args': (), 'op_kwargs': {}, 'templates_dict': None, 'show_return_value_in_logs': True, '_BaseOperator__instantiated': True}, type='operator')])}, job_facets={})
+INFO - '2022-11-11' - root - Manually extracting lineage metadata from inlets and outlets
+INFO - '2022-11-11' - openlineage.client.transport.console - {"eventTime": "2022-11-11T00:41:47.581263Z", "eventType": "COMPLETE", "inputs": [], "job": {"facets": {}, "name": "ETL_dag.Load_B1", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"dag": "<<non-serializable: DAG>>", "owner": "BROC95", "python_callable": "<<non-serializable: function>>", "retries": 1, "retry_delay": "<<non-serializable: timedelta>>", "start_date": "<<non-serializable: DateTime>>", "task_id": "Load_B1"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "BROC95", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 1, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "Load_B1", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "6bf2b309-2d4c-4bd1-9053-96026c980e1b"}}
+INFO - Task exited with return code 0
+INFO - 0 downstream tasks scheduled from follow-on schedule check

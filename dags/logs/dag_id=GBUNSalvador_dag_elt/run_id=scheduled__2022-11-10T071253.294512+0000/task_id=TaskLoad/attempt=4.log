@@ -1,0 +1,291 @@
+INFO - Dependencies all met for <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T07:12:53.294512+00:00 [queued]>
+INFO - Dependencies all met for <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T07:12:53.294512+00:00 [queued]>
+INFO - 
+--------------------------------------------------------------------------------
+INFO - Starting attempt 4 of 6
+INFO - 
+--------------------------------------------------------------------------------
+ERROR - Did not find openlineage.yml and OPENLINEAGE_URL is not set
+WARNING - Couldn't initialize transport; will print events to console.
+INFO - {"eventTime": "2022-11-10T11:13:56.657454Z", "eventType": "START", "inputs": [], "job": {"facets": {}, "name": "GBUNSalvador_dag_elt.TaskLoad", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"airflow_runArgs": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "externalTrigger": false}, "airflow_version": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "airflowVersion": "2.4.2+astro.1", "openlineageAirflowVersion": "0.15.1", "operator": "airflow.operators.python.PythonOperator", "taskInfo": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<function load at 0x7f228f039a60>", "retries": 5, "retry_delay": "0:10:00", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": {"dag_id": "GBUNSalvador_dag_elt", "schedule_interval": "1:00:00", "tags": []}, "_log": "<Logger airflow.task.operators (INFO)>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": "set()", "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "{}", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<function load at 0x7f228f039a60>", "queue": "default", "retries": 5, "retry_delay": "0:10:00", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "2022-11-04T00:00:00+00:00", "task_group": "<airflow.utils.task_group.TaskGroup object at 0x7f228eee1910>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": "{'TaskTransform'}", "wait_for_downstream": false, "weight_rule": "downstream"}}, "nominalTime": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/NominalTimeRunFacet", "nominalStartTime": "2022-11-10T07:12:53.294512Z"}, "parent": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNSalvador_dag_elt", "namespace": "default"}, "run": {"runId": "52cc4219-6c84-325f-bc49-6c6549866965"}}, "parentRun": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNSalvador_dag_elt", "namespace": "default"}, "run": {"runId": "52cc4219-6c84-325f-bc49-6c6549866965"}}, "unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<<non-serializable: function>>", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "45315931-75bc-4a1d-9a9c-bbe7ba1715a9"}}
+INFO - TaskInstance Details: dag_id=GBUNSalvador_dag_elt, task_id=TaskLoad, dagrun_id=scheduled__2022-11-10T07:12:53.294512+00:00, map_index=-1, run_start_date=2022-11-10 11:13:56.657454+00:00, try_number=4, job_id=2988, op_classpath=airflow.operators.python.PythonOperator
+INFO - Executing <Task(PythonOperator): TaskLoad> on 2022-11-10 07:12:53.294512+00:00
+INFO - Started process 2213 to run task
+INFO - Running: ['airflow', 'tasks', 'run', 'GBUNSalvador_dag_elt', 'TaskLoad', 'scheduled__2022-11-10T07:12:53.294512+00:00', '--job-id', '2988', '--raw', '--subdir', 'DAGS_FOLDER/GBUNSalvador_dag_elt.py', '--cfg-path', '/tmp/tmpmp1wg11x']
+INFO - Job 2988: Subtask TaskLoad
+WARNING - /usr/local/lib/python3.9/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+INFO - Running <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T07:12:53.294512+00:00 [running]> on host d1b6a3478c83
+INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Breyner
+AIRFLOW_CTX_DAG_ID=GBUNSalvador_dag_elt
+AIRFLOW_CTX_TASK_ID=TaskLoad
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-10T07:12:53.294512+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-10T07:12:53.294512+00:00
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - Load: GBUNSalvador_dag_elt
+INFO - '2022-11-10' - GBUNSalvador_dag_elt - Connect: aws_s3_bucket
+INFO - '2022-11-10' - botocore.hooks - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-call.apigateway to before-call.api-gateway
+INFO - '2022-11-10' - botocore.hooks - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+INFO - '2022-11-10' - botocore.hooks - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+INFO - '2022-11-10' - botocore.utils - IMDS ENDPOINT: http://169.254.169.254/
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: env
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: assume-role
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: assume-role-with-web-identity
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: sso
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: shared-credentials-file
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: custom-process
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: config-file
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: ec2-credentials-file
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: boto-config
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: container-role
+INFO - '2022-11-10' - botocore.credentials - Looking for credentials via: iam-role
+INFO - '2022-11-10' - urllib3.connectionpool - Starting new HTTP connection (1): 169.254.169.254:80
+INFO - '2022-11-10' - botocore.utils - Caught retryable HTTP exception while making metadata service request to http://169.254.169.254/latest/api/token: Could not connect to the endpoint URL: "http://169.254.169.254/latest/api/token"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/botocore/httpsession.py", line 448, in send
+    urllib_response = conn.urlopen(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 525, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.9/site-packages/botocore/awsrequest.py", line 94, in _send_request
+    rval = super()._send_request(
+  File "/usr/local/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.9/site-packages/botocore/awsrequest.py", line 218, in send
+    return super().send(str)
+  File "/usr/local/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7f228edfde50>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/botocore/utils.py", line 454, in _fetch_metadata_token
+    response = self._session.send(request.prepare())
+  File "/usr/local/lib/python3.9/site-packages/botocore/httpsession.py", line 477, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://169.254.169.254/latest/api/token"
+INFO - '2022-11-10' - urllib3.connectionpool - Starting new HTTP connection (2): 169.254.169.254:80
+INFO - '2022-11-10' - botocore.utils - Caught retryable HTTP exception while making metadata service request to http://169.254.169.254/latest/meta-data/iam/security-credentials/: Could not connect to the endpoint URL: "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/botocore/httpsession.py", line 448, in send
+    urllib_response = conn.urlopen(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 525, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.9/site-packages/botocore/awsrequest.py", line 94, in _send_request
+    rval = super()._send_request(
+  File "/usr/local/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.9/site-packages/botocore/awsrequest.py", line 218, in send
+    return super().send(str)
+  File "/usr/local/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7f228ee173d0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/botocore/utils.py", line 507, in _get_request
+    response = self._session.send(request.prepare())
+  File "/usr/local/lib/python3.9/site-packages/botocore/httpsession.py", line 477, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+INFO - '2022-11-10' - botocore.utils - Max number of attempts exceeded (1) when attempting to retrieve data from metadata service.
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/endpoints.json
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/sdk-default-configuration.json
+INFO - '2022-11-10' - botocore.hooks - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f227093f310>
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/s3/2006-03-01/service-2.json
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f2270951160>
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7f228eeb24c0>
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f22709ceee0>
+INFO - '2022-11-10' - botocore.endpoint - Setting s3 timeout as (60, 60)
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/_retry.json
+INFO - '2022-11-10' - botocore.client - Registering retry handlers for service: s3
+INFO - '2022-11-10' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-10' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f228e6abe80>}) about to wait for the following futures []
+INFO - '2022-11-10' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f228e6abe80>}) done waiting for dependent futures
+INFO - '2022-11-10' - s3transfer.tasks - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f228e6abe80>}) with kwargs {'client': <botocore.client.S3 object at 0x7f228e6f11f0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7f228e6ab070>, 'osutil': <s3transfer.utils.OSUtils object at 0x7f228e6ab0d0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7f228e6ab370>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f228e6abe80>}
+INFO - '2022-11-10' - s3transfer.futures - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7f228e6ab370> for transfer request: 0.
+INFO - '2022-11-10' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-10' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) about to wait for the following futures []
+INFO - '2022-11-10' - s3transfer.utils - Releasing acquire 0/None
+INFO - '2022-11-10' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) done waiting for dependent futures
+INFO - '2022-11-10' - s3transfer.tasks - Executing task PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x7f228e6f11f0>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7f228e6b14f0>, 'bucket': 'dipa-s3', 'key': 'GBUNSalvador_process.txt', 'extra_args': {}}
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7f22708e3c10>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7f22708e3040>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7f22708e4550>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7f22708d8f70>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f228e6f1f70>>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f228e6f1fa0>>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7f22708d8dc0>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x7f2270a3d280>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7f22708e3310>
+INFO - '2022-11-10' - botocore.handlers - Adding expect 100 continue header to request.
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f228e6f1f70>>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7f22708d8a60>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7f22708e4670>
+INFO - '2022-11-10' - botocore.endpoint - Making request for OperationModel(name=PutObject) with params: {'url_path': '/dipa-s3/GBUNSalvador_process.txt', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': 'wsFSCtxe3weEe96IU5LOZg==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x7f228e6b14f0>, 'url': 'https://s3.amazonaws.com/dipa-s3/GBUNSalvador_process.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7f228e6f14f0>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'dipa-s3'}}}
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7f22707ede50>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f228e6f12b0>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x7f228e6ab0a0>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f228edf0880>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7f22708d8ca0>
+INFO - '2022-11-10' - botocore.hooks - Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f228e6ab0a0>>
+INFO - '2022-11-10' - botocore.utils - Defaulting to S3 virtual host style addressing with path style addressing fallback.
+INFO - '2022-11-10' - botocore.utils - Checking for DNS compatible bucket for: https://s3.amazonaws.com/dipa-s3/GBUNSalvador_process.txt
+INFO - '2022-11-10' - botocore.utils - URI updated to: https://dipa-s3.s3.amazonaws.com/GBUNSalvador_process.txt
+INFO - '2022-11-10' - s3transfer.tasks - Exception raised.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/upload.py", line 758, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/usr/local/lib/python3.9/site-packages/botocore/client.py", line 508, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/client.py", line 898, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/botocore/client.py", line 921, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/usr/local/lib/python3.9/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/signers.py", line 103, in handler
+    return self.sign(operation_name, request)
+  File "/usr/local/lib/python3.9/site-packages/botocore/signers.py", line 187, in sign
+    auth.add_auth(request)
+  File "/usr/local/lib/python3.9/site-packages/botocore/auth.py", line 407, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+INFO - '2022-11-10' - s3transfer.utils - Releasing acquire 0/None
+ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.9/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/usr/local/airflow/dags/GBUNSalvador_dag_elt.py", line 109, in load
+    response = s3_client.upload_file(file_name, bucket, object_name)
+  File "/usr/local/lib/python3.9/site-packages/boto3/s3/inject.py", line 143, in upload_file
+    return transfer.upload_file(
+  File "/usr/local/lib/python3.9/site-packages/boto3/s3/transfer.py", line 288, in upload_file
+    future.result()
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/usr/local/lib/python3.9/site-packages/s3transfer/upload.py", line 758, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/usr/local/lib/python3.9/site-packages/botocore/client.py", line 508, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/client.py", line 898, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/botocore/client.py", line 921, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/usr/local/lib/python3.9/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/usr/local/lib/python3.9/site-packages/botocore/signers.py", line 103, in handler
+    return self.sign(operation_name, request)
+  File "/usr/local/lib/python3.9/site-packages/botocore/signers.py", line 187, in sign
+    auth.add_auth(request)
+  File "/usr/local/lib/python3.9/site-packages/botocore/auth.py", line 407, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+INFO - Marking task as UP_FOR_RETRY. dag_id=GBUNSalvador_dag_elt, task_id=TaskLoad, execution_date=20221110T071253, start_date=20221110T111356, end_date=20221110T111357
+INFO - '2022-11-10' - airflow.listeners.events - session flush listener: added [<TaskInstanceState.UP_FOR_RETRY: 'up_for_retry'>] unchanged () deleted ['running'] - <TaskInstance: GBUNSalvador_dag_elt.TaskLoad scheduled__2022-11-10T07:12:53.294512+00:00 [up_for_retry]>
+ERROR - Failed to execute job 2988 for task TaskLoad (Unable to locate credentials; 2213)
+INFO - Task exited with return code 1
+INFO - 0 downstream tasks scheduled from follow-on schedule check

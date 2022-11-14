@@ -1,0 +1,51 @@
+INFO - Dependencies all met for <TaskInstance: GBUNSalvador_dag_elt.TaskExtract scheduled__2022-11-10T05:12:53.294512+00:00 [queued]>
+INFO - Dependencies all met for <TaskInstance: GBUNSalvador_dag_elt.TaskExtract scheduled__2022-11-10T05:12:53.294512+00:00 [queued]>
+INFO - 
+--------------------------------------------------------------------------------
+INFO - Starting attempt 1 of 6
+INFO - 
+--------------------------------------------------------------------------------
+ERROR - Did not find openlineage.yml and OPENLINEAGE_URL is not set
+WARNING - Couldn't initialize transport; will print events to console.
+INFO - {"eventTime": "2022-11-10T06:13:21.036300Z", "eventType": "START", "inputs": [], "job": {"facets": {}, "name": "GBUNSalvador_dag_elt.TaskExtract", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"airflow_runArgs": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "externalTrigger": false}, "airflow_version": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "airflowVersion": "2.4.2+astro.1", "openlineageAirflowVersion": "0.15.1", "operator": "airflow.operators.python.PythonOperator", "taskInfo": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "_TaskDecorator(function=<function extract at 0x7fcc544c65e0>, operator_class=<class 'airflow.decorators.python._PythonDecoratedOperator'>, multiple_outputs=False, kwargs={'task_id': 'extract'})", "retries": 5, "retry_delay": "0:10:00", "task_id": "TaskExtract"}, "_BaseOperator__instantiated": true, "_dag": {"dag_id": "GBUNSalvador_dag_elt", "schedule_interval": "1:00:00", "tags": []}, "_log": "<Logger airflow.task.operators (INFO)>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": "{'TaskTransform'}", "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "{}", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "_TaskDecorator(function=<function extract at 0x7fcc544c65e0>, operator_class=<class 'airflow.decorators.python._PythonDecoratedOperator'>, multiple_outputs=False, kwargs={'task_id': 'extract'})", "queue": "default", "retries": 5, "retry_delay": "0:10:00", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "2022-11-04T00:00:00+00:00", "task_group": "<airflow.utils.task_group.TaskGroup object at 0x7fcc542b9640>", "task_id": "TaskExtract", "trigger_rule": "all_success", "upstream_task_ids": "set()", "wait_for_downstream": false, "weight_rule": "downstream"}}, "nominalTime": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/NominalTimeRunFacet", "nominalStartTime": "2022-11-10T05:12:53.294512Z"}, "parent": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNSalvador_dag_elt", "namespace": "default"}, "run": {"runId": "e9155918-c697-3e6b-9412-e58a42a96dee"}}, "parentRun": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNSalvador_dag_elt", "namespace": "default"}, "run": {"runId": "e9155918-c697-3e6b-9412-e58a42a96dee"}}, "unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": {"decorator_name": "task", "function": "<<non-serializable: function>>", "kwargs": {"task_id": "extract"}, "multiple_outputs": false, "operator_class": "<<non-serializable: BaseOperatorMeta>>"}, "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "task_id": "TaskExtract"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": {"decorator_name": "task", "function": "<<non-serializable: function>>", "kwargs": {"task_id": "extract"}, "multiple_outputs": false, "operator_class": "<<non-serializable: BaseOperatorMeta>>"}, "queue": "default", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "TaskExtract", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "345dd6a5-93ab-45cd-a0b2-846f1de04626"}}
+INFO - TaskInstance Details: dag_id=GBUNSalvador_dag_elt, task_id=TaskExtract, dagrun_id=scheduled__2022-11-10T05:12:53.294512+00:00, map_index=-1, run_start_date=2022-11-10 06:13:21.036300+00:00, try_number=1, job_id=582, op_classpath=airflow.operators.python.PythonOperator
+INFO - Executing <Task(PythonOperator): TaskExtract> on 2022-11-10 05:12:53.294512+00:00
+INFO - Started process 1616 to run task
+INFO - Running: ['airflow', 'tasks', 'run', 'GBUNSalvador_dag_elt', 'TaskExtract', 'scheduled__2022-11-10T05:12:53.294512+00:00', '--job-id', '582', '--raw', '--subdir', 'DAGS_FOLDER/GBUNSalvador_dag_elt.py', '--cfg-path', '/tmp/tmpj1krvcy5']
+INFO - Job 582: Subtask TaskExtract
+WARNING - /usr/local/lib/python3.9/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+INFO - Running <TaskInstance: GBUNSalvador_dag_elt.TaskExtract scheduled__2022-11-10T05:12:53.294512+00:00 [running]> on host 1fc2f66b12c6
+INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Breyner
+AIRFLOW_CTX_DAG_ID=GBUNSalvador_dag_elt
+AIRFLOW_CTX_TASK_ID=TaskExtract
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-10T05:12:53.294512+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-10T05:12:53.294512+00:00
+INFO - Done. Returned value was: {{ task_instance.xcom_pull(task_ids='extract', dag_id='adhoc_airflow', key='return_value') }}
+ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your airflow config.
+ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2378, in xcom_push
+    XCom.set(
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/xcom.py", line 206, in set
+    value = cls.serialize_value(
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/xcom.py", line 597, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+INFO - Marking task as UP_FOR_RETRY. dag_id=GBUNSalvador_dag_elt, task_id=TaskExtract, execution_date=20221110T051253, start_date=20221110T061321, end_date=20221110T061321
+ERROR - Failed to execute job 582 for task TaskExtract (Object of type PlainXComArg is not JSON serializable; 1616)
+INFO - Task exited with return code 1
+INFO - 0 downstream tasks scheduled from follow-on schedule check

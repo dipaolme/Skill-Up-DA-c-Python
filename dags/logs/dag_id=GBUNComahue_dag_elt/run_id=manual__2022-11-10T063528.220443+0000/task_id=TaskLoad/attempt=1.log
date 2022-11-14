@@ -1,0 +1,224 @@
+INFO - Dependencies all met for <TaskInstance: GBUNComahue_dag_elt.TaskLoad manual__2022-11-10T06:35:28.220443+00:00 [queued]>
+INFO - Dependencies all met for <TaskInstance: GBUNComahue_dag_elt.TaskLoad manual__2022-11-10T06:35:28.220443+00:00 [queued]>
+INFO - 
+--------------------------------------------------------------------------------
+INFO - Starting attempt 1 of 6
+INFO - 
+--------------------------------------------------------------------------------
+ERROR - Did not find openlineage.yml and OPENLINEAGE_URL is not set
+WARNING - Couldn't initialize transport; will print events to console.
+INFO - {"eventTime": "2022-11-10T06:35:37.218613Z", "eventType": "START", "inputs": [], "job": {"facets": {}, "name": "GBUNComahue_dag_elt.TaskLoad", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"airflow_runArgs": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "externalTrigger": true}, "airflow_version": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "airflowVersion": "2.4.2+astro.1", "openlineageAirflowVersion": "0.15.1", "operator": "airflow.operators.python.PythonOperator", "taskInfo": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<function load at 0x7fcc54450a60>", "retries": 5, "retry_delay": "0:10:00", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": {"dag_id": "GBUNComahue_dag_elt", "schedule_interval": "1:00:00", "tags": []}, "_log": "<Logger airflow.task.operators (INFO)>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": "set()", "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "{}", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<function load at 0x7fcc54450a60>", "queue": "default", "retries": 5, "retry_delay": "0:10:00", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "2022-11-04T00:00:00+00:00", "task_group": "<airflow.utils.task_group.TaskGroup object at 0x7fcc542f6eb0>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": "{'TaskTransform'}", "wait_for_downstream": false, "weight_rule": "downstream"}}, "nominalTime": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/NominalTimeRunFacet", "nominalStartTime": "2022-11-10T06:35:28.220443Z"}, "parent": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNComahue_dag_elt", "namespace": "default"}, "run": {"runId": "1a902fcf-d201-3e4e-91a4-dbd89d2f129e"}}, "parentRun": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/ParentRunFacet", "job": {"name": "GBUNComahue_dag_elt", "namespace": "default"}, "run": {"runId": "1a902fcf-d201-3e4e-91a4-dbd89d2f129e"}}, "unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<<non-serializable: function>>", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "e5a9171d-0748-4488-838a-77d29ba0176a"}}
+INFO - TaskInstance Details: dag_id=GBUNComahue_dag_elt, task_id=TaskLoad, dagrun_id=manual__2022-11-10T06:35:28.220443+00:00, map_index=-1, run_start_date=2022-11-10 06:35:37.218613+00:00, try_number=1, job_id=606, op_classpath=airflow.operators.python.PythonOperator
+INFO - Executing <Task(PythonOperator): TaskLoad> on 2022-11-10 06:35:28.220443+00:00
+INFO - Started process 3894 to run task
+INFO - Running: ['airflow', 'tasks', 'run', 'GBUNComahue_dag_elt', 'TaskLoad', 'manual__2022-11-10T06:35:28.220443+00:00', '--job-id', '606', '--raw', '--subdir', 'DAGS_FOLDER/GBUNComahue_dag_elt.py', '--cfg-path', '/tmp/tmpdaimsnu8']
+INFO - Job 606: Subtask TaskLoad
+WARNING - /usr/local/lib/python3.9/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+INFO - Running <TaskInstance: GBUNComahue_dag_elt.TaskLoad manual__2022-11-10T06:35:28.220443+00:00 [running]> on host 1fc2f66b12c6
+INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Breyner
+AIRFLOW_CTX_DAG_ID=GBUNComahue_dag_elt
+AIRFLOW_CTX_TASK_ID=TaskLoad
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-10T06:35:28.220443+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-10T06:35:28.220443+00:00
+INFO - '2022-11-10' - GBUNComahue_dag_elt - Load: GBUNComahue_dag_elt
+INFO - '2022-11-10' - GBUNComahue_dag_elt - Connect: aws_s3_bucket
+INFO - '2022-11-10' - botocore.hooks - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-call.apigateway to before-call.api-gateway
+INFO - '2022-11-10' - botocore.hooks - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+INFO - '2022-11-10' - botocore.hooks - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+INFO - '2022-11-10' - botocore.hooks - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+INFO - '2022-11-10' - botocore.hooks - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/endpoints.json
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/sdk-default-configuration.json
+INFO - '2022-11-10' - botocore.hooks - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fcc35d57310>
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/s3/2006-03-01/service-2.json
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fcc35de9160>
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fcc54277700>
+INFO - '2022-11-10' - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fcc35de7ee0>
+INFO - '2022-11-10' - botocore.endpoint - Setting s3 timeout as (60, 60)
+INFO - '2022-11-10' - botocore.loaders - Loading JSON file: /usr/local/lib/python3.9/site-packages/botocore/data/_retry.json
+INFO - '2022-11-10' - botocore.client - Registering retry handlers for service: s3
+INFO - '2022-11-10' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-10' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53bec070>}) about to wait for the following futures []
+INFO - '2022-11-10' - s3transfer.tasks - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53bec070>}) done waiting for dependent futures
+INFO - '2022-11-10' - s3transfer.tasks - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53bec070>}) with kwargs {'client': <botocore.client.S3 object at 0x7fcc53c2c3a0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7fcc53be6190>, 'osutil': <s3transfer.utils.OSUtils object at 0x7fcc53be6280>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7fcc53be6520>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7fcc53bec070>}
+INFO - '2022-11-10' - s3transfer.futures - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7fcc53be6520> for transfer request: 0.
+INFO - '2022-11-10' - s3transfer.utils - Acquiring 0
+INFO - '2022-11-10' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) about to wait for the following futures []
+INFO - '2022-11-10' - s3transfer.utils - Releasing acquire 0/None
+INFO - '2022-11-10' - s3transfer.tasks - PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) done waiting for dependent futures
+INFO - '2022-11-10' - s3transfer.tasks - Executing task PutObjectTask(transfer_id=0, {'bucket': 'dipa-s3', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x7fcc53c2c3a0>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7fcc53bec6a0>, 'bucket': 'dipa-s3', 'key': 'GBUNComahue_process.txt', 'extra_args': {}}
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7fcc35cfcc10>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7fcc35cfc040>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7fcc35cfd550>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7fcc35cf8f70>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fcc53be6160>>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fcc53be61f0>>
+INFO - '2022-11-10' - botocore.hooks - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7fcc35cf8dc0>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x7fcc35e57280>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7fcc35cfc310>
+INFO - '2022-11-10' - botocore.handlers - Adding expect 100 continue header to request.
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7fcc53be6160>>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7fcc35cf8a60>
+INFO - '2022-11-10' - botocore.hooks - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7fcc35cfd670>
+INFO - '2022-11-10' - botocore.endpoint - Making request for OperationModel(name=PutObject) with params: {'url_path': '/dipa-s3/GBUNComahue_process.txt', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': 'v2jS2Q5VK0YrzUTKEpxbuQ==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x7fcc53bec6a0>, 'url': 'https://s3.amazonaws.com/dipa-s3/GBUNComahue_process.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7fcc53c2c6a0>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'dipa-s3'}}}
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7fcc35c00e50>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7fcc53c2c460>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x7fcc53be6250>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fcc542076a0>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7fcc35cf8ca0>
+INFO - '2022-11-10' - botocore.hooks - Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fcc53be6250>>
+INFO - '2022-11-10' - botocore.utils - Defaulting to S3 virtual host style addressing with path style addressing fallback.
+INFO - '2022-11-10' - botocore.utils - Checking for DNS compatible bucket for: https://s3.amazonaws.com/dipa-s3/GBUNComahue_process.txt
+INFO - '2022-11-10' - botocore.utils - URI updated to: https://dipa-s3.s3.amazonaws.com/GBUNComahue_process.txt
+INFO - '2022-11-10' - botocore.auth - Calculating signature using v4 auth.
+INFO - '2022-11-10' - botocore.auth - CanonicalRequest:
+PUT
+/GBUNComahue_process.txt
+
+content-md5:v2jS2Q5VK0YrzUTKEpxbuQ==
+host:dipa-s3.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20221110T063537Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+INFO - '2022-11-10' - botocore.auth - StringToSign:
+AWS4-HMAC-SHA256
+20221110T063537Z
+20221110/us-east-1/s3/aws4_request
+0ab005ee5ca989038fd36a8b34dbce48999aec071618ac6322ccd668a2e3b74b
+INFO - '2022-11-10' - botocore.auth - Signature:
+48839e60da0210a126aba5290b03f14f973734a8d51c7be0bfd839af98af0968
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7fcc35c00ee0>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7fcc35cfdd30>
+INFO - '2022-11-10' - botocore.endpoint - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dipa-s3.s3.amazonaws.com/GBUNComahue_process.txt, headers={'User-Agent': b'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': b'v2jS2Q5VK0YrzUTKEpxbuQ==', 'Expect': b'100-continue', 'X-Amz-Date': b'20221110T063537Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAQB63F5PLYUADCDIP/20221110/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=48839e60da0210a126aba5290b03f14f973734a8d51c7be0bfd839af98af0968', 'amz-sdk-invocation-id': b'291625c8-e7dd-4455-9569-7c3c3425461a', 'amz-sdk-request': b'attempt=1', 'Content-Length': '251030'}>
+INFO - '2022-11-10' - botocore.httpsession - Certificate path: /usr/local/lib/python3.9/site-packages/certifi/cacert.pem
+INFO - '2022-11-10' - urllib3.connectionpool - Starting new HTTPS connection (1): dipa-s3.s3.amazonaws.com:443
+INFO - '2022-11-10' - botocore.awsrequest - Waiting for 100 Continue response.
+INFO - '2022-11-10' - botocore.awsrequest - 100 Continue response seen, now sending request body.
+INFO - '2022-11-10' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7fcc53be60a0>
+INFO - '2022-11-10' - botocore.retryhandler - retry needed, retryable exception caught: Connection was closed before we received a valid response from endpoint URL: "https://dipa-s3.s3.amazonaws.com/GBUNComahue_process.txt".
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 289, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/botocore/httpsession.py", line 448, in send
+    urllib_response = conn.urlopen(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 525, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 289, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/botocore/retryhandler.py", line 307, in _should_retry
+    return self._checker(
+  File "/usr/local/lib/python3.9/site-packages/botocore/retryhandler.py", line 363, in __call__
+    checker_response = checker(
+  File "/usr/local/lib/python3.9/site-packages/botocore/retryhandler.py", line 247, in __call__
+    return self._check_caught_exception(
+  File "/usr/local/lib/python3.9/site-packages/botocore/retryhandler.py", line 416, in _check_caught_exception
+    raise caught_exception
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+  File "/usr/local/lib/python3.9/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+  File "/usr/local/lib/python3.9/site-packages/botocore/httpsession.py", line 487, in send
+    raise ConnectionClosedError(
+botocore.exceptions.ConnectionClosedError: Connection was closed before we received a valid response from endpoint URL: "https://dipa-s3.s3.amazonaws.com/GBUNComahue_process.txt".
+INFO - '2022-11-10' - botocore.retryhandler - Retry needed, action of: 0.7949755117285345
+INFO - '2022-11-10' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7fcc53be6160>>
+INFO - '2022-11-10' - botocore.endpoint - Response received to retry, sleeping for 0.7949755117285345 seconds
+INFO - '2022-11-10' - botocore.awsrequest - Rewinding stream: <s3transfer.utils.ReadFileChunk object at 0x7fcc53bec6a0>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7fcc35c00e50>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7fcc53c2c460>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x7fcc53be6250>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fcc542076a0>>
+INFO - '2022-11-10' - botocore.hooks - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7fcc35cf8ca0>
+INFO - '2022-11-10' - botocore.hooks - Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fcc53be6250>>
+INFO - '2022-11-10' - botocore.utils - Checking for DNS compatible bucket for: https://s3.amazonaws.com/dipa-s3/GBUNComahue_process.txt
+INFO - '2022-11-10' - botocore.utils - URI updated to: https://dipa-s3.s3.amazonaws.com/GBUNComahue_process.txt
+INFO - '2022-11-10' - botocore.auth - Calculating signature using v4 auth.
+INFO - '2022-11-10' - botocore.auth - CanonicalRequest:
+PUT
+/GBUNComahue_process.txt
+
+content-md5:v2jS2Q5VK0YrzUTKEpxbuQ==
+host:dipa-s3.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20221110T063551Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+INFO - '2022-11-10' - botocore.auth - StringToSign:
+AWS4-HMAC-SHA256
+20221110T063551Z
+20221110/us-east-1/s3/aws4_request
+571ac79bf66f79acc3c9a24c9826ab68058a550c8e33a01a1bac29048b079290
+INFO - '2022-11-10' - botocore.auth - Signature:
+862602bcefa1372d24cb1e118aee209e575a3a8068764182aa0ac22822e2c07a
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7fcc35c00ee0>
+INFO - '2022-11-10' - botocore.hooks - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7fcc35cfdd30>
+INFO - '2022-11-10' - botocore.endpoint - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dipa-s3.s3.amazonaws.com/GBUNComahue_process.txt, headers={'User-Agent': b'Boto3/1.24.59 Python/3.9.15 Linux/5.10.16.3-microsoft-standard-WSL2 Botocore/1.27.59', 'Content-MD5': b'v2jS2Q5VK0YrzUTKEpxbuQ==', 'Expect': b'100-continue', 'X-Amz-Date': b'20221110T063551Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAQB63F5PLYUADCDIP/20221110/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=862602bcefa1372d24cb1e118aee209e575a3a8068764182aa0ac22822e2c07a', 'amz-sdk-invocation-id': b'291625c8-e7dd-4455-9569-7c3c3425461a', 'amz-sdk-request': b'attempt=2; max=5', 'Content-Length': '251030'}>
+INFO - '2022-11-10' - botocore.httpsession - Certificate path: /usr/local/lib/python3.9/site-packages/certifi/cacert.pem
+INFO - '2022-11-10' - urllib3.connectionpool - Starting new HTTPS connection (2): dipa-s3.s3.amazonaws.com:443
+INFO - '2022-11-10' - botocore.awsrequest - Waiting for 100 Continue response.
+INFO - '2022-11-10' - botocore.awsrequest - 100 Continue response seen, now sending request body.
+INFO - '2022-11-10' - urllib3.connectionpool - https://dipa-s3.s3.amazonaws.com:443 "PUT /GBUNComahue_process.txt HTTP/1.1" 200 0
+INFO - '2022-11-10' - botocore.parsers - Response headers: {'x-amz-id-2': 'tsAc7s/PR+vKeM/U2d3T4CgqxVw0JFa5+HYOvgMwkzJU6jVeWe9eGrVceZsWcGD5SmEZfeDeWN4=', 'x-amz-request-id': 'GR7VK7X7C0JEXQ09', 'Date': 'Thu, 10 Nov 2022 06:35:59 GMT', 'ETag': '"bf68d2d90e552b462bcd44ca129c5bb9"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+INFO - '2022-11-10' - botocore.parsers - Response body:
+b''
+INFO - '2022-11-10' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7fcc53be60a0>
+INFO - '2022-11-10' - botocore.retryhandler - No retry needed.
+INFO - '2022-11-10' - botocore.hooks - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7fcc53be6160>>
+INFO - '2022-11-10' - s3transfer.utils - Releasing acquire 0/None
+INFO - Done. Returned value was: True
+INFO - Marking task as SUCCESS. dag_id=GBUNComahue_dag_elt, task_id=TaskLoad, execution_date=20221110T063528, start_date=20221110T063537, end_date=20221110T063600
+INFO - '2022-11-10' - airflow.listeners.events - session flush listener: added [<TaskInstanceState.SUCCESS: 'success'>] unchanged () deleted ['running'] - <TaskInstance: GBUNComahue_dag_elt.TaskLoad manual__2022-11-10T06:35:28.220443+00:00 [success]>
+INFO - '2022-11-10' - airflow - OpenLineage listener got notification about task instance success
+INFO - '2022-11-10' - root - Using extractor PythonExtractor task_type=PythonOperator airflow_dag_id=GBUNComahue_dag_elt task_id=TaskLoad airflow_run_id=manual__2022-11-10T06:35:28.220443+00:00
+INFO - '2022-11-10' - root - Found task metadata for operation TaskLoad: TaskMetadata(name='GBUNComahue_dag_elt.TaskLoad', inputs=[], outputs=[], run_facets={'unknownSourceAttribute': UnknownOperatorAttributeRunFacet(_producer='https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow', _schemaURL='https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet', unknownItems=[UnknownOperatorInstance(name='PythonOperator', properties={'_BaseOperator__init_kwargs': {'task_id': 'TaskLoad', 'owner': 'Breyner', 'retries': 5, 'retry_delay': datetime.timedelta(seconds=600), 'python_callable': <function load at 0x7fcc54450a60>}, '_BaseOperator__from_mapped': False, 'task_id': 'TaskLoad', 'task_group': <airflow.utils.task_group.TaskGroup object at 0x7fcc542f6eb0>, 'owner': 'Breyner', 'email': None, 'email_on_retry': True, 'email_on_failure': True, 'execution_timeout': None, 'on_execute_callback': None, 'on_failure_callback': None, 'on_success_callback': None, 'on_retry_callback': None, '_pre_execute_hook': None, '_post_execute_hook': None, 'executor_config': {}, 'run_as_user': None, 'retries': 5, 'queue': 'default', 'pool': 'default_pool', 'pool_slots': 1, 'sla': None, 'trigger_rule': <TriggerRule.ALL_SUCCESS: 'all_success'>, 'depends_on_past': False, 'ignore_first_depends_on_past': True, 'wait_for_downstream': False, 'retry_delay': datetime.timedelta(seconds=600), 'retry_exponential_backoff': False, 'max_retry_delay': None, 'params': {}, 'priority_weight': 1, 'weight_rule': <WeightRule.DOWNSTREAM: 'downstream'>, 'resources': None, 'max_active_tis_per_dag': None, 'do_xcom_push': True, 'doc_md': None, 'doc_json': None, 'doc_yaml': None, 'doc_rst': None, 'doc': None, 'upstream_task_ids': {'TaskTransform'}, 'downstream_task_ids': set(), 'start_date': DateTime(2022, 11, 4, 0, 0, 0, tzinfo=Timezone('UTC')), 'end_date': None, '_dag': <DAG: GBUNComahue_dag_elt>, '_log': <Logger airflow.task.operators (INFO)>, 'inlets': [], 'outlets': [], 'python_callable': <function load at 0x7fcc54450a60>, 'op_args': (), 'op_kwargs': {}, 'templates_dict': None, 'show_return_value_in_logs': True, '_BaseOperator__instantiated': True}, type='operator')])}, job_facets={})
+INFO - '2022-11-10' - root - Manually extracting lineage metadata from inlets and outlets
+INFO - '2022-11-10' - openlineage.client.transport.console - {"eventTime": "2022-11-10T06:36:00.223491Z", "eventType": "COMPLETE", "inputs": [], "job": {"facets": {}, "name": "GBUNComahue_dag_elt.TaskLoad", "namespace": "default"}, "outputs": [], "producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "run": {"facets": {"unknownSourceAttribute": {"_producer": "https://github.com/OpenLineage/OpenLineage/tree/0.15.1/integration/airflow", "_schemaURL": "https://raw.githubusercontent.com/OpenLineage/OpenLineage/main/spec/OpenLineage.json#/definitions/BaseFacet", "unknownItems": [{"name": "PythonOperator", "properties": {"_BaseOperator__from_mapped": false, "_BaseOperator__init_kwargs": {"owner": "Breyner", "python_callable": "<<non-serializable: function>>", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "task_id": "TaskLoad"}, "_BaseOperator__instantiated": true, "_dag": "<<non-serializable: DAG>>", "_log": "<<non-serializable: Logger>>", "depends_on_past": false, "do_xcom_push": true, "downstream_task_ids": [], "email_on_failure": true, "email_on_retry": true, "executor_config": {}, "ignore_first_depends_on_past": true, "inlets": [], "op_args": [], "op_kwargs": {}, "outlets": [], "owner": "Breyner", "params": "<<non-serializable: ParamsDict>>", "pool": "default_pool", "pool_slots": 1, "priority_weight": 1, "python_callable": "<<non-serializable: function>>", "queue": "default", "retries": 5, "retry_delay": "<<non-serializable: timedelta>>", "retry_exponential_backoff": false, "show_return_value_in_logs": true, "start_date": "<<non-serializable: DateTime>>", "task_group": "<<non-serializable: TaskGroup>>", "task_id": "TaskLoad", "trigger_rule": "all_success", "upstream_task_ids": [], "wait_for_downstream": false, "weight_rule": "downstream"}, "type": "operator"}]}}, "runId": "e5a9171d-0748-4488-838a-77d29ba0176a"}}
+INFO - Task exited with return code 0
+INFO - 0 downstream tasks scheduled from follow-on schedule check
