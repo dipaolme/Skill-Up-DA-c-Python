@@ -34,6 +34,7 @@ template_dag.jinja2
 .\Skill-Up-DA-c-PythonG1\.env
 
 /dags_dynamic/.
+./dags/dags_factory
 .po.py
 nuevo.py
 coco.py

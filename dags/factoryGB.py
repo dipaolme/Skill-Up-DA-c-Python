@@ -3,7 +3,7 @@ from airflow import DAG
 import dagfactory
 
 
-config_file = "/usr/local/airflow/dags/ETL_config.yml"
+config_file = "/usr/local/airflow/dags/ETL_configGrupoB.yml"
 example_dag_factory = dagfactory.DagFactory(config_file)
 # Creating task dependencies
 
