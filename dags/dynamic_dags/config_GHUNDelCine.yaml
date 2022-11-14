@@ -1,0 +1,4 @@
+  dag_id:'DelCine'
+  schedule_interval:'@hourly'
+  catchup: False
+  input: Del_Cine
