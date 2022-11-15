@@ -1,5 +1,0 @@
-nombre : 'GAUNVillaMaria'
-start_date : '2022, 3, 11'
-schedule_interval: '@hourly'
-retries : 5
-bucket : 'dipa-s3'
