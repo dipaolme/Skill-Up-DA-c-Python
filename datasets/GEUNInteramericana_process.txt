@@ -1,0 +1,1298 @@
+Id	university	career	inscription_date	first_name	last_name	gender	age	location	email	postal_code
+0	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-08	randy	williams	male	75	juan maria gutierrez	joshua07@yahoo.com	1890
+404	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-07	kelly	ellis	female	69	juan maria gutierrez	valerie71@hotmail.com	1890
+1	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-10-04	nichole	stanley	female	32	el rincon	dbutler@yahoo.com	8146
+3	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-11-22	kevin	weaver	male	62	capitan lazo	millererika@hotmail.com	5423
+368	universidad abierta interamericana	actuario	2020-09-27	diane	livingston	female	51	capitan lazo	qhamilton@hotmail.com	5423
+4	universidad abierta interamericana	licenciatura en psicología	2021-01-30	david	oliver	male	79	llavallol	jorge05@yahoo.com	1836
+5	universidad abierta interamericana	licenciatura en artes	2020-10-12	alyssa	callahan	female	39	albigasta	jodi34@yahoo.com	4235
+1825	universidad abierta interamericana	medicina	2021-02-01	tammy	mcbride	female	46	albigasta	mpeterson@gmail.com	4235
+6	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-11-13	tracy	pope	female	80	la viticola	jamesgentry@hotmail.com	8122
+490	universidad abierta interamericana	licenciatura en artes	2020-12-28	lori	franklin	female	87	la viticola	kathrynschwartz@hotmail.com	8122
+7	universidad abierta interamericana	bioquímica	2021-01-26	shawn	fleming	male	49	cantera aguirre	betty11@hotmail.com	7000
+8	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-21	brenda	santana	female	32	25 de mayo	james37@hotmail.com	8201
+87	universidad abierta interamericana	medicina	2021-01-24	krista	martinez	female	59	25 de mayo	jerrycarson@gmail.com	8201
+764	universidad abierta interamericana	arquitectura	2020-09-08	monica	strickland	female	33	25 de mayo	martinjacob@hotmail.com	8201
+9	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-21	tyrone	roberts	male	18	barra bonita	millerrandall@gmail.com	3357
+453	universidad abierta interamericana	bioquímica	2020-11-19	kathleen	garcia	female	22	barra bonita	lozanoashley@gmail.com	3357
+10	universidad abierta interamericana	farmacia	2020-12-20	brandon	carter	male	36	alcorta	reedaustin@yahoo.com	2117
+11	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-13	henry	edwards	male	74	el sombrerito	garyball@gmail.com	3585
+104	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-02	kelly	hogan	male	86	el sombrerito	donna19@hotmail.com	3585
+1220	universidad abierta interamericana	contador público	2021-01-10	rachel	flores	female	61	el sombrerito	berryjonathan@hotmail.com	3585
+1614	universidad abierta interamericana	licenciatura en administración	2020-10-11	david	park	male	38	el sombrerito	thomasmorris@gmail.com	3585
+12	universidad abierta interamericana	diseño de imagen y sonido	2020-09-17	donna	sparks	female	45	alto del puesto	hrodriguez@yahoo.com	4176
+257	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-19	patrick	davidson	male	94	alto del puesto	jenniferrobinson@hotmail.com	4176
+263	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-24	dawn	ramirez	female	57	alto del puesto	kjones@gmail.com	4176
+429	universidad abierta interamericana	diseño industrial	2021-01-13	jennifer	douglas	female	46	alto del puesto	hfisher@hotmail.com	4176
+543	universidad abierta interamericana	técnico para bioterios	2020-11-16	brian	sanchez	male	54	alto del puesto	williamschristine@gmail.com	4176
+14	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-04	robert	price	male	23	cramer	sheparddiane@hotmail.com	5733
+358	universidad abierta interamericana	diseño industrial	2020-10-23	christopher	richmond	male	18	cramer	wareamanda@yahoo.com	5733
+441	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-11	denise	adams	female	63	cramer	andrewford@gmail.com	5733
+15	universidad abierta interamericana	ingeniería mecánica	2020-12-14	johnny	williams	male	57	capitan castro	andreaboyd@yahoo.com	6461
+1669	universidad abierta interamericana	actuario	2020-10-16	melanie	lynn	female	67	capitan castro	kenneth82@gmail.com	6461
+16	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-12-11	lisa	green	female	81	el durazno	hudsonbrianna@gmail.com	1735
+1493	universidad abierta interamericana	diseño industrial	2020-10-13	felicia	washington	female	90	el durazno	jennifer06@hotmail.com	1735
+17	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-24	david	chung	male	38	alarcon	johnsonbrandon@hotmail.com	2852
+1686	universidad abierta interamericana	arquitectura	2020-12-03	jeremy	smith	male	77	alarcon	bwright@gmail.com	2852
+18	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-30	jennifer	ramirez	female	100	colonia baron	woodangelica@hotmail.com	6315
+342	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-31	gwendolyn	allen	female	21	colonia baron	emily98@yahoo.com	6315
+539	universidad abierta interamericana	técnico para bioterios	2020-11-20	phillip	gutierrez	male	44	colonia baron	palmertiffany@yahoo.com	6315
+706	universidad abierta interamericana	licenciatura en administración	2020-10-24	amy	hall	female	60	colonia baron	heather37@yahoo.com	6315
+19	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-28	jose	white	male	64	planchada banderita	jenniferbrown@yahoo.com	3370
+854	universidad abierta interamericana	licenciatura en ciencia política	2021-01-22	robert	weaver	male	61	planchada banderita	melanie43@gmail.com	3370
+20	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-29	w	espinoza	male	29	britos	jmiller@gmail.com	2824
+795	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-30	maria	smith	female	96	britos	jennasawyer@yahoo.com	2824
+1588	universidad abierta interamericana	ciencias veterinarias	2020-12-17	paul	cole	male	59	britos	nicholasvazquez@gmail.com	2824
+1865	universidad abierta interamericana	licenciatura en ciencia política	2020-11-07	megan	sanchez	female	35	britos	qherring@yahoo.com	2824
+21	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-01	dale	smith	male	89	alumine	michaeljohnson@gmail.com	8345
+23	universidad abierta interamericana	licenciatura en administración	2020-10-29	julie	vargas	female	58	bathurst estacion	iochoa@yahoo.com	7540
+26	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-16	katie	williams	female	28	el bombero	michaelthomas@hotmail.com	7507
+28	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-28	cynthia	riley	female	69	masurel	erica19@gmail.com	6438
+1620	universidad abierta interamericana	ingeniería en informática	2020-09-10	christopher	wilkinson ii	male	51	masurel	stevensimon@yahoo.com	6438
+29	universidad abierta interamericana	farmacia	2020-10-13	daniel	knight	male	59	arroyo balmaceda	darrylhogan@gmail.com	3483
+145	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-13	caleb	gray	male	45	arroyo balmaceda	mgarcia@yahoo.com	3483
+1128	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-24	james	schroeder	male	84	arroyo balmaceda	teresa31@yahoo.com	3483
+30	universidad abierta interamericana	farmacia	2020-12-15	melanie	fox	female	61	colonia duran	hhays@yahoo.com	3553
+31	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-15	brenda	schultz	female	78	calilegua	gwhite@gmail.com	4514
+35	universidad abierta interamericana	actuario	2020-09-16	kristina	williams	female	99	ascencion	stephanie11@gmail.com	6003
+201	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-26	kathryn	humphrey	female	76	ascencion	qhardy@hotmail.com	6003
+683	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-09	cody	osborne	male	18	ascencion	patricia81@gmail.com	6003
+36	universidad abierta interamericana	actuario	2020-10-03	steven	smith	male	72	ceres	jose07@hotmail.com	2340
+485	universidad abierta interamericana	contador público	2020-10-03	laura	garcia	female	20	ceres	christinalarson@gmail.com	2340
+37	universidad abierta interamericana	licenciatura en ciencia política	2020-11-24	angela	davis	female	44	villa santos tesei	terrimadden@gmail.com	1688
+63	universidad abierta interamericana	ciencias veterinarias	2020-09-04	samuel	chaney	male	45	villa santos tesei	velliott@gmail.com	1688
+596	universidad abierta interamericana	bioquímica	2020-12-16	bethany	johnson	female	25	villa santos tesei	brandon33@hotmail.com	1688
+1147	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-19	karen	frost	female	30	villa santos tesei	palmerlouis@hotmail.com	1688
+1747	universidad abierta interamericana	diseño de imagen y sonido	2020-10-04	patrick	edwards	male	50	villa santos tesei	brettmoore@gmail.com	1688
+38	universidad abierta interamericana	diseño industrial	2020-10-02	tracy	mclean	female	31	alabama	brownjames@gmail.com	4117
+39	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-05	edgar	leach	male	25	agua de castilla	michael26@gmail.com	4651
+524	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-11-17	angelica	alvarado	female	50	agua de castilla	williamsvanessa@yahoo.com	4651
+40	universidad abierta interamericana	bioquímica	2020-12-16	katherine	vega	female	65	el lenguaraz	sarah28@yahoo.com	7635
+41	universidad abierta interamericana	diseño de imagen y sonido	2020-12-20	joshua	wheeler	male	45	berabevu	fgarza@yahoo.com	2639
+42	universidad abierta interamericana	agronomía	2021-01-23	stephanie	johnson	female	99	igarzabal	hilldanielle@yahoo.com	8512
+45	universidad abierta interamericana	ingeniería electrónica	2020-09-10	morgan	solomon	female	74	17 de agosto	lawrence30@gmail.com	8129
+439	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-06	steven	lee	male	83	17 de agosto	thomassanchez@gmail.com	8129
+525	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-10-01	ann	allen	female	44	17 de agosto	marybrown@yahoo.com	8129
+46	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-28	riley	williams	male	81	carrizal norte	johnnythompson@gmail.com	3433
+47	universidad abierta interamericana	ingeniería en informática	2020-09-25	timothy	williams	male	35	adan quiroga	reneemorton@gmail.com	5409
+48	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-03	paul	howard	male	45	condarco	theresahooper@yahoo.com	6233
+49	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-10	andrea	rose	female	35	est jauregui va flandria	mendezdonald@hotmail.com	6706
+675	universidad abierta interamericana	ingeniería en informática	2021-01-16	eric	delacruz	male	76	est jauregui va flandria	haleybyrd@gmail.com	6706
+1057	universidad abierta interamericana	farmacia	2020-09-06	brian	schwartz	male	33	est jauregui va flandria	graylisa@yahoo.com	6706
+1296	universidad abierta interamericana	diseño de imagen y sonido	2021-01-21	jamie	turner	female	76	est jauregui va flandria	cory49@yahoo.com	6706
+52	universidad abierta interamericana	licenciatura en sociología	2020-11-17	terri	hensley	female	34	arijon	eflores@hotmail.com	2242
+53	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-18	linda	fitzgerald	female	72	destileria fiscal	jennifer86@hotmail.com	1925
+54	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-11	alicia	hill	female	45	carlos pellegrini	fdavis@gmail.com	2453
+56	universidad abierta interamericana	licenciatura en administración	2020-11-23	arthur	andrews	male	77	amuschina	wallersandra@yahoo.com	5329
+527	universidad abierta interamericana	ingeniería mecánica	2020-11-26	amber	hamilton	female	39	amuschina	gregoryhughes@hotmail.com	5329
+57	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-30	amanda	foster	female	54	calchaqui	rward@gmail.com	3050
+58	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-16	robert	leonard	male	67	villa olivari	gonzalezlisa@yahoo.com	3486
+59	universidad abierta interamericana	diseño de imagen y sonido	2021-01-09	diana	elliott	female	43	colonia barga	marysmith@gmail.com	8142
+60	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-02	anthony	romero	male	63	valle hondo	heatherwalters@gmail.com	9221
+1654	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-07	thomas	welch	male	64	valle hondo	philip65@hotmail.com	9221
+61	universidad abierta interamericana	licenciatura en administración	2021-01-24	sonya	sandoval	female	54	colonia tacurales	leejohn@gmail.com	2324
+62	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-16	jeffrey	suarez	male	58	alto de sierra	paulacasey@hotmail.com	5438
+64	universidad abierta interamericana	agronomía	2021-01-24	gregory	young	male	75	berraondo	johnsontracy@hotmail.com	8124
+66	universidad abierta interamericana	ingeniería electrónica	2021-01-16	ralph	owen jr.	male	58	arturo segui	dthomas@hotmail.com	1895
+1000	universidad abierta interamericana	agronomía	2020-10-30	robert	miller	male	50	arturo segui	vhorton@gmail.com	1895
+67	universidad abierta interamericana	ingeniería mecánica	2020-09-10	christy	knight	female	90	kilometro 112	natalie64@gmail.com	7240
+661	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-18	scott	brooks	male	86	kilometro 112	benjaminelliott@yahoo.com	7240
+935	universidad abierta interamericana	farmacia	2021-01-08	megan	evans	female	60	kilometro 112	qwinters@gmail.com	7240
+68	universidad abierta interamericana	diseño industrial	2020-10-20	sean	lindsey	male	60	balneario los angeles	mmiles@hotmail.com	7641
+73	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-19	jonathan	butler	male	36	banfield	joseph05@yahoo.com	1828
+74	universidad abierta interamericana	contador público	2020-11-29	ashley	mooney	female	44	aldea maria luisa	gentryandrew@yahoo.com	3114
+98	universidad abierta interamericana	farmacia	2020-11-01	rebecca	gilbert	female	76	aldea maria luisa	juan94@hotmail.com	3114
+75	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-06	julia	aguilar	female	81	alegre	hudsonjorge@gmail.com	1987
+652	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-05	edwin	long	male	33	alegre	timothyjohnson@gmail.com	1987
+76	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-04	rachel	bautista	female	18	el carbalino	mwoodard@hotmail.com	5592
+945	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-11	pamela	jones	female	98	el carbalino	howardheather@gmail.com	5592
+77	universidad abierta interamericana	farmacia	2020-09-06	danielle	porter	female	94	amambay	ylynch@hotmail.com	3718
+445	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-28	william	bennett	male	34	amambay	jay08@hotmail.com	3718
+78	universidad abierta interamericana	ciencias veterinarias	2021-01-30	robert	schneider	male	26	el hoyo	brownmeghan@yahoo.com	8431
+79	universidad abierta interamericana	licenciatura en ciencia política	2020-09-22	christopher	burke	male	34	cañada la negra	nichole90@hotmail.com	5881
+80	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-10-03	michael	schultz	male	65	agua blanca	stephaniewells@yahoo.com	5471
+1622	universidad abierta interamericana	licenciatura en psicología	2020-12-16	daniel	pratt	male	69	agua blanca	shawn98@gmail.com	5471
+81	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-17	jocelyn	davis	female	41	martin coronado	zcombs@yahoo.com	1682
+82	universidad abierta interamericana	técnico para bioterios	2021-01-18	susan	gardner	female	96	alfredo peña	hadams@yahoo.com	6333
+83	universidad abierta interamericana	licenciatura en ciencias biológicas	2021-01-17	terrence	savage	male	50	acheral	denise94@yahoo.com	5260
+1725	universidad abierta interamericana	ingeniería en informática	2020-10-31	debbie	weaver	female	73	acheral	hcalderon@hotmail.com	5260
+84	universidad abierta interamericana	arquitectura	2020-10-12	benjamin	lewis	male	27	gobernador moyano	williamdixon@hotmail.com	9050
+428	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-11	mark	cline	male	38	gobernador moyano	cwhite@gmail.com	9050
+85	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-09	andrew	torres	male	70	aldea beleiro	sarah53@hotmail.com	9037
+379	universidad abierta interamericana	diseño industrial	2020-11-21	cindy	camacho	female	77	aldea beleiro	harrisjohn@yahoo.com	9037
+1492	universidad abierta interamericana	contador público	2020-12-04	trevor	dean	male	25	aldea beleiro	laurenpierce@yahoo.com	9037
+1634	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-08	christopher	campos	male	61	aldea beleiro	allen75@gmail.com	9037
+86	universidad abierta interamericana	diseño de imagen y sonido	2020-10-23	pamela	irwin	female	78	d orbigny	angeladickerson@gmail.com	7541
+89	universidad abierta interamericana	arquitectura	2020-09-09	travis	weiss	male	39	alpasinche	jeremycarter@yahoo.com	5325
+90	universidad abierta interamericana	agronomía	2020-09-12	christina	roberts	female	39	san fernando	dakotawilson@hotmail.com	1646
+1372	universidad abierta interamericana	diseño de imagen y sonido	2020-09-10	jessica	chandler	female	45	san fernando	sarahspencer@hotmail.com	1646
+91	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-14	nicole	brown	female	84	el tropezon	tiffanyadkins@yahoo.com	3009
+93	universidad abierta interamericana	licenciatura en ciencia política	2021-01-03	lori	wheeler	female	96	lomas de zamora	hknight@yahoo.com	1832
+95	universidad abierta interamericana	ciencias veterinarias	2021-01-08	erin	cross	female	61	barrio emir ramon juarez	ccunningham@gmail.com	7600
+356	universidad abierta interamericana	diseño industrial	2020-09-08	julie	adams	female	40	barrio emir ramon juarez	laurenvilla@yahoo.com	7600
+96	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-15	juan	gonzalez	male	71	bigand	gcarlson@yahoo.com	2177
+731	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-02	jaclyn	garcia	female	55	bigand	zrichard@gmail.com	2177
+1489	universidad abierta interamericana	diseño industrial	2020-12-06	keith	martinez	male	22	bigand	marcia13@gmail.com	2177
+101	universidad abierta interamericana	contador público	2020-09-14	katie	lowe	female	19	ingeniero adolfo sourdeaux	rebecca30@hotmail.com	1612
+1170	universidad abierta interamericana	contador público	2020-11-07	stephanie	hammond	female	24	ingeniero adolfo sourdeaux	bobbybeltran@hotmail.com	1612
+102	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-08	aaron	pope	male	30	aconquija	stewartlindsey@gmail.com	4743
+1568	universidad abierta interamericana	agronomía	2020-11-02	robert	weber	male	21	aconquija	loganmorales@gmail.com	4743
+103	universidad abierta interamericana	actuario	2020-10-21	patricia	bailey	female	95	granadero baigorria	uaguirre@hotmail.com	2152
+818	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-18	shelby	anderson	female	74	granadero baigorria	ntaylor@gmail.com	2152
+1272	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-27	aaron	mcdonald	male	95	granadero baigorria	jilliancoleman@gmail.com	2152
+105	universidad abierta interamericana	agronomía	2020-10-26	kayla	orozco	female	43	santa teresita	robertoconnor@hotmail.com	7107
+1787	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-10-11	michael	shea	male	86	santa teresita	vmartinez@gmail.com	7107
+106	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-14	richard	garcia	male	19	la legua	mary69@gmail.com	5411
+1763	universidad abierta interamericana	arquitectura	2020-09-18	john	brown	male	84	la legua	michael09@yahoo.com	5411
+107	universidad abierta interamericana	ingeniería electrónica	2020-10-30	matthew	obrien	male	51	arbuco	isaac40@gmail.com	1915
+108	universidad abierta interamericana	ingeniería mecánica	2021-01-01	sandra	smith	female	60	cabaña el cisne	mikepope@gmail.com	2322
+109	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-14	katie	green	female	27	abralaite	starklynn@gmail.com	4634
+110	universidad abierta interamericana	ingeniería mecánica	2020-11-16	breanna	rollins	female	25	haras san jacinto	leestacy@hotmail.com	2705
+376	universidad abierta interamericana	ciencias veterinarias	2020-10-05	victor	fuentes	male	73	haras san jacinto	eric05@hotmail.com	2705
+1501	universidad abierta interamericana	arquitectura	2020-11-26	michael	paul	male	88	haras san jacinto	krogers@hotmail.com	2705
+112	universidad abierta interamericana	ciencias veterinarias	2020-10-24	daniel	stone	male	32	colonia devoto	nixonsergio@hotmail.com	6325
+554	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-08	allison	hughes	female	45	colonia devoto	flopez@hotmail.com	6325
+1675	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-05	todd	lin	male	58	colonia devoto	whitemarilyn@yahoo.com	6325
+114	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-12-05	ashley	matthews	female	47	asuncion	zparker@hotmail.com	5535
+1440	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-20	joseph	harris	male	29	asuncion	brittney56@gmail.com	5535
+115	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-15	derek	dougherty	male	31	faro querandi	barkerelizabeth@gmail.com	7165
+1217	universidad abierta interamericana	actuario	2020-10-29	javier	johnson	male	49	faro querandi	russell78@hotmail.com	7165
+1624	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-13	peter	hamilton	male	44	faro querandi	christina23@hotmail.com	7165
+116	universidad abierta interamericana	ingeniería mecánica	2020-10-29	anna	richardson	female	19	claverie	armstrongwendy@gmail.com	7163
+195	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-11-01	joseph	henry	male	57	claverie	fordjessica@hotmail.com	7163
+117	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-09-16	kyle	sosa	male	41	sey	megan71@hotmail.com	4411
+118	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-10-23	donna	glenn	female	80	bosques	stephen50@gmail.com	1889
+592	universidad abierta interamericana	licenciatura en artes	2020-09-14	erica	kim	female	49	bosques	vdecker@hotmail.com	1889
+119	universidad abierta interamericana	arquitectura	2021-01-11	suzanne	watts	female	29	28 de noviembre	hortonmatthew@gmail.com	9407
+1687	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-21	john	casey	male	32	28 de noviembre	halejames@gmail.com	9407
+120	universidad abierta interamericana	licenciatura en psicología	2020-09-10	colin	west	male	92	colonia nueva montevideo	martinezjessica@yahoo.com	2828
+121	universidad abierta interamericana	ingeniería mecánica	2020-09-12	keith	price	male	19	alizal	wilsonkimberly@yahoo.com	4122
+258	universidad abierta interamericana	técnico para bioterios	2020-10-31	kendra	drake	female	69	alizal	nicholassnyder@hotmail.com	4122
+122	universidad abierta interamericana	licenciatura en administración	2021-01-18	erica	clark	female	74	alpatacal	bgilbert@gmail.com	5591
+682	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-11-11	riley	sawyer	male	76	alpatacal	john80@yahoo.com	5591
+123	universidad abierta interamericana	diseño industrial	2020-10-18	gina	miller	female	40	san bernardo del tuyu	greyes@gmail.com	7111
+124	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-28	jennifer	nichols	female	75	alto del saladillo	gregory99@yahoo.com	4522
+125	universidad abierta interamericana	licenciatura en administración	2020-09-06	kathleen	acevedo	female	29	colonia santa rosa	stephanie82@yahoo.com	1816
+127	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-16	spencer	davidson	male	23	alijilan	april62@hotmail.com	4723
+196	universidad abierta interamericana	arquitectura	2020-12-24	richard	johnson	male	44	alijilan	pamelaallen@gmail.com	4723
+353	universidad abierta interamericana	licenciatura en sociología	2020-12-14	laura	bates	female	52	alijilan	richardmills@hotmail.com	4723
+128	universidad abierta interamericana	licenciatura en artes	2020-09-16	philip	watkins	male	75	9 de julio	pkirk@gmail.com	6500
+934	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-19	lisa	johnson	female	42	9 de julio	juliearcher@yahoo.com	6500
+129	universidad abierta interamericana	arquitectura	2021-01-23	debra	morris	female	91	agua cercada	lbrown@yahoo.com	5447
+132	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-12	jeffery	phillips	male	79	estacion yerua	jonathan88@yahoo.com	3214
+1577	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-09-26	belinda	ballard	female	91	estacion yerua	martinwebb@gmail.com	3214
+133	universidad abierta interamericana	ciencias veterinarias	2020-10-29	david	white	male	54	anguinan	larry50@hotmail.com	5363
+134	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-29	robert	martin	male	32	acassuso	thomascastillo@yahoo.com	1640
+654	universidad abierta interamericana	medicina	2020-09-03	john	williams	male	37	acassuso	andersonpenny@gmail.com	1640
+1320	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-05	antonio	choi	male	47	acassuso	amy01@hotmail.com	1640
+135	universidad abierta interamericana	licenciatura en sociología	2020-09-30	sherry	hernandez	female	69	el talar	lchavez@hotmail.com	1617
+260	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-25	michael	sawyer	male	98	el talar	pamelaroberts@gmail.com	1617
+771	universidad abierta interamericana	licenciatura en psicología	2020-09-29	michael	ford	male	20	el talar	richard88@yahoo.com	1617
+809	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-24	andre	mueller	male	49	el talar	michael71@gmail.com	1617
+136	universidad abierta interamericana	actuario	2020-12-05	monica	larsen	female	20	chelforo	shelleyjordan@yahoo.com	8366
+864	universidad abierta interamericana	licenciatura en administración	2020-10-04	gabrielle	morris	female	77	chelforo	maystephen@hotmail.com	8366
+137	universidad abierta interamericana	licenciatura en administración	2020-12-06	michael	jones	male	92	candelaria sud	fgeorge@yahoo.com	2170
+138	universidad abierta interamericana	arquitectura	2021-01-13	makayla	bray	female	31	colonia valdez	emilyleach@gmail.com	2115
+1552	universidad abierta interamericana	licenciatura en administración	2020-09-22	helen	wiggins	female	72	colonia valdez	chad53@gmail.com	2115
+141	universidad abierta interamericana	contador público	2020-12-21	alexis	carter	female	72	colonia alvear	daniel01@yahoo.com	5632
+142	universidad abierta interamericana	ingeniería mecánica	2020-10-28	steven	tapia	male	55	el guanaco	daniel73@yahoo.com	6205
+274	universidad abierta interamericana	licenciatura en artes	2020-09-13	john	holland	male	71	el guanaco	leonstephanie@hotmail.com	6205
+1508	universidad abierta interamericana	licenciatura en psicología	2020-09-22	michael	pitts	male	31	el guanaco	zwilliams@gmail.com	6205
+144	universidad abierta interamericana	ingeniería mecánica	2021-01-05	karen	lane	female	49	carlos tejedor	wilsonbenjamin@gmail.com	6455
+146	universidad abierta interamericana	bioquímica	2020-10-13	shannon	adams	female	57	arroyo canelon	faith29@yahoo.com	1625
+744	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-16	cassandra	gonzalez	female	23	arroyo canelon	colleenpatterson@hotmail.com	1625
+148	universidad abierta interamericana	diseño industrial	2020-09-12	justin	luna	male	61	cañadon seco	brandon58@yahoo.com	9013
+573	universidad abierta interamericana	técnico para bioterios	2020-09-28	timothy	reed	male	98	cañadon seco	sherryrodriguez@gmail.com	9013
+149	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-18	brandon	pineda	male	44	catua	dustin07@hotmail.com	4413
+151	universidad abierta interamericana	diseño industrial	2020-09-06	dominic	kemp	male	72	kilometro 77	zwolf@hotmail.com	1737
+153	universidad abierta interamericana	diseño de imagen y sonido	2020-09-12	johnathan	douglas	male	38	san andres	tgilmore@yahoo.com	1651
+457	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-24	ricardo	young	male	72	san andres	jameswilliams@yahoo.com	1651
+866	universidad abierta interamericana	farmacia	2020-12-29	holly	rosales	female	36	san andres	christine65@gmail.com	1651
+156	universidad abierta interamericana	arquitectura	2020-12-16	william	barker	male	59	alto verde	amberbowen@yahoo.com	4608
+469	universidad abierta interamericana	ingeniería en informática	2021-01-16	jenny	adams	female	53	alto verde	brianmcgee@gmail.com	4608
+1720	universidad abierta interamericana	licenciatura en administración	2021-01-02	julie	bradford	female	69	alto verde	aschroeder@hotmail.com	4608
+157	universidad abierta interamericana	licenciatura en ciencia política	2020-10-09	kimberly	mcdonald	female	49	garcia del rio	allenheather@hotmail.com	8162
+160	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-06	laura	mcdonald	female	64	gobernador lanusse	fcoleman@gmail.com	3376
+162	universidad abierta interamericana	licenciatura en artes	2020-11-15	jessica	gilbert	female	48	bolivar	ydunn@hotmail.com	6550
+163	universidad abierta interamericana	licenciatura en artes	2020-12-10	debra	padilla	female	72	arata	pmontgomery@gmail.com	6385
+164	universidad abierta interamericana	licenciatura en psicología	2020-09-05	edward	young	male	63	bajo grande	ericapennington@hotmail.com	5775
+563	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-09-28	melissa	davis	female	46	bajo grande	jonathanhart@yahoo.com	5775
+165	universidad abierta interamericana	licenciatura en sociología	2020-11-01	kristen	reid	female	87	francisco casal	vaughndawn@yahoo.com	6230
+1473	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-19	laurie	atkinson	female	62	francisco casal	clayroy@gmail.com	6230
+166	universidad abierta interamericana	licenciatura en ciencias biológicas	2021-01-22	lauren	hess	female	33	mercado central	micheal05@gmail.com	1771
+167	universidad abierta interamericana	medicina	2020-12-07	lori	jenkins	female	45	barcala	kdavis@gmail.com	5587
+1022	universidad abierta interamericana	farmacia	2020-12-13	christine	mccarthy	female	75	barcala	christophermorton@yahoo.com	5587
+168	universidad abierta interamericana	diseño de imagen y sonido	2020-09-21	regina	greer	female	50	atreuco	besparza@yahoo.com	8371
+913	universidad abierta interamericana	ingeniería electrónica	2020-10-18	chris	soto	male	59	atreuco	nathan05@hotmail.com	8371
+1276	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-22	daniel	dean	male	40	atreuco	kevin68@gmail.com	8371
+169	universidad abierta interamericana	farmacia	2020-12-15	katie	wood	female	60	aguada alegre	elizabethbaker@hotmail.com	9310
+385	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-05	hayley	lucas	female	39	aguada alegre	gjackson@yahoo.com	9310
+1304	universidad abierta interamericana	licenciatura en artes	2020-09-24	crystal	white	female	25	aguada alegre	timothy37@gmail.com	9310
+171	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-10-03	shane	berry	male	66	aguada a pique	moralestheresa@gmail.com	9051
+174	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-11-18	eric	campbell	male	72	almacen castro	nmiller@gmail.com	2751
+240	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-26	alexis	gonzalez	female	43	almacen castro	lisasandoval@yahoo.com	2751
+718	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-09-03	juan	brady	male	27	almacen castro	david60@hotmail.com	2751
+1782	universidad abierta interamericana	diseño de imagen y sonido	2021-01-20	connor	heath	male	67	almacen castro	bakerjoshua@gmail.com	2751
+175	universidad abierta interamericana	ciencias veterinarias	2021-01-13	caitlin	wilson	female	39	arroyo salado	alexander49@yahoo.com	8532
+1467	universidad abierta interamericana	actuario	2020-09-05	patrick	tran	male	20	arroyo salado	bernardbrittany@hotmail.com	8532
+176	universidad abierta interamericana	diseño industrial	2021-01-20	michelle	diaz	female	40	zona delta tigre	benjaminsmith@gmail.com	1649
+177	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-02	sheila	king	female	76	ciudad madero	coopermichael@hotmail.com	1768
+178	universidad abierta interamericana	bioquímica	2020-12-06	james	miller	male	87	16 de julio	kara10@gmail.com	7313
+180	universidad abierta interamericana	farmacia	2020-11-16	tyler	rojas	male	92	estela	lowerymichele@gmail.com	8127
+480	universidad abierta interamericana	farmacia	2020-10-17	samantha	horton	female	100	estela	wheelerann@hotmail.com	8127
+181	universidad abierta interamericana	ingeniería en informática	2020-10-31	kelly	price	female	68	campo calvo	ibeck@hotmail.com	2123
+182	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-24	mary	davies	female	30	campo sabate	natasha48@gmail.com	7245
+1676	universidad abierta interamericana	licenciatura en ciencia política	2020-10-17	justin	garcia	male	63	campo sabate	holmesrobin@yahoo.com	7245
+183	universidad abierta interamericana	diseño industrial	2020-10-01	nathan	shelton	male	42	ambas puntillas	jamievaldez@hotmail.com	5442
+1809	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-07	joseph	martinez	male	79	ambas puntillas	teresa31@yahoo.com	5442
+184	universidad abierta interamericana	agronomía	2021-01-20	mark	harris	male	62	abra pampa	mckinneynancy@gmail.com	4640
+1282	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-01	david	tanner	male	58	abra pampa	anitarodriguez@gmail.com	4640
+185	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-09	casey	cox	male	93	ambato	jason33@hotmail.com	4711
+1823	universidad abierta interamericana	agronomía	2020-11-23	kevin	russell	male	31	ambato	kingashley@gmail.com	4711
+186	universidad abierta interamericana	ingeniería en informática	2020-12-10	jordan	blankenship	male	33	barrio el molino	johnsonlauren@yahoo.com	6360
+190	universidad abierta interamericana	ingeniería electrónica	2020-11-03	aaron	garcia	male	76	arteaga	christopherfisher@yahoo.com	2187
+191	universidad abierta interamericana	ciencias veterinarias	2021-01-13	alexis	smith	female	94	cabral	danielcarly@hotmail.com	3730
+192	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-03	carrie	rivera	female	75	banderalo	eugeneharris@hotmail.com	6244
+197	universidad abierta interamericana	actuario	2020-12-13	maurice	scott	male	67	algarrobo del aguila	nicolethomas@yahoo.com	6323
+198	universidad abierta interamericana	diseño industrial	2021-01-10	daisy	barton	female	58	antonio tomas	edean@gmail.com	3125
+346	universidad abierta interamericana	licenciatura en ciencia política	2021-01-15	karen	chan	female	78	antonio tomas	hernandezjames@gmail.com	3125
+199	universidad abierta interamericana	bioquímica	2020-11-09	larry	anderson	male	90	apeadero quiroga	stanleytaylor@yahoo.com	5427
+1230	universidad abierta interamericana	diseño de imagen y sonido	2020-09-27	gary	miranda	male	31	apeadero quiroga	jwashington@hotmail.com	5427
+1861	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-17	brianna	miller	female	98	apeadero quiroga	jacob47@hotmail.com	5427
+200	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-19	collin	whitehead	male	87	4 de noviembre	pamela11@yahoo.com	2707
+1486	universidad abierta interamericana	arquitectura	2020-09-22	micheal	beard	male	76	4 de noviembre	ssimmons@yahoo.com	2707
+202	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-02	carlos	phillips	male	77	azopardo	cynthia13@gmail.com	8181
+204	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-28	lisa	gutierrez	female	22	isidro casanova	tbrown@yahoo.com	1765
+207	universidad abierta interamericana	ingeniería electrónica	2020-09-26	nichole	garrison	female	19	arroyo magdalena	kennethcrawford@gmail.com	3317
+1146	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-10-24	latoya	walls	female	82	arroyo magdalena	shawmartha@gmail.com	3317
+208	universidad abierta interamericana	licenciatura en administración	2020-09-16	lindsey	mason	female	26	azteazu	joneskenneth@gmail.com	6365
+209	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-14	justin	white	male	32	arroyo castillo	sabrina18@yahoo.com	3460
+211	universidad abierta interamericana	bioquímica	2020-12-28	natasha	miller	female	95	temperley	patriciabaker@hotmail.com	1834
+212	universidad abierta interamericana	técnico para bioterios	2021-01-31	shane	blackwell	male	20	hospital necochea	hollycabrera@yahoo.com	7630
+651	universidad abierta interamericana	farmacia	2020-11-14	joseph	bennett	male	39	hospital necochea	barretterin@yahoo.com	7630
+1379	universidad abierta interamericana	ingeniería mecánica	2020-11-23	grant	sanchez	male	76	hospital necochea	michellemolina@hotmail.com	7630
+214	universidad abierta interamericana	ingeniería en informática	2021-01-24	nicholas	barber	male	32	aldecon	meredith50@gmail.com	7406
+1252	universidad abierta interamericana	licenciatura en administración	2020-10-12	cody	maldonado	male	73	aldecon	ajackson@gmail.com	7406
+215	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-12-15	angela	reid	female	33	bella vista	benjaminhenderson@hotmail.com	5835
+1201	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-11-09	matthew	mathis	male	27	bella vista	christophersmith@hotmail.com	5835
+216	universidad abierta interamericana	diseño industrial	2020-10-09	raymond	rowland	male	98	almacen la colina	roberthernandez@yahoo.com	2740
+220	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-27	christopher	spears	male	31	caseros	kmeyer@yahoo.com	3262
+1758	universidad abierta interamericana	bioquímica	2020-09-21	betty	dominguez	female	87	caseros	chase31@yahoo.com	3262
+222	universidad abierta interamericana	técnico para bioterios	2021-01-05	bethany	herman	female	81	san mayol	melissawilliams@hotmail.com	7519
+1564	universidad abierta interamericana	licenciatura en sociología	2020-10-14	michael	washington	male	64	san mayol	bradleyjohnny@yahoo.com	7519
+1581	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-11	victoria	carr	female	62	san mayol	vschneider@gmail.com	7519
+223	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-30	trevor	duncan	male	21	buena nueva	dsmith@hotmail.com	5523
+224	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-25	parker	bell	male	66	barrio el tontal	greenallen@yahoo.com	5401
+265	universidad abierta interamericana	licenciatura en administración	2020-10-07	diana	lynn	female	33	barrio el tontal	orrmelanie@yahoo.com	5401
+505	universidad abierta interamericana	actuario	2020-10-03	michelle	wilson	female	71	barrio el tontal	gnewton@hotmail.com	5401
+1369	universidad abierta interamericana	licenciatura en sociología	2020-09-17	luke	stevenson	male	83	barrio el tontal	smithdwayne@hotmail.com	5401
+225	universidad abierta interamericana	bioquímica	2020-10-02	walter	padilla	male	47	adolfo gonzales chaves	amejia@gmail.com	7513
+1587	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-20	eric	buchanan	male	30	adolfo gonzales chaves	lauren05@yahoo.com	7513
+226	universidad abierta interamericana	arquitectura	2020-09-23	danielle	schmidt	female	54	arroyo el mocho	christine69@hotmail.com	3212
+229	universidad abierta interamericana	licenciatura en ciencia política	2020-10-05	victoria	meyers	female	76	alvarez de toledo	hawkinsjennifer@hotmail.com	7267
+230	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-13	evelyn	lane	female	55	cabure	bradyyoung@gmail.com	3371
+1771	universidad abierta interamericana	contador público	2020-12-04	daniel	davis	male	53	cabure	nicholas03@gmail.com	3371
+232	universidad abierta interamericana	licenciatura en artes	2020-09-02	christina	collins	female	100	quilmes oeste	michaelharris@gmail.com	1879
+233	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-11	james	gregory	male	56	deferrari	clarkbrian@hotmail.com	7521
+235	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-22	brenda	schmidt	female	92	cabreria	glee@yahoo.com	4655
+423	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-12	christine	charles	female	43	cabreria	qbarber@gmail.com	4655
+635	universidad abierta interamericana	ciencias veterinarias	2020-11-17	john	little	male	70	cabreria	fbean@gmail.com	4655
+1264	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-11	kerri	diaz	female	46	cabreria	washingtonblake@yahoo.com	4655
+236	universidad abierta interamericana	bioquímica	2020-11-13	carla	brooks	female	45	cholila	russellmichelle@hotmail.com	9217
+238	universidad abierta interamericana	técnico para bioterios	2020-11-13	frank	diaz	male	31	colonia rusa	rodriguezjon@yahoo.com	8332
+239	universidad abierta interamericana	medicina	2020-11-05	kristen	maldonado	female	30	avena	padillateresa@hotmail.com	2449
+1505	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-28	andrea	dixon	female	71	avena	richard83@yahoo.com	2449
+1724	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-16	debbie	thompson	female	23	avena	tamara01@gmail.com	2449
+241	universidad abierta interamericana	agronomía	2021-01-16	erin	bryant	female	27	costa grande	jonespamela@yahoo.com	3425
+242	universidad abierta interamericana	licenciatura en artes	2020-12-10	carolyn	marquez	female	92	bajo de los huesos	wilsonadriana@hotmail.com	9103
+481	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-28	margaret	wilson	female	53	bajo de los huesos	wgraham@gmail.com	9103
+751	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-27	jeffrey	simpson	male	35	bajo de los huesos	saguirre@gmail.com	9103
+1600	universidad abierta interamericana	actuario	2020-09-02	kaitlyn	nguyen	female	83	bajo de los huesos	kstevens@yahoo.com	9103
+244	universidad abierta interamericana	agronomía	2020-10-01	marc	smith	male	64	jose maria blanco	lorettaalexander@hotmail.com	6409
+584	universidad abierta interamericana	licenciatura en ciencia política	2020-10-10	lindsey	stanley	female	36	jose maria blanco	kelleyteresa@hotmail.com	6409
+1226	universidad abierta interamericana	licenciatura en sociología	2020-10-12	crystal	arnold	female	34	jose maria blanco	irivera@gmail.com	6409
+245	universidad abierta interamericana	licenciatura en administración	2020-11-08	johnny	reid	male	73	algarrobo	marshallzachary@gmail.com	8136
+400	universidad abierta interamericana	actuario	2020-10-24	sheri	doyle	female	53	algarrobo	ujones@gmail.com	8136
+1788	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-22	laura	smith	female	35	algarrobo	curtisstein@hotmail.com	8136
+246	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-24	lee	leach	male	18	abra baya	nfoster@gmail.com	4137
+856	universidad abierta interamericana	medicina	2020-10-09	victoria	english	female	32	abra baya	lisa78@gmail.com	4137
+1061	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-11-08	darrell	johnson	male	96	abra baya	janice15@yahoo.com	4137
+247	universidad abierta interamericana	contador público	2020-12-27	kathleen	paul	female	63	ochenta y cuatro	hmiller@hotmail.com	5633
+1466	universidad abierta interamericana	ingeniería electrónica	2020-09-18	brad	johnson	male	48	ochenta y cuatro	riveracaleb@gmail.com	5633
+249	universidad abierta interamericana	agronomía	2020-11-21	peter	keller	male	52	colonia beaufort	cmendoza@yahoo.com	6331
+1603	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-27	david	taylor	male	94	colonia beaufort	xortiz@gmail.com	6331
+250	universidad abierta interamericana	licenciatura en administración	2020-09-30	colin	smith	male	88	longchamps	wendysherman@gmail.com	1854
+498	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-04	tracey	moore	female	57	longchamps	carolinemccall@gmail.com	1854
+251	universidad abierta interamericana	diseño industrial	2020-11-11	andrew	mills	male	33	kilometro 47	calebcarrillo@hotmail.com	5624
+1289	universidad abierta interamericana	licenciatura en sociología	2020-09-10	mark	parker	male	66	kilometro 47	award@yahoo.com	5624
+252	universidad abierta interamericana	bioquímica	2020-09-20	joshua	simpson	male	70	adolfo j pomar	brett13@hotmail.com	3337
+253	universidad abierta interamericana	licenciatura en sociología	2020-10-25	dustin	scott	male	47	almacen el descanso	acampbell@gmail.com	2752
+962	universidad abierta interamericana	medicina	2020-10-12	christopher	mccullough	male	50	almacen el descanso	jmyers@yahoo.com	2752
+254	universidad abierta interamericana	licenciatura en sociología	2021-01-25	jeffrey	cowan	male	60	arroyo claro	edwardsamber@yahoo.com	5560
+1753	universidad abierta interamericana	contador público	2020-09-15	susan	austin	female	36	arroyo claro	brucejimenez@gmail.com	5560
+255	universidad abierta interamericana	diseño de imagen y sonido	2020-12-26	dylan	smith	male	54	carlos salas	qschultz@yahoo.com	6453
+256	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-17	gregory	mcdonald	male	62	espartillar	patriciaedwards@gmail.com	8171
+1001	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-27	david	jones	male	93	espartillar	douglaselizabeth@gmail.com	8171
+259	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-11-16	margaret	thompson	female	44	glew	trevorjones@yahoo.com	1856
+528	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-28	robert	schwartz	male	25	glew	harrisonmatthew@yahoo.com	1856
+850	universidad abierta interamericana	licenciatura en artes	2020-11-19	william	finley	male	91	glew	hamiltonbarbara@hotmail.com	1856
+1311	universidad abierta interamericana	contador público	2020-11-06	william	bauer	male	34	glew	aaronmorgan@hotmail.com	1856
+1395	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-11	stacey	gonzalez	female	42	glew	bishopyvonne@yahoo.com	1856
+262	universidad abierta interamericana	contador público	2020-09-15	derrick	zhang	male	68	colonia ensanche sauce	ntate@yahoo.com	3208
+264	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-20	tyler	rogers	male	43	diego lopez	yjones@yahoo.com	3180
+424	universidad abierta interamericana	diseño de imagen y sonido	2020-11-16	frederick	taylor	male	24	diego lopez	gsanders@hotmail.com	3180
+266	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-09-30	kristen	washington	female	77	bonnement	hwatkins@yahoo.com	7223
+1534	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-18	janice	hughes	female	73	bonnement	curtis92@gmail.com	7223
+1839	universidad abierta interamericana	licenciatura en administración	2020-12-10	andrea	mcguire	female	53	bonnement	martineric@gmail.com	7223
+267	universidad abierta interamericana	ciencias veterinarias	2020-10-24	karen	payne	female	34	dudignac	stephanieodonnell@hotmail.com	6505
+268	universidad abierta interamericana	farmacia	2020-10-01	edwin	dominguez	male	83	campo zavalla	wilsonjoshua@gmail.com	3045
+704	universidad abierta interamericana	ingeniería mecánica	2020-09-16	john	turner	male	60	campo zavalla	juan46@yahoo.com	3045
+270	universidad abierta interamericana	actuario	2020-11-23	jeffrey	choi	male	77	colonia bombal y tabanera	achavez@hotmail.com	5607
+513	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-07	donna	warner	female	40	colonia bombal y tabanera	lopezjon@gmail.com	5607
+271	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-01	victoria	garcia	female	77	alfaland	anthony52@yahoo.com	5731
+447	universidad abierta interamericana	agronomía	2021-01-10	nicole	davidson	female	89	alfaland	alicia63@yahoo.com	5731
+272	universidad abierta interamericana	farmacia	2021-01-08	audrey	swanson	female	73	bahia solano	kristie47@gmail.com	9003
+1194	universidad abierta interamericana	licenciatura en ciencias de la computación	2021-01-31	alyssa	jordan	female	71	bahia solano	kristen98@yahoo.com	9003
+275	universidad abierta interamericana	licenciatura en ciencia política	2021-01-07	rachel	smith	female	90	aguirrezabala	fkane@yahoo.com	2915
+483	universidad abierta interamericana	ingeniería en informática	2021-01-02	richard	ponce	male	20	aguirrezabala	xfaulkner@gmail.com	2915
+1455	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-09	tina	andrews	female	20	aguirrezabala	bensonsharon@yahoo.com	2915
+276	universidad abierta interamericana	farmacia	2020-12-08	brianna	lopez	female	51	cinco saltos	michaelclark@yahoo.com	8303
+278	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-10-15	shelley	livingston	female	87	empalme san carlos	padillakathy@yahoo.com	3007
+305	universidad abierta interamericana	medicina	2020-10-17	ashley	rivas	female	62	empalme san carlos	melvin06@hotmail.com	3007
+1657	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-06	kathleen	thomas	female	98	empalme san carlos	thomaspaige@gmail.com	3007
+280	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-28	robert	ortiz	male	86	villa ballester	lacey21@hotmail.com	1653
+319	universidad abierta interamericana	ingeniería electrónica	2021-01-19	john	allen	male	57	villa ballester	lauren82@yahoo.com	1653
+283	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-14	joseph	ray	male	26	remedios de escalada	eevans@hotmail.com	1826
+815	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-16	jessica	perez	female	32	remedios de escalada	roseamanda@hotmail.com	1826
+284	universidad abierta interamericana	licenciatura en administración	2021-01-19	joann	smith	female	68	alanices	beth74@yahoo.com	5771
+872	universidad abierta interamericana	ingeniería en informática	2020-10-20	james	johnson	male	23	alanices	santosantonio@yahoo.com	5771
+288	universidad abierta interamericana	bioquímica	2020-10-12	william	clark	male	89	atencio	aaron51@gmail.com	3187
+378	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-19	elizabeth	suarez	female	76	atencio	courtneybaker@hotmail.com	3187
+959	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-24	lisa	roach	female	36	atencio	jermaine58@hotmail.com	3187
+290	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-08	cynthia	davis	female	22	carlos casares	russellsteven@hotmail.com	6530
+451	universidad abierta interamericana	técnico para bioterios	2020-09-18	david	knox	male	44	carlos casares	abigail81@hotmail.com	6530
+808	universidad abierta interamericana	ciencias veterinarias	2020-11-15	daniel	lewis	male	30	carlos casares	julie78@yahoo.com	6530
+291	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-04	christopher	carney	male	57	avenida ejercito parana	oevans@hotmail.com	3100
+1144	universidad abierta interamericana	arquitectura	2020-12-05	nathan	dickson	male	60	avenida ejercito parana	tonythompson@hotmail.com	3100
+292	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-14	chelsea	hodge	female	52	arribeños	luke09@gmail.com	6007
+294	universidad abierta interamericana	arquitectura	2021-01-29	zachary	irwin	male	29	los laureles	christian60@hotmail.com	3199
+327	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-30	yvonne	hernandez	female	90	los laureles	jbrooks@yahoo.com	3199
+640	universidad abierta interamericana	ingeniería electrónica	2020-12-20	carly	hill	female	89	los laureles	kwilson@yahoo.com	3199
+1251	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-04	cody	leon	male	59	los laureles	jordanjudith@gmail.com	3199
+295	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-30	joel	bennett	male	77	aldea san jorge	bauerkristen@hotmail.com	3252
+297	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-03	gregory	parker	male	35	la isabel	laurenmurphy@hotmail.com	5743
+298	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-10-28	robert	sparks	male	91	villa lerga	bellgeorge@hotmail.com	5424
+846	universidad abierta interamericana	licenciatura en psicología	2020-10-10	maria	whitaker	female	49	villa lerga	evansjoseph@yahoo.com	5424
+300	universidad abierta interamericana	agronomía	2021-01-21	joseph	byrd	male	53	colonia campo piaggio	hardingnicole@gmail.com	2252
+301	universidad abierta interamericana	medicina	2021-01-08	yvonne	smith	female	53	bartolome mitre	esavage@yahoo.com	3418
+303	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-10-14	aaron	decker	male	48	barrio trocha	zpark@yahoo.com	2700
+304	universidad abierta interamericana	farmacia	2021-01-01	debra	howell	female	48	lierra adjemiro	ericsmith@hotmail.com	2718
+908	universidad abierta interamericana	ciencias veterinarias	2020-11-19	kenneth	ali	male	59	lierra adjemiro	brandon22@hotmail.com	2718
+307	universidad abierta interamericana	licenciatura en ciencia política	2020-11-04	james	green	male	43	general gutierrez	rebeccaford@yahoo.com	5511
+308	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-24	jordan	powers	male	64	cululu	bryan59@gmail.com	3023
+309	universidad abierta interamericana	diseño de imagen y sonido	2020-11-18	christian	foster	male	27	campamento sol	caseyharris@gmail.com	8319
+311	universidad abierta interamericana	licenciatura en psicología	2020-10-17	bryan	bridges	male	57	aguas calientes	fordjohnny@yahoo.com	4518
+1346	universidad abierta interamericana	arquitectura	2020-12-27	michael	green	male	93	aguas calientes	kcook@yahoo.com	4518
+312	universidad abierta interamericana	ciencias veterinarias	2020-12-12	alexander	smith	male	46	alcaraz 1ro	debra24@gmail.com	3144
+313	universidad abierta interamericana	medicina	2020-09-16	samuel	brown	male	86	san clemente del tuyu	coxryan@yahoo.com	7105
+314	universidad abierta interamericana	ingeniería electrónica	2020-10-22	sherry	mccoy	female	67	7 de abril	morgan18@yahoo.com	4195
+1381	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-07	danielle	wright	female	59	7 de abril	dcummings@gmail.com	4195
+316	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-17	craig	oliver	male	91	agua rica	tsaunders@gmail.com	5611
+317	universidad abierta interamericana	agronomía	2020-09-24	luis	vaughn	male	34	punta lara	james12@gmail.com	1931
+318	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-27	jeffrey	wright	male	41	arroyo caraballo	austin54@gmail.com	3265
+320	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-25	kenneth	macias	male	45	los cardos	zmurphy@hotmail.com	2533
+322	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-21	gina	marquez	female	59	cucha cucha	pbaxter@yahoo.com	6746
+323	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-13	jared	zimmerman	male	69	bustamante	john10@hotmail.com	4184
+337	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-04	william	ray	male	43	bustamante	fdrake@gmail.com	4184
+664	universidad abierta interamericana	licenciatura en sociología	2020-11-16	amanda	cunningham	female	41	bustamante	fosterjennifer@hotmail.com	4184
+325	universidad abierta interamericana	ciencias veterinarias	2020-11-15	brandon	gutierrez	male	20	san lorenzo	vroberts@hotmail.com	5757
+1653	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-02	michael	murphy	male	37	san lorenzo	murraydenise@gmail.com	5757
+328	universidad abierta interamericana	licenciatura en ciencia política	2020-11-30	matthew	guzman	male	53	san marcelo	sullivanjohn@hotmail.com	6009
+331	universidad abierta interamericana	diseño de imagen y sonido	2021-01-19	karen	lopez	female	48	bombal	colejeremy@gmail.com	2179
+1187	universidad abierta interamericana	farmacia	2020-11-07	maria	phillips	female	56	bombal	epatrick@hotmail.com	2179
+332	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-13	vickie	perez	female	29	gouin	ashleyhess@gmail.com	6727
+334	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-13	laurie	nixon	female	61	caraguatay	kristinehess@gmail.com	3557
+335	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-10-24	megan	pittman	female	21	colonia rivas	sonyajones@gmail.com	3164
+338	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-24	bryan	torres	male	84	amberes	manuel44@hotmail.com	4144
+903	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-10-30	kenneth	carpenter	male	95	amberes	jacobbautista@hotmail.com	4144
+339	universidad abierta interamericana	licenciatura en artes	2020-09-13	melanie	henry	female	45	bajo de los sueldos	sanchezmonique@hotmail.com	4151
+340	universidad abierta interamericana	ingeniería electrónica	2020-11-16	isaiah	calhoun	male	43	colonia los zapallos	brandon49@hotmail.com	3003
+341	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-02	stephanie	clark	female	51	campo charo	williamsjacqueline@yahoo.com	2512
+1129	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-06	jacqueline	phillips	female	23	campo charo	terri56@hotmail.com	2512
+343	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-12-15	jennifer	lang	female	35	catinzaco	millerrobert@yahoo.com	5374
+835	universidad abierta interamericana	técnico para bioterios	2020-12-17	katherine	anderson	female	64	catinzaco	julie31@yahoo.com	5374
+344	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-23	morgan	thomas	female	78	agua salada	eric55@hotmail.com	5751
+1035	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-03	debra	mckinney	female	39	agua salada	juarezlarry@yahoo.com	5751
+345	universidad abierta interamericana	contador público	2020-11-18	jeffrey	robinson	male	86	kilmetro 165	ffarrell@hotmail.com	3153
+347	universidad abierta interamericana	diseño de imagen y sonido	2020-10-03	chad	harrington	male	58	el socorro	samantha87@yahoo.com	2715
+1008	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-02	debra	stewart	female	43	el socorro	danieltaylor@yahoo.com	2715
+1610	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-18	paul	torres	male	49	el socorro	tomriley@yahoo.com	2715
+349	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-03	christopher	snyder	male	54	despeñaderos	allendiane@gmail.com	7531
+350	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-09	gabrielle	cox	female	48	achaval rodriguez	ahendricks@hotmail.com	2344
+1227	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-05	randy	george	male	57	achaval rodriguez	kelsey29@gmail.com	2344
+352	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-29	gail	baker	female	28	colonia gobernador ayala	katiereyes@hotmail.com	8307
+357	universidad abierta interamericana	ingeniería en informática	2020-11-24	lori	benjamin	female	65	barrio batan	williamgalloway@hotmail.com	7601
+890	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-28	sean	fletcher	male	23	barrio batan	ojohnston@gmail.com	7601
+361	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-10-11	lisa	wilson	female	30	colonia nac de alienados	mosleycrystal@gmail.com	6708
+733	universidad abierta interamericana	bioquímica	2020-12-27	robert	bernard	male	63	colonia nac de alienados	kruegerrobert@hotmail.com	6708
+852	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-16	daniel	rojas	male	85	colonia nac de alienados	evansnathan@yahoo.com	6708
+362	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-12-06	angela	newman	female	63	esmeralda	belljulie@gmail.com	2456
+1449	universidad abierta interamericana	bioquímica	2020-09-02	thomas	chapman	male	93	esmeralda	vjohnson@yahoo.com	2456
+1707	universidad abierta interamericana	licenciatura en relaciones del trabajo	2021-01-30	cynthia	white	female	89	esmeralda	linda30@yahoo.com	2456
+365	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-13	ashley	skinner	female	30	apoyaco	cynthiawest@gmail.com	5317
+366	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-22	amanda	stephens	female	86	villa de mayo	barnesbethany@hotmail.com	1614
+367	universidad abierta interamericana	medicina	2020-10-08	brian	bell	male	100	altona	william62@hotmail.com	7303
+536	universidad abierta interamericana	actuario	2020-12-09	jason	obrien	male	62	altona	sherrishaw@hotmail.com	7303
+586	universidad abierta interamericana	medicina	2020-11-15	jason	chavez	male	68	altona	wharris@gmail.com	7303
+1380	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-10-02	megan	crawford	female	94	altona	matthew43@gmail.com	7303
+369	universidad abierta interamericana	contador público	2020-10-11	johnny	santos	male	81	alta italia	ubryant@gmail.com	6207
+590	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-08	krista	ray	female	53	alta italia	wmejia@yahoo.com	6207
+370	universidad abierta interamericana	farmacia	2021-01-27	brandon	davis	male	50	saladillo norte	aray@hotmail.com	7261
+375	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-11	john	gates	male	33	saladillo norte	michaelchristensen@hotmail.com	7261
+617	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-05	robert	flores	male	59	saladillo norte	howardkyle@gmail.com	7261
+371	universidad abierta interamericana	bioquímica	2020-09-23	karen	lucas	female	26	albardon	qwilliams@yahoo.com	3412
+372	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-25	cheryl	mcdonald	female	71	cañadon caliente	fthompson@gmail.com	9213
+373	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-09	shane	smith	male	32	el jupiter	rachel78@yahoo.com	2916
+1511	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-24	william	davis	male	82	el jupiter	nancyjohns@yahoo.com	2916
+374	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-28	jennifer	cordova	female	69	aldao	megan42@hotmail.com	2214
+377	universidad abierta interamericana	diseño de imagen y sonido	2020-12-04	zachary	harris	male	78	baterias	mjohnson@yahoo.com	8113
+380	universidad abierta interamericana	actuario	2021-01-22	crystal	henderson	female	100	bonifacio	colemansteven@yahoo.com	6439
+383	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-27	christina	farley	female	99	wilde	brittanyholt@yahoo.com	1875
+391	universidad abierta interamericana	arquitectura	2020-09-11	donna	johnson	female	50	wilde	egonzales@hotmail.com	1875
+1031	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-13	amy	livingston	female	51	wilde	samantha29@hotmail.com	1875
+386	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-12	paul	may	male	66	cañada de las vacas	moorestephen@yahoo.com	9305
+387	universidad abierta interamericana	diseño de imagen y sonido	2020-12-12	robert	thomas	male	33	la lucila del mar	goodmanmary@yahoo.com	7113
+388	universidad abierta interamericana	actuario	2021-01-08	james	ferguson	male	62	alto con zampa	andersonlisa@hotmail.com	5594
+721	universidad abierta interamericana	diseño industrial	2020-11-29	kathryn	perez	female	93	alto con zampa	jerrymack@hotmail.com	5594
+389	universidad abierta interamericana	licenciatura en ciencia política	2020-12-15	mark	sanders	male	31	la torrecita	coryacosta@hotmail.com	6553
+408	universidad abierta interamericana	bioquímica	2020-11-29	matthew	bolton	male	40	la torrecita	kschmitt@gmail.com	6553
+1485	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-13	jeremy	nelson	male	85	la torrecita	ewade@gmail.com	6553
+1496	universidad abierta interamericana	diseño industrial	2020-12-07	william	roberts	male	32	la torrecita	robertmoreno@yahoo.com	6553
+392	universidad abierta interamericana	contador público	2020-11-06	linda	bowen	female	48	anillaco	clinton87@gmail.com	5341
+393	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-27	benjamin	perry	male	88	alferez san martin	pabbott@gmail.com	8117
+394	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-28	brenda	martinez	female	73	la pelada	luke94@yahoo.com	3027
+396	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-10	linda	taylor	female	20	pozo navagan	wpham@hotmail.com	3621
+397	universidad abierta interamericana	medicina	2020-12-24	danielle	herrera	female	74	avellaneda	jameskelly@hotmail.com	3561
+399	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-13	nicole	moore	female	63	acostilla	john02@yahoo.com	4701
+1628	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-03	christina	allen	female	54	acostilla	javier17@hotmail.com	4701
+403	universidad abierta interamericana	agronomía	2021-01-15	scott	miller	male	68	colonia lote 12	michaelmendoza@gmail.com	3543
+405	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-11-11	jason	perry	male	31	caminera	vanessahayes@hotmail.com	8370
+407	universidad abierta interamericana	farmacia	2020-11-09	jennifer	jackson	female	51	campo gimenez	linda98@gmail.com	2253
+463	universidad abierta interamericana	medicina	2021-01-13	samantha	ray	female	63	campo gimenez	natalie32@hotmail.com	2253
+1464	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-16	stacy	perkins	female	78	campo gimenez	fjohnson@yahoo.com	2253
+1762	universidad abierta interamericana	contador público	2020-11-19	madison	myers	female	43	campo gimenez	jarnold@hotmail.com	2253
+409	universidad abierta interamericana	ingeniería electrónica	2020-12-26	natasha	little	female	40	chapi talo	chernandez@hotmail.com	6341
+1841	universidad abierta interamericana	ingeniería en informática	2020-09-18	james	gray	male	75	chapi talo	melindajohnson@hotmail.com	6341
+410	universidad abierta interamericana	licenciatura en ciencias biológicas	2021-01-25	gabrielle	lee	female	85	ancon	kiara95@yahoo.com	6451
+413	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-16	kristen	potter	female	29	carmen de areco	ihall@gmail.com	6725
+414	universidad abierta interamericana	contador público	2020-10-14	tamara	harris	female	41	huanguelen	uhancock@yahoo.com	7545
+1014	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-28	karen	jordan	female	60	huanguelen	dorothydiaz@hotmail.com	7545
+415	universidad abierta interamericana	licenciatura en ciencia política	2020-12-09	michael	tran	male	40	base naval rio santiago	nataliewatts@gmail.com	1929
+418	universidad abierta interamericana	ingeniería en informática	2020-10-30	samantha	day	female	69	cañadon de las vacas	teresasmith@gmail.com	9300
+419	universidad abierta interamericana	licenciatura en sociología	2021-01-30	jeffrey	brown	male	20	kilometro 374	andreafaulkner@gmail.com	3446
+804	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-22	natalie	king	female	33	kilometro 374	mary06@gmail.com	3446
+420	universidad abierta interamericana	contador público	2021-01-21	ryan	graham	male	18	alto las lechuzas	gregory49@hotmail.com	4147
+1313	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-27	melinda	king	female	68	alto las lechuzas	jonesmegan@gmail.com	4147
+1692	universidad abierta interamericana	farmacia	2020-09-13	jackie	patrick	female	24	alto las lechuzas	yvonnehayes@yahoo.com	4147
+421	universidad abierta interamericana	licenciatura en ciencia política	2020-11-12	jose	lopez	male	83	alegria	kwalker@hotmail.com	6389
+422	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-09-01	nicole	davis	female	34	carlos maria naon	jillian22@yahoo.com	6515
+947	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-06	craig	haley	male	54	carlos maria naon	marksalyssa@hotmail.com	6515
+425	universidad abierta interamericana	licenciatura en ciencias de la computación	2021-01-26	travis	taylor	male	65	libertad	martinezeric@yahoo.com	1716
+426	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-25	daniel	davis	male	26	alto de las plumas	robert15@gmail.com	9101
+571	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-28	jared	kidd	male	100	alto de las plumas	latoya97@hotmail.com	9101
+427	universidad abierta interamericana	medicina	2021-01-07	debra	ryan	female	88	rafael calzada	nashshane@yahoo.com	1847
+432	universidad abierta interamericana	medicina	2021-01-29	victoria	thornton	female	83	rio mayo	thompsonmichelle@gmail.com	9030
+1095	universidad abierta interamericana	agronomía	2020-10-01	david	rivas	male	42	rio mayo	angelacook@hotmail.com	9030
+1268	universidad abierta interamericana	ingeniería mecánica	2020-12-07	michelle	gross	female	41	rio mayo	brent28@gmail.com	9030
+436	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-07	ian	johns	male	32	campo garay	jaredbrewer@yahoo.com	3066
+437	universidad abierta interamericana	diseño de imagen y sonido	2020-09-06	pamela	martinez	female	96	arroyo molino	fergusonrebecca@yahoo.com	3260
+438	universidad abierta interamericana	ingeniería electrónica	2020-10-15	tony	li	male	44	campo de los toros	murphykara@hotmail.com	6311
+442	universidad abierta interamericana	ciencias veterinarias	2021-01-30	alan	harris	male	54	badano	sgutierrez@hotmail.com	6403
+1275	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-15	kevin	ward	male	66	badano	amandahayden@gmail.com	6403
+444	universidad abierta interamericana	licenciatura en ciencia política	2020-09-05	diana	long	female	72	colonia margarita	gonzalestodd@gmail.com	2443
+980	universidad abierta interamericana	licenciatura en artes	2020-09-21	suzanne	johnston	female	77	colonia margarita	brownbrian@hotmail.com	2443
+448	universidad abierta interamericana	farmacia	2021-01-22	claudia	gardner	female	42	cataratas del iguazu	gtorres@gmail.com	3372
+1099	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-25	taylor	anderson	male	42	cataratas del iguazu	staceysmith@hotmail.com	3372
+449	universidad abierta interamericana	licenciatura en psicología	2020-09-04	derek	adams	male	89	luis chico	nolanshannon@yahoo.com	1917
+1768	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-04	russell	valenzuela	male	57	luis chico	lori30@gmail.com	1917
+450	universidad abierta interamericana	agronomía	2020-09-21	sabrina	pearson	female	91	arroyo cahunco	douglascox@gmail.com	8347
+1074	universidad abierta interamericana	agronomía	2020-12-18	david	reyes	male	88	arroyo cahunco	vwood@hotmail.com	8347
+1190	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-15	glenda	stephens	female	92	arroyo cahunco	ulewis@gmail.com	8347
+455	universidad abierta interamericana	contador público	2021-01-05	maurice	jones	male	61	colonia ferrari	nelsonsheryl@gmail.com	7172
+456	universidad abierta interamericana	farmacia	2020-10-04	kristina	perez	female	83	bagual	clintonholmes@hotmail.com	6216
+538	universidad abierta interamericana	técnico para bioterios	2020-12-14	renee	frost	female	78	bagual	jacquelinejohnson@hotmail.com	6216
+458	universidad abierta interamericana	actuario	2020-09-13	priscilla	torres	female	22	barros pazos	kelly86@gmail.com	3569
+460	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-16	carla	kelley	female	81	colonia cello	david15@gmail.com	2405
+462	universidad abierta interamericana	licenciatura en administración	2020-10-30	john	diaz	male	34	isla	kathleenhernandez@yahoo.com	5873
+1096	universidad abierta interamericana	ingeniería en informática	2020-11-27	deborah	williams	female	93	isla	kellydavid@gmail.com	5873
+1375	universidad abierta interamericana	medicina	2020-12-04	ashley	sweeney	female	35	isla	lewispaula@yahoo.com	5873
+1425	universidad abierta interamericana	contador público	2020-12-01	seth	nunez	male	53	isla	hillmichael@yahoo.com	5873
+464	universidad abierta interamericana	licenciatura en sociología	2020-11-27	amanda	wilson	female	81	estacion mazan	marknorris@yahoo.com	5313
+1250	universidad abierta interamericana	bioquímica	2020-09-07	danielle	robertson	female	45	estacion mazan	bergnathan@gmail.com	5313
+465	universidad abierta interamericana	licenciatura en administración	2021-01-28	catherine	silva	female	41	arroyo ceibal	sharontucker@yahoo.com	3575
+1625	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-15	keith	brooks	male	84	arroyo ceibal	gjacobs@hotmail.com	3575
+467	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-22	christian	johnson	male	25	godoy	tami91@hotmail.com	2921
+470	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-01	angela	clarke	female	75	cuartel vii	aschmidt@yahoo.com	6050
+576	universidad abierta interamericana	ingeniería en informática	2021-01-24	dawn	mayer	female	26	cuartel vii	jennifer74@yahoo.com	6050
+472	universidad abierta interamericana	contador público	2021-01-20	justin	jackson	male	98	chamical	wilsonjuan@hotmail.com	5380
+474	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-18	louis	jimenez	male	56	bonpland	xstevenson@gmail.com	3234
+476	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-04	mary	hughes	female	93	bordenave	ycastillo@gmail.com	8187
+477	universidad abierta interamericana	actuario	2020-11-10	greg	peterson	male	79	el gualicho	christine66@gmail.com	7200
+1027	universidad abierta interamericana	licenciatura en ciencia política	2020-12-25	brittany	neal	female	26	el gualicho	david59@yahoo.com	7200
+1222	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-14	melanie	drake	female	39	el gualicho	fitzgeraldpeter@yahoo.com	7200
+478	universidad abierta interamericana	farmacia	2020-12-30	karen	ross	female	19	el chumbeau	tgreen@hotmail.com	7263
+479	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-27	abigail	brown	female	49	grand bourg	bentonheather@gmail.com	1615
+1125	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-09	teresa	richard	female	28	grand bourg	erikwang@yahoo.com	1615
+482	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-14	madison	harris	female	53	el retiro	catherinedonovan@gmail.com	3522
+936	universidad abierta interamericana	agronomía	2020-11-24	cody	vargas	male	76	el retiro	jesus91@hotmail.com	3522
+1049	universidad abierta interamericana	bioquímica	2020-11-16	robert	buchanan	male	49	el retiro	ftodd@yahoo.com	3522
+1398	universidad abierta interamericana	actuario	2021-01-11	stephanie	valentine	female	74	el retiro	benjaminwilson@hotmail.com	3522
+486	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-11-18	jason	nelson	male	69	cañada seca	heather48@hotmail.com	6105
+489	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-29	paul	page	male	43	del viso	henry96@yahoo.com	1669
+1658	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-02-01	donald	miller	male	49	del viso	jeffreygreen@gmail.com	1669
+491	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-10-15	ronald	lewis	male	70	centinela	bobby71@hotmail.com	3306
+526	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-15	dana	fischer	female	46	centinela	xadams@hotmail.com	3306
+492	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-10-25	jessica	miles	female	78	dina huapi	crystal05@gmail.com	8402
+1142	universidad abierta interamericana	licenciatura en administración	2020-10-28	jessica	rose	female	77	dina huapi	matthewgrimes@hotmail.com	8402
+1690	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-19	shannon	yoder	female	33	dina huapi	kpatterson@hotmail.com	8402
+494	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-12	sherri	diaz	female	54	frigorifico cap	elizabeth22@hotmail.com	9421
+496	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-26	nicholas	ferguson	male	88	estancia santa catalina	oliverjohn@gmail.com	2761
+497	universidad abierta interamericana	licenciatura en ciencia política	2021-01-03	jonathan	smith	male	27	grutly	scottkurt@gmail.com	3083
+1543	universidad abierta interamericana	diseño de imagen y sonido	2020-11-25	richard	hanson	male	24	grutly	elizabethbennett@gmail.com	3083
+501	universidad abierta interamericana	agronomía	2021-01-12	kyle	cardenas	male	38	colonia abate	cabbott@hotmail.com	3732
+532	universidad abierta interamericana	licenciatura en artes	2020-10-01	jordan	woods	male	37	colonia abate	brandoncastillo@hotmail.com	3732
+503	universidad abierta interamericana	técnico para bioterios	2020-09-22	erin	rodriguez	female	44	la tranca	uthomas@hotmail.com	5421
+504	universidad abierta interamericana	técnico para bioterios	2020-12-11	james	ramos	male	18	cortaderas	joseph20@yahoo.com	4237
+506	universidad abierta interamericana	técnico para bioterios	2020-10-17	robyn	terrell	female	19	alto jaguel	dawn14@yahoo.com	5359
+510	universidad abierta interamericana	medicina	2021-01-01	chris	lester	male	86	cascada	moonvictoria@hotmail.com	7547
+511	universidad abierta interamericana	actuario	2020-12-18	joshua	houston	male	40	coronel pringles	teresa54@hotmail.com	7530
+920	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-17	tiffany	zhang	female	68	coronel pringles	adam79@hotmail.com	7530
+515	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-09-08	stephanie	ramirez	female	46	balcosna	lori85@hotmail.com	4719
+1189	universidad abierta interamericana	medicina	2020-10-29	jason	johnson	male	93	balcosna	whiteheadkevin@hotmail.com	4719
+516	universidad abierta interamericana	licenciatura en psicología	2021-01-18	laura	frey	female	96	diamante	teresastevens@yahoo.com	3105
+519	universidad abierta interamericana	medicina	2021-01-11	jason	hunt	male	93	emilio lamarca	nosborn@gmail.com	8505
+520	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-17	thomas	rodriguez	male	70	kilometro 184	lindseyphillips@hotmail.com	3620
+820	universidad abierta interamericana	licenciatura en psicología	2020-10-08	james	wade	male	52	kilometro 184	joshuajones@yahoo.com	3620
+522	universidad abierta interamericana	diseño industrial	2020-10-17	robert	chen	male	31	meson de fierro	andreanichols@hotmail.com	3731
+1365	universidad abierta interamericana	ingeniería en informática	2020-09-15	christopher	brooks	male	38	meson de fierro	gonzalesthomas@yahoo.com	3731
+529	universidad abierta interamericana	agronomía	2020-11-23	patrick	murray	male	93	la chilca	jennifer21@yahoo.com	5779
+845	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-27	kevin	barajas	male	97	la chilca	markcabrera@yahoo.com	5779
+1114	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-28	alan	smith	male	91	la chilca	alyssamontgomery@yahoo.com	5779
+531	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-02	dustin	kelly	male	30	lomas del mirador	rachel26@yahoo.com	1752
+1072	universidad abierta interamericana	licenciatura en administración	2020-10-22	michael	montgomery	male	77	lomas del mirador	joshualewis@yahoo.com	1752
+533	universidad abierta interamericana	bioquímica	2020-12-20	paula	barnes	female	86	la querencia	davidlisa@yahoo.com	2912
+849	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-17	laura	gonzales	female	59	la querencia	dshort@yahoo.com	2912
+534	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-08	marcus	russell	male	30	valentin alsina	yvonnewolfe@yahoo.com	1822
+535	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-09	brian	richards	male	35	ingeniero balbin	gabrieljones@gmail.com	6051
+1580	universidad abierta interamericana	licenciatura en ciencia política	2021-01-29	cameron	clark	male	84	ingeniero balbin	morgan00@gmail.com	6051
+537	universidad abierta interamericana	ingeniería mecánica	2020-09-18	stephanie	lewis	female	77	agote	thensley@hotmail.com	6608
+540	universidad abierta interamericana	farmacia	2021-01-10	sara	parker	female	92	gobernador duval	william27@gmail.com	8336
+834	universidad abierta interamericana	licenciatura en artes	2020-12-20	thomas	porter	male	19	gobernador duval	coryjohnson@hotmail.com	8336
+541	universidad abierta interamericana	licenciatura en sociología	2020-09-17	samuel	pierce	male	55	barrientos	moorekaitlyn@hotmail.com	7247
+546	universidad abierta interamericana	ingeniería electrónica	2020-10-07	morgan	barrera	female	25	armstrong	moondaniel@hotmail.com	2508
+605	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-31	colleen	kane	female	69	armstrong	byrdrebecca@hotmail.com	2508
+547	universidad abierta interamericana	técnico para bioterios	2020-12-11	richard	strong	male	26	arroyo quillen	reginaespinoza@hotmail.com	8341
+550	universidad abierta interamericana	ingeniería mecánica	2020-10-13	rachel	brown	female	58	albarracin	kaylabrown@hotmail.com	5425
+551	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-18	hannah	williamson	female	37	alongo	gallagherluis@hotmail.com	4161
+553	universidad abierta interamericana	licenciatura en ciencia política	2020-12-31	christopher	woods	male	61	la florencia	epeters@hotmail.com	6317
+811	universidad abierta interamericana	contador público	2020-10-01	edwin	brown	male	59	la florencia	thomascrane@gmail.com	6317
+557	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-16	david	gill	male	41	claypole	hernandezkevin@yahoo.com	1849
+558	universidad abierta interamericana	diseño industrial	2020-12-24	jacob	hughes	male	41	arroyo manganga	nmorgan@gmail.com	3220
+1308	universidad abierta interamericana	medicina	2020-10-28	caitlin	mueller	female	80	arroyo manganga	cisnerosraymond@hotmail.com	3220
+559	universidad abierta interamericana	licenciatura en administración	2020-12-06	caleb	evans	male	73	colonia hernandarias	jasonwalker@yahoo.com	3129
+1360	universidad abierta interamericana	licenciatura en psicología	2020-12-27	david	price	male	31	colonia hernandarias	mcculloughchristopher@yahoo.com	3129
+1574	universidad abierta interamericana	ingeniería electrónica	2021-01-19	cheryl	jackson	female	18	colonia hernandarias	triciagomez@hotmail.com	3129
+560	universidad abierta interamericana	arquitectura	2020-09-26	justin	carr	male	23	barrio indio trompa	hayden55@yahoo.com	6400
+1779	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-23	nicole	cunningham	female	71	barrio indio trompa	denisepruitt@hotmail.com	6400
+561	universidad abierta interamericana	contador público	2020-11-06	jamie	williamson	female	43	berisso	francopatricia@gmail.com	2848
+564	universidad abierta interamericana	farmacia	2020-11-24	cristina	dalton	female	81	agua hedionda	randall14@hotmail.com	5705
+566	universidad abierta interamericana	ingeniería electrónica	2021-01-22	teresa	leach	female	81	el carmen	sarah44@hotmail.com	4128
+1807	universidad abierta interamericana	técnico para bioterios	2021-01-21	christopher	johnson	male	46	el carmen	stewartgary@yahoo.com	4128
+568	universidad abierta interamericana	agronomía	2020-09-09	matthew	wheeler	male	53	cervantes	vgonzales@gmail.com	8326
+1812	universidad abierta interamericana	licenciatura en artes	2020-12-14	dwayne	knox	male	83	cervantes	levinedavid@hotmail.com	8326
+569	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-09-10	dan	wu	male	27	campo las puertas	bryanreyes@yahoo.com	3541
+570	universidad abierta interamericana	ciencias veterinarias	2020-09-30	stephanie	watson	female	66	barrio villa cordoba	simpsonbrenda@yahoo.com	3440
+1029	universidad abierta interamericana	licenciatura en artes	2020-09-22	susan	thomas	female	26	barrio villa cordoba	brownchristopher@gmail.com	3440
+1176	universidad abierta interamericana	ingeniería en informática	2020-10-06	kerri	townsend	female	86	barrio villa cordoba	rcobb@hotmail.com	3440
+572	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-21	daniel	robinson	male	78	gobernador roca	mhuynh@yahoo.com	3324
+574	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-31	luke	dixon	male	63	chacras viejas	schaeferkaren@gmail.com	5770
+577	universidad abierta interamericana	ingeniería en informática	2020-12-23	julian	stephenson	male	38	campo horquesco	danielle11@yahoo.com	2144
+578	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-23	nancy	thomas	female	80	barcena	ugarrison@yahoo.com	4616
+581	universidad abierta interamericana	medicina	2020-09-25	sheri	king	female	51	pazos kanki	steven02@hotmail.com	6058
+582	universidad abierta interamericana	ingeniería en informática	2020-12-04	kevin	burke	male	20	empalme	swang@yahoo.com	1633
+583	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-24	joseph	martin	male	56	ciudad jardin del palomar	thill@yahoo.com	1684
+585	universidad abierta interamericana	técnico para bioterios	2020-11-26	jeremy	villegas	male	74	el dique	yatespaula@gmail.com	8500
+587	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-12	julie	stephenson	female	67	chancay	bridget71@yahoo.com	6017
+594	universidad abierta interamericana	licenciatura en ciencia política	2020-09-16	christine	mills	female	79	drabble	ispencer@yahoo.com	6242
+595	universidad abierta interamericana	licenciatura en administración	2020-11-11	alexis	peck	female	35	gobernador crespo	sheilanash@hotmail.com	3044
+598	universidad abierta interamericana	agronomía	2020-12-08	yvonne	ramsey	female	46	ireneo portela	jacquelinemckee@hotmail.com	2943
+599	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-30	matthew	stone	male	57	campo rodriguez	jgarcia@yahoo.com	2255
+1556	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-27	harold	lynn	male	98	campo rodriguez	timothyramirez@hotmail.com	2255
+601	universidad abierta interamericana	licenciatura en sociología	2020-11-23	christopher	may	male	80	capiovi	sarahrogers@hotmail.com	3332
+602	universidad abierta interamericana	actuario	2020-11-01	tina	harris	female	30	planicie banderita	mercerbenjamin@yahoo.com	8301
+1429	universidad abierta interamericana	contador público	2020-12-20	robert	dyer	male	62	planicie banderita	akelly@yahoo.com	8301
+604	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-12-31	sara	stark	female	59	campo ubajo	fgilmore@yahoo.com	3560
+606	universidad abierta interamericana	contador público	2020-09-06	melanie	french	female	79	cafferata	taylorrandy@hotmail.com	2643
+607	universidad abierta interamericana	ingeniería mecánica	2020-09-12	morgan	miller	female	96	antelo	nsmith@gmail.com	3151
+1388	universidad abierta interamericana	contador público	2020-10-18	gerald	koch	male	35	antelo	jaredbrown@gmail.com	3151
+610	universidad abierta interamericana	bioquímica	2020-09-23	pamela	daniels	female	88	isla grande	alexissmith@hotmail.com	8361
+611	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-21	joseph	mullen	male	39	balsa	david60@hotmail.com	6070
+612	universidad abierta interamericana	diseño de imagen y sonido	2020-10-10	lisa	holmes	female	80	comodoro rivadavia	foneal@yahoo.com	9000
+613	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-14	crystal	wu	female	79	wheelwright	brad32@yahoo.com	2722
+732	universidad abierta interamericana	bioquímica	2020-12-19	heather	miller	female	22	wheelwright	walkerluke@hotmail.com	2722
+1845	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-27	amy	camacho	female	78	wheelwright	andersonjohn@hotmail.com	2722
+614	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-08	breanna	jones	female	54	cevil grande	wellsemily@yahoo.com	4155
+1297	universidad abierta interamericana	licenciatura en psicología	2020-09-21	dakota	brooks	male	30	cevil grande	uschroeder@yahoo.com	4155
+615	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-12-18	peter	thompson	male	73	caracoles	johnsonsarah@gmail.com	5557
+616	universidad abierta interamericana	farmacia	2020-11-27	crystal	martinez	female	52	agua los matos	williamscarly@yahoo.com	5265
+1018	universidad abierta interamericana	licenciatura en administración	2020-11-13	michael	barton	male	47	agua los matos	bramirez@hotmail.com	5265
+1064	universidad abierta interamericana	licenciatura en ciencia política	2020-12-05	david	fischer	male	82	agua los matos	jennifersmith@hotmail.com	5265
+1106	universidad abierta interamericana	ciencias veterinarias	2020-11-14	johnathan	michael	male	63	agua los matos	spalmer@yahoo.com	5265
+618	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-18	carl	patel	male	32	cushamen	xgomez@gmail.com	9211
+620	universidad abierta interamericana	medicina	2020-12-23	joseph	patterson	male	24	el trebol	kerrpatricia@yahoo.com	2535
+1123	universidad abierta interamericana	ingeniería electrónica	2020-09-26	kristin	bass	female	86	el trebol	bdavis@gmail.com	2535
+621	universidad abierta interamericana	ciencias veterinarias	2020-12-26	troy	johnston	male	92	bahia langara	wsmith@yahoo.com	9011
+1685	universidad abierta interamericana	ingeniería mecánica	2020-09-09	sandra	terry	female	78	bahia langara	yrodriguez@hotmail.com	9011
+622	universidad abierta interamericana	licenciatura en sociología	2020-09-06	luis	rodriguez	male	75	calera la norma	nhoward@hotmail.com	5315
+1576	universidad abierta interamericana	licenciatura en artes	2020-11-06	jason	rivera	male	37	calera la norma	freyaaron@gmail.com	5315
+623	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-10-01	christopher	hoffman	male	59	carlos keen	stevensadam@gmail.com	6701
+991	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-02	robert	rivera	male	54	carlos keen	jameshouse@hotmail.com	6701
+624	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-29	anna	santana	female	68	cañadon ferrais	tinahill@hotmail.com	9001
+676	universidad abierta interamericana	farmacia	2020-10-05	jeremy	harrington	male	49	cañadon ferrais	jennifer69@yahoo.com	9001
+625	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-31	ryan	hogan	male	98	candioti	henrydavid@hotmail.com	3018
+626	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-23	tyler	fisher	male	32	abbott	harrisdavid@yahoo.com	7228
+630	universidad abierta interamericana	licenciatura en ciencia política	2021-01-09	charlene	salas	female	62	barranqueras	martinantonio@yahoo.com	3503
+1052	universidad abierta interamericana	farmacia	2020-12-23	brett	cole	male	76	barranqueras	matthew74@hotmail.com	3503
+631	universidad abierta interamericana	licenciatura en artes	2020-12-04	christopher	martin	male	91	calera argentina	jsoto@gmail.com	5759
+1015	universidad abierta interamericana	arquitectura	2020-10-08	robert	jones	male	31	calera argentina	asutton@yahoo.com	5759
+632	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-16	kimberly	patterson	female	83	sundblad	hmunoz@yahoo.com	6401
+1301	universidad abierta interamericana	diseño industrial	2020-12-25	brian	david	male	29	sundblad	acooley@yahoo.com	6401
+633	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-25	mitchell	reed	male	19	alto pencoso	michael46@hotmail.com	5724
+1656	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-27	shaun	clark	male	64	alto pencoso	gramirez@gmail.com	5724
+634	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-15	jay	russo	male	57	laguna del barro	genehale@yahoo.com	8514
+1665	universidad abierta interamericana	licenciatura en sociología	2020-12-22	ronald	tate	male	29	laguna del barro	lisa10@yahoo.com	8514
+636	universidad abierta interamericana	diseño de imagen y sonido	2020-11-16	lisa	knapp	female	31	gorchs	armstrongdavid@yahoo.com	7226
+637	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-10-08	jeffrey	ellis	male	36	el horno	carolyncampbell@hotmail.com	5357
+1767	universidad abierta interamericana	diseño industrial	2020-10-19	james	williams	male	98	el horno	mayheather@gmail.com	5357
+638	universidad abierta interamericana	agronomía	2021-01-22	crystal	mora	female	74	florentino ameghino	trevorwalker@hotmail.com	9113
+1116	universidad abierta interamericana	ingeniería mecánica	2020-11-07	gabriel	hunt	male	57	florentino ameghino	ecarpenter@hotmail.com	9113
+1851	universidad abierta interamericana	bioquímica	2021-01-28	antonio	moore	male	95	florentino ameghino	leedavid@yahoo.com	9113
+639	universidad abierta interamericana	licenciatura en artes	2021-01-12	kelly	rodriguez	female	61	campo caretto	kwoodard@hotmail.com	6381
+641	universidad abierta interamericana	licenciatura en artes	2020-12-14	lisa	young	female	70	argentina belvedere	medinahannah@gmail.com	6367
+1575	universidad abierta interamericana	contador público	2020-09-17	carol	rodriguez	female	80	argentina belvedere	washingtonmisty@gmail.com	6367
+642	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-19	stacy	leach	female	66	cañadon del toro	leslieayala@yahoo.com	9303
+647	universidad abierta interamericana	medicina	2020-12-31	allen	bright	male	41	banda florida	martinezcody@hotmail.com	5351
+931	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-24	sierra	baker	female	98	banda florida	asmith@hotmail.com	5351
+649	universidad abierta interamericana	licenciatura en psicología	2020-10-28	lucas	hensley	male	79	campo quirno	elizabethsmith@yahoo.com	2607
+656	universidad abierta interamericana	arquitectura	2020-11-15	kimberly	hughes	female	98	agustin mosconi	rubenclark@yahoo.com	6667
+657	universidad abierta interamericana	licenciatura en ciencia política	2020-12-17	bobby	stewart	male	47	abra	michelle60@gmail.com	3427
+1616	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-26	autumn	bowman	female	60	abra	hollymorrison@hotmail.com	3427
+658	universidad abierta interamericana	ciencias veterinarias	2020-11-24	ryan	perez	male	58	san pedro de iruya	lynnmatthew@gmail.com	4633
+662	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-19	jacob	mckay	male	94	caichue	patriciawilson@yahoo.com	6321
+668	universidad abierta interamericana	licenciatura en artes	2020-09-14	todd	spencer	male	72	arequito	jmullins@yahoo.com	2183
+1549	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-17	desiree	roberts	female	84	arequito	ystephens@yahoo.com	2183
+669	universidad abierta interamericana	ingeniería en informática	2020-10-20	melissa	miller	female	79	algarrobo grande	jacquelinevasquez@hotmail.com	5435
+671	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-13	heather	hoover	female	95	arroyo aguas blancas	mitchellcharles@gmail.com	8174
+672	universidad abierta interamericana	técnico para bioterios	2020-11-28	denise	harrison	female	63	colpes	davidherrera@yahoo.com	5319
+673	universidad abierta interamericana	diseño de imagen y sonido	2020-09-21	angela	hill	female	32	aguadita	andrew86@yahoo.com	5385
+1733	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-30	tracy	livingston	female	47	aguadita	ibaker@gmail.com	5385
+677	universidad abierta interamericana	ciencias veterinarias	2020-12-03	travis	brewer	male	93	calfucura	jbrown@hotmail.com	7613
+678	universidad abierta interamericana	actuario	2020-09-20	edward	mcmillan	male	33	catamontaña	davisjustin@hotmail.com	4603
+679	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-12-08	brian	erickson	male	58	alberti	rebeccaroberson@gmail.com	6634
+680	universidad abierta interamericana	farmacia	2021-01-06	lauren	kane	female	65	el arbolito	david14@hotmail.com	2721
+832	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-22	ashley	ford	female	100	el arbolito	bramirez@hotmail.com	2721
+687	universidad abierta interamericana	licenciatura en artes	2021-01-31	jose	reid	male	21	23 de agosto	gbowman@gmail.com	4504
+1726	universidad abierta interamericana	ingeniería en informática	2020-11-18	alexandra	malone	female	37	23 de agosto	wobrien@gmail.com	4504
+688	universidad abierta interamericana	arquitectura	2021-01-14	sarah	ortega	female	62	enrique fynn	nicolejenkins@yahoo.com	1741
+689	universidad abierta interamericana	diseño de imagen y sonido	2020-10-24	brenda	nelson	female	99	cora	williamssamuel@hotmail.com	2631
+691	universidad abierta interamericana	actuario	2020-12-17	michael	torres	male	45	agua colorada	reynoldsheather@hotmail.com	5383
+1295	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-20	mark	mendez	male	49	agua colorada	michael92@gmail.com	5383
+1444	universidad abierta interamericana	ingeniería en informática	2020-11-25	heidi	patel	female	62	agua colorada	alanglover@gmail.com	5383
+692	universidad abierta interamericana	ciencias veterinarias	2020-09-11	thomas	chapman	male	80	aguirre cue	tylerrichardson@yahoo.com	3403
+974	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-21	mike	garcia	male	51	aguirre cue	yangshannon@gmail.com	3403
+1565	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-30	joseph	nelson	male	26	aguirre cue	ithomas@hotmail.com	3403
+693	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-27	mark	molina	male	21	alejandro korn	robert83@hotmail.com	1864
+1316	universidad abierta interamericana	licenciatura en ciencia política	2021-01-19	scott	greer	male	37	alejandro korn	mklein@gmail.com	1864
+696	universidad abierta interamericana	ingeniería en informática	2020-10-01	katherine	gutierrez	female	34	anta	spark@gmail.com	4434
+699	universidad abierta interamericana	bioquímica	2020-11-05	jonathan	sims	male	30	gerli	kelsey63@gmail.com	1824
+919	universidad abierta interamericana	ingeniería electrónica	2020-11-01	teresa	miller	female	56	gerli	wrightmary@yahoo.com	1824
+700	universidad abierta interamericana	ingeniería en informática	2020-10-28	shannon	allen	female	34	colonia jauregui	hudsonryan@hotmail.com	5622
+844	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-09-30	james	morgan	male	99	colonia jauregui	amartinez@hotmail.com	5622
+1554	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-21	albert	logan	male	48	colonia jauregui	jessicahampton@gmail.com	5622
+1860	universidad abierta interamericana	bioquímica	2020-10-20	gregory	duncan	male	89	colonia jauregui	jennifermontgomery@hotmail.com	5622
+701	universidad abierta interamericana	agronomía	2021-01-21	megan	bonilla	female	64	arenales	lcampbell@yahoo.com	5539
+702	universidad abierta interamericana	diseño de imagen y sonido	2020-12-02	janice	green	female	49	cayastacito	hmoore@gmail.com	3038
+703	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-26	john	barnes	male	49	benito juarez	wilsonheather@gmail.com	7020
+708	universidad abierta interamericana	bioquímica	2020-10-09	albert	edwards	male	71	barrio jardin luzuriaga	kimberlyfreeman@yahoo.com	5513
+1682	universidad abierta interamericana	licenciatura en sociología	2020-11-15	dustin	jackson	male	57	barrio jardin luzuriaga	joshua47@hotmail.com	5513
+709	universidad abierta interamericana	ciencias veterinarias	2020-12-01	lynn	king	female	73	el pampero	lindsey57@hotmail.com	1865
+711	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-10-22	bradley	liu	male	88	altamira	emilywilliams@gmail.com	6601
+712	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-02	kelsey	nelson	female	33	garro	karensmith@hotmail.com	8103
+1792	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-19	julian	miller	male	79	garro	xwatson@gmail.com	8103
+717	universidad abierta interamericana	licenciatura en relaciones del trabajo	2021-01-04	felicia	bailey	female	32	angostura	heather71@gmail.com	9105
+1607	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-09-11	jeffrey	howard	male	20	angostura	pricemadison@gmail.com	9105
+1636	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-06	mariah	atkins	female	29	angostura	scottrodriguez@yahoo.com	9105
+719	universidad abierta interamericana	bioquímica	2020-09-01	michael	guzman	male	79	arenaza	devincox@gmail.com	6075
+1420	universidad abierta interamericana	actuario	2020-10-26	daniel	shields	male	83	arenaza	nathan17@hotmail.com	6075
+720	universidad abierta interamericana	licenciatura en sociología	2020-10-30	aaron	chavez	male	53	agua del simbol	bparker@hotmail.com	5261
+722	universidad abierta interamericana	agronomía	2020-12-06	jonathan	khan	male	64	agua verde	floreslisa@yahoo.com	4715
+723	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-15	martin	harper	male	56	barrancon	egregory@yahoo.com	3384
+961	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-22	monica	hunt	female	20	barrancon	everettdouglas@hotmail.com	3384
+725	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-10	robin	white	female	23	escuela agricola don bosco	wnovak@gmail.com	1815
+726	universidad abierta interamericana	ciencias veterinarias	2020-10-03	jonathan	burke	male	26	empalme frontera	gibsonstephanie@yahoo.com	5553
+727	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-09-24	peggy	french	female	100	agua de la mula	humphreyrobert@hotmail.com	5600
+1567	universidad abierta interamericana	ingeniería mecánica	2021-01-21	margaret	armstrong	female	63	agua de la mula	ttaylor@gmail.com	5600
+728	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-26	colleen	holt	female	34	arroyo pareja	robertcarter@yahoo.com	8111
+734	universidad abierta interamericana	bioquímica	2020-12-03	jonathon	howard	male	63	caminera napaleofu	matthewdennis@yahoo.com	7007
+735	universidad abierta interamericana	ciencias veterinarias	2020-11-11	derek	lloyd	male	87	la punta	joshua05@hotmail.com	5710
+736	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-10	william	huffman	male	58	iturraspe	ljones@hotmail.com	2521
+737	universidad abierta interamericana	farmacia	2020-09-29	barry	castillo	male	70	cachiyuyal	natashaquinn@yahoo.com	5367
+738	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-08	tyler	johnson	male	96	aldea san antonio	andrea68@gmail.com	3117
+740	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-17	carl	gaines	male	40	costa del nogoya	sarah92@hotmail.com	3155
+741	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-18	annette	gilbert	female	79	dos hermanos	lori16@gmail.com	6042
+742	universidad abierta interamericana	medicina	2020-12-01	maria	hernandez	female	47	apeadero guanacache	angelicacordova@gmail.com	5431
+747	universidad abierta interamericana	técnico para bioterios	2020-09-29	michelle	wright	female	57	girodias	barbararobbins@hotmail.com	6407
+749	universidad abierta interamericana	actuario	2020-09-18	fernando	munoz	male	98	aguaditas	evansjoshua@hotmail.com	5707
+750	universidad abierta interamericana	técnico para bioterios	2020-10-09	shannon	bond	female	75	juan e barra	ryan50@yahoo.com	7517
+1589	universidad abierta interamericana	arquitectura	2021-01-31	randall	wise	male	32	juan e barra	colin85@yahoo.com	7517
+752	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-11-20	edwin	hart	male	55	juan f ibarra	bkramer@gmail.com	6551
+1354	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-16	jacqueline	hunt	female	78	juan f ibarra	wcrawford@yahoo.com	6551
+753	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-01	morgan	rogers	female	33	el dia	iowens@hotmail.com	6241
+837	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-17	gregory	gonzalez	male	75	el dia	timothy48@hotmail.com	6241
+754	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-22	tiffany	buchanan	female	49	el potrero	georgetaylor@yahoo.com	5321
+1391	universidad abierta interamericana	bioquímica	2020-10-02	patricia	cobb	female	96	el potrero	michaela24@yahoo.com	5321
+757	universidad abierta interamericana	ciencias veterinarias	2020-09-24	tammy	torres	female	100	cerrillos al sud	edward00@yahoo.com	5501
+859	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-10	patrick	morrison	male	57	cerrillos al sud	martineztammy@hotmail.com	5501
+759	universidad abierta interamericana	diseño de imagen y sonido	2020-09-27	henry	finley	male	36	campo castro	waltersrobert@yahoo.com	2148
+1711	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-03	rhonda	collins	female	39	campo castro	hoffmanjonathan@yahoo.com	2148
+760	universidad abierta interamericana	actuario	2020-10-11	gregory	cabrera	male	84	colonia california	jesse33@gmail.com	3005
+1525	universidad abierta interamericana	ingeniería mecánica	2020-10-20	tanya	coleman	female	92	colonia california	xknight@gmail.com	3005
+763	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-08	dawn	henderson	female	55	ricardo lavalle	mortonrobert@hotmail.com	6312
+765	universidad abierta interamericana	ingeniería en informática	2020-09-07	tracey	moore	female	28	arroyo quilla	kaylaparker@hotmail.com	9020
+1037	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-21	christopher	jackson	male	24	arroyo quilla	scott39@gmail.com	9020
+1306	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-07	jason	rodriguez	male	30	arroyo quilla	bonnie17@gmail.com	9020
+772	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-08	jacqueline	williams	female	57	agua de la piedra	nicole44@hotmail.com	5475
+773	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-19	jesse	collins	male	34	adela corti	michaelbowen@gmail.com	8000
+775	universidad abierta interamericana	ingeniería mecánica	2020-09-01	kelly	brown	female	57	achico	harveyshane@hotmail.com	8315
+778	universidad abierta interamericana	ingeniería electrónica	2020-09-27	regina	drake	female	65	colonia arocena ina	rowlandjason@hotmail.com	3231
+1683	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-09-16	shelly	daniel	female	41	colonia arocena ina	austindalton@yahoo.com	3231
+779	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-10-25	william	cruz	male	56	an aike	xjohnson@yahoo.com	9400
+1715	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-10	julia	nelson	female	23	an aike	lisa94@yahoo.com	9400
+782	universidad abierta interamericana	actuario	2021-01-21	stephanie	knight	female	60	ingeniero allan	ajuarez@hotmail.com	1891
+784	universidad abierta interamericana	licenciatura en sociología	2020-09-16	ashley	grant	female	54	campo de mayo	whitesteven@hotmail.com	1659
+882	universidad abierta interamericana	actuario	2020-12-11	joseph	garza	male	48	campo de mayo	melissagonzalez@hotmail.com	1659
+785	universidad abierta interamericana	ingeniería electrónica	2020-09-01	marvin	jackson	male	71	aguada grande	haneyryan@gmail.com	9053
+969	universidad abierta interamericana	licenciatura en psicología	2020-11-10	karen	bailey	female	21	aguada grande	murrayjudy@hotmail.com	9053
+786	universidad abierta interamericana	diseño de imagen y sonido	2020-11-07	christopher	hamilton	male	93	arroyo las minas	robert26@hotmail.com	8415
+1454	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-24	maureen	gallagher	female	47	arroyo las minas	foxemily@gmail.com	8415
+1770	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-16	colin	jones	male	47	arroyo las minas	aspencer@gmail.com	8415
+788	universidad abierta interamericana	diseño industrial	2020-12-31	charles	rubio	male	49	aguada chacay co	tylerwaller@gmail.com	8353
+1164	universidad abierta interamericana	licenciatura en administración	2020-09-28	gregory	zavala	male	89	aguada chacay co	brendadelacruz@yahoo.com	8353
+789	universidad abierta interamericana	actuario	2020-11-22	billy	kirk	male	63	aldea chaleco	thomasmoore@hotmail.com	3116
+848	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-10	julie	jones	female	61	aldea chaleco	charles46@hotmail.com	3116
+1343	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-17	lee	griffin	male	22	aldea chaleco	kgibbs@yahoo.com	3116
+792	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-15	andrea	moore	female	91	el pino	kmercado@gmail.com	1907
+798	universidad abierta interamericana	ingeniería mecánica	2020-10-03	tracy	brock	female	42	20 de septiembre	hharvey@yahoo.com	3158
+801	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-17	dana	jones	female	25	colonia cunci	david16@hotmail.com	3382
+802	universidad abierta interamericana	técnico para bioterios	2021-01-19	jacob	aguirre	male	40	alicura	cooperandrew@yahoo.com	8403
+803	universidad abierta interamericana	arquitectura	2021-01-25	timothy	thomas	male	87	ramos mejia	randy71@hotmail.com	1704
+805	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-12-24	patrick	coleman	male	38	los polvorines	xwarren@hotmail.com	1613
+807	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-20	jane	henderson	female	64	colonia la oracion	rhondachaney@gmail.com	6307
+1048	universidad abierta interamericana	agronomía	2020-12-16	rachel	cardenas	female	80	colonia la oracion	scottlewis@hotmail.com	6307
+1435	universidad abierta interamericana	actuario	2020-12-21	emily	rose	female	34	colonia la oracion	crystal04@hotmail.com	6307
+810	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-10-03	natalie	jones	female	58	angosto del perchel	ewilliams@hotmail.com	4626
+813	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-10-26	james	lawson	male	36	arroyo del rey	thomas41@hotmail.com	3565
+814	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-04	amy	miller	female	50	colonia celina	rodneyjohnson@hotmail.com	3113
+817	universidad abierta interamericana	agronomía	2020-10-07	dylan	jones	male	100	gandolfi	osalazar@gmail.com	3526
+822	universidad abierta interamericana	licenciatura en ciencia política	2020-12-16	barbara	james	female	96	blanca grande	campbellalicia@hotmail.com	6561
+823	universidad abierta interamericana	diseño de imagen y sonido	2020-10-15	nicholas	lee jr.	male	21	anecon chico	brockmonica@yahoo.com	8418
+828	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-05	joshua	henderson	male	28	almirante irizar	davismichelle@hotmail.com	1629
+829	universidad abierta interamericana	ingeniería mecánica	2020-09-20	michael	wolf	male	97	angaco norte	adam52@gmail.com	5415
+1254	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-15	robin	hansen	female	54	angaco norte	franciscochambers@gmail.com	5415
+830	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-02	alexander	beard	male	46	aparicio	atkinsonrobert@yahoo.com	8158
+1111	universidad abierta interamericana	licenciatura en ciencia política	2020-10-12	veronica	short	female	81	aparicio	bbutler@hotmail.com	8158
+1326	universidad abierta interamericana	licenciatura en sociología	2020-12-15	elizabeth	torres	female	60	aparicio	jamesrobinson@hotmail.com	8158
+831	universidad abierta interamericana	diseño industrial	2020-12-13	joshua	romero	male	29	pontaut	jasonbenitez@yahoo.com	7535
+833	universidad abierta interamericana	contador público	2020-12-24	christopher	carpenter	male	92	ataliva roca	msutton@hotmail.com	6301
+1193	universidad abierta interamericana	licenciatura en administración	2020-11-02	gloria	delgado	female	26	ataliva roca	michael90@hotmail.com	6301
+838	universidad abierta interamericana	bioquímica	2020-09-05	robert	rodriguez	male	24	laprida	kinglauren@yahoo.com	7414
+840	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-23	alexander	robertson	male	99	ifran	daniel11@gmail.com	3453
+841	universidad abierta interamericana	diseño industrial	2020-10-25	nicholas	dickson	male	21	la blanqueada	wrightleah@gmail.com	3224
+923	universidad abierta interamericana	contador público	2020-11-07	james	thompson	male	62	la blanqueada	brenda94@hotmail.com	3224
+842	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-04	samantha	medina	female	37	estacion moreno	brett43@hotmail.com	1901
+857	universidad abierta interamericana	bioquímica	2020-10-23	andrew	savage	male	52	bellocq	fbrown@gmail.com	6535
+860	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-10-22	daniel	pope	male	73	chapanay	kevinsimon@gmail.com	5589
+1198	universidad abierta interamericana	farmacia	2021-01-27	diane	stewart	female	88	chapanay	camposcharles@yahoo.com	5589
+1520	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-04	wesley	spencer	male	39	chapanay	woodwarddawn@yahoo.com	5589
+861	universidad abierta interamericana	licenciatura en relaciones del trabajo	2021-01-22	michael	brown	male	18	el porvenir	nicholasanderson@gmail.com	9227
+862	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-10-15	mark	casey	male	19	28 de julio	daniel29@hotmail.com	9107
+863	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-10-26	andrea	sharp	female	36	villani	jgonzalez@gmail.com	2400
+873	universidad abierta interamericana	ingeniería en informática	2020-11-06	jeremy	glenn	male	75	villani	kchapman@yahoo.com	2400
+1392	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-17	garrett	cooke	male	98	villani	davidwillis@hotmail.com	2400
+871	universidad abierta interamericana	contador público	2020-11-13	susan	edwards	female	28	calderon	carrollmatthew@yahoo.com	8101
+876	universidad abierta interamericana	licenciatura en artes	2020-11-02	jeremy	griffin	male	77	campo crisol	ramirezrobert@yahoo.com	2754
+1135	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-07	lisa	spencer	female	33	campo crisol	tayloranthony@hotmail.com	2754
+877	universidad abierta interamericana	ingeniería electrónica	2020-12-19	heidi	williams	female	36	alto del salvador	christinawoodard@yahoo.com	5570
+878	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-05	stephen	nguyen	male	58	el remanso	fostermichael@hotmail.com	3476
+879	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-20	angela	blankenship	female	34	ambrosetti	jonathanshort@yahoo.com	2352
+881	universidad abierta interamericana	técnico para bioterios	2020-09-07	lance	hall	male	62	america unida	qlogan@gmail.com	1862
+1373	universidad abierta interamericana	ingeniería mecánica	2020-10-13	amy	sexton	female	44	america unida	lisa44@hotmail.com	1862
+883	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-28	aaron	mcfarland	male	21	gente grande	coopereduardo@gmail.com	8379
+884	universidad abierta interamericana	técnico para bioterios	2021-01-11	angela	boyd	female	35	avia terai	renee53@gmail.com	3706
+885	universidad abierta interamericana	diseño de imagen y sonido	2020-10-21	theodore	kim	male	78	eduardo costa	jessicadaniel@yahoo.com	6064
+886	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-11	rachel	mitchell	female	69	curandu	rsmith@gmail.com	3532
+887	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-05	olivia	simmons	female	89	copacabana	vhaynes@hotmail.com	2919
+888	universidad abierta interamericana	farmacia	2020-10-24	alexander	crawford	male	61	campo la riviere	pittmanlinda@hotmail.com	2505
+979	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-04	todd	clark	male	66	campo la riviere	robertstone@gmail.com	2505
+891	universidad abierta interamericana	bioquímica	2020-11-03	emily	jordan	female	21	ocho vados	kwolfe@yahoo.com	4713
+997	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-15	william	townsend	male	31	ocho vados	alyssa90@yahoo.com	4713
+1780	universidad abierta interamericana	ingeniería en informática	2021-01-07	nathan	oconnell	male	44	ocho vados	ashleyferguson@hotmail.com	4713
+893	universidad abierta interamericana	técnico para bioterios	2020-09-17	frederick	lewis	male	64	chumbicha	greenekim@hotmail.com	4728
+910	universidad abierta interamericana	licenciatura en ciencia política	2020-12-11	andrew	green	male	45	chumbicha	gadkins@gmail.com	4728
+1696	universidad abierta interamericana	contador público	2020-09-24	joseph	adkins	male	18	chumbicha	hdoyle@gmail.com	4728
+1853	universidad abierta interamericana	arquitectura	2020-09-23	gene	perez	male	70	chumbicha	davilamelissa@gmail.com	4728
+894	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-14	andrew	stephens	male	78	arroyo ceibo	dball@gmail.com	3191
+1740	universidad abierta interamericana	ingeniería electrónica	2020-11-17	timothy	white	male	96	arroyo ceibo	mpage@gmail.com	3191
+896	universidad abierta interamericana	ingeniería electrónica	2020-11-10	jessica	santos	female	90	aldea san gregorio	ttran@hotmail.com	3287
+928	universidad abierta interamericana	agronomía	2020-10-09	benjamin	jefferson	male	90	aldea san gregorio	stacywhite@yahoo.com	3287
+901	universidad abierta interamericana	agronomía	2020-10-06	susan	wood	female	53	alisos de abajo	amanda84@yahoo.com	4605
+902	universidad abierta interamericana	bioquímica	2020-11-08	stephanie	gross	female	41	costa del este	hudsonsara@yahoo.com	7108
+1769	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-25	fred	villanueva	male	61	costa del este	isaiah66@hotmail.com	7108
+909	universidad abierta interamericana	licenciatura en relaciones del trabajo	2021-01-10	megan	pennington	female	34	el cenizo	aliciafisher@gmail.com	5645
+911	universidad abierta interamericana	licenciatura en sociología	2021-01-13	mark	smith	male	21	arminda	price@yahoo.com	2119
+914	universidad abierta interamericana	medicina	2020-09-15	stephen	larsen	male	19	barrio parque leloir	zamorajames@hotmail.com	1713
+1850	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-08	steven	martin	male	79	barrio parque leloir	arielhowell@hotmail.com	1713
+917	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-29	tammy	blevins	female	47	cañada	vasquezbrian@hotmail.com	5773
+918	universidad abierta interamericana	diseño de imagen y sonido	2020-09-16	erica	donaldson	female	31	ayacucho	madeline85@hotmail.com	7150
+955	universidad abierta interamericana	agronomía	2020-12-20	chase	wilson	male	42	ayacucho	mark38@yahoo.com	7150
+921	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-11-29	brandy	hughes	female	99	los molinos	kimberlyfox@hotmail.com	2181
+924	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-16	laura	schmitt	female	76	boqueron	whahn@hotmail.com	3340
+925	universidad abierta interamericana	licenciatura en ciencias biológicas	2021-01-21	tamara	osborn	female	54	abra verde	davidgibson@gmail.com	5470
+926	universidad abierta interamericana	diseño de imagen y sonido	2020-09-11	toni	davis	female	36	aparicio cue	alexanderzavala@gmail.com	3322
+927	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-22	kimberly	logan	female	54	bonpland norte	aroberts@gmail.com	3318
+933	universidad abierta interamericana	actuario	2020-09-19	christopher	becker	male	21	andalucia	edwardssonia@hotmail.com	5331
+1242	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-08	robert	taylor	male	69	andalucia	hollandnicholas@hotmail.com	5331
+938	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-11	katherine	wilkins	female	23	ingenio la providencia	sara04@hotmail.com	4145
+939	universidad abierta interamericana	bioquímica	2020-10-20	eric	stewart	male	80	bahia san blas	robertsmarie@gmail.com	8506
+941	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-26	jose	francis	male	38	estacion lago epecuen	lramos@hotmail.com	6431
+942	universidad abierta interamericana	diseño de imagen y sonido	2020-11-23	jackie	ryan	female	79	arsenal de guerra san lorenzo	ryanglover@yahoo.com	2156
+1863	universidad abierta interamericana	medicina	2020-09-02	jacob	faulkner	male	55	arsenal de guerra san lorenzo	hansenkyle@yahoo.com	2156
+948	universidad abierta interamericana	ingeniería en informática	2020-12-23	antonio	lang ii	male	49	cañada rica	ncampbell@gmail.com	2105
+1286	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-24	darren	patterson	male	65	cañada rica	lauriehopkins@yahoo.com	2105
+949	universidad abierta interamericana	agronomía	2020-10-08	allison	sanchez	female	81	cailomuta	istone@hotmail.com	6339
+950	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-06	teresa	booth	female	26	avanzada	omartinez@yahoo.com	5738
+1158	universidad abierta interamericana	diseño de imagen y sonido	2020-09-13	mallory	hernandez	female	90	avanzada	michelle04@yahoo.com	5738
+1530	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-12	sean	shaw	male	60	avanzada	kennethbuck@gmail.com	5738
+952	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-04	angela	davis	female	87	campo garcia	kelsey70@gmail.com	2240
+953	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-10-08	melissa	spears	female	54	bahia cracher	starklawrence@yahoo.com	9120
+1672	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-25	lee	nelson	male	23	bahia cracher	benderamanda@yahoo.com	9120
+1741	universidad abierta interamericana	agronomía	2021-01-10	dawn	shepard	female	64	bahia cracher	burgessjoel@yahoo.com	9120
+956	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-10-20	nicole	garcia	female	66	campo coubert	tgreene@yahoo.com	3056
+957	universidad abierta interamericana	licenciatura en psicología	2020-09-09	albert	figueroa	male	79	bajo guazu	jacoboconnell@gmail.com	3421
+1648	universidad abierta interamericana	agronomía	2020-10-29	kimberly	kerr	female	35	bajo guazu	omaradams@yahoo.com	3421
+960	universidad abierta interamericana	agronomía	2020-09-20	allison	smith	female	21	virrey del pino	jameslambert@gmail.com	1763
+1253	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-19	jason	hill	male	99	virrey del pino	marthapugh@yahoo.com	1763
+964	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-15	michael	garcia	male	99	cabi monda	johnmorris@yahoo.com	3228
+965	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-30	james	matthews	male	27	almirante brown	hmartinez@yahoo.com	3701
+967	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-14	raymond	robles	male	91	colonia zapata	monique52@hotmail.com	5436
+975	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-11	sharon	evans	female	62	aldea forestal	darin49@yahoo.com	3530
+977	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-03	william	gutierrez	male	20	alto huaco	xshaw@gmail.com	5463
+1145	universidad abierta interamericana	actuario	2021-01-12	aaron	harris	male	73	alto huaco	bnorman@gmail.com	5463
+978	universidad abierta interamericana	diseño de imagen y sonido	2020-11-24	tanya	harrell	female	52	alto calilegua	vcarrillo@yahoo.com	4513
+1322	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-12-08	lori	brown	female	81	alto calilegua	wtorres@yahoo.com	4513
+981	universidad abierta interamericana	farmacia	2020-09-04	robert	greene	male	82	faro san antonio	kadams@gmail.com	7103
+982	universidad abierta interamericana	diseño industrial	2020-10-22	jeffrey	sanchez	male	44	los antiguos	johnsoncody@gmail.com	9041
+983	universidad abierta interamericana	bioquímica	2020-11-08	gregory	holland	male	25	9 de abril	wross@hotmail.com	1776
+1848	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-05	victoria	conley	female	34	9 de abril	emathews@yahoo.com	1776
+985	universidad abierta interamericana	licenciatura en psicología	2020-11-23	theresa	brown	female	64	campo crenna	hpatel@hotmail.com	2185
+1221	universidad abierta interamericana	ingeniería electrónica	2021-01-19	christopher	mcclain	male	78	campo crenna	morenokelly@hotmail.com	2185
+987	universidad abierta interamericana	diseño de imagen y sonido	2020-11-25	stephanie	smith	female	61	chiclana	christophercampbell@gmail.com	6476
+1744	universidad abierta interamericana	contador público	2020-12-21	jon	harris	male	47	chiclana	wmartin@gmail.com	6476
+988	universidad abierta interamericana	ciencias veterinarias	2020-10-20	erin	stevens	female	100	valle de las leñas	smithkyle@hotmail.com	5612
+989	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-19	anthony	lewis	male	95	camet	vlozano@gmail.com	7612
+1076	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-12-27	cameron	gould	male	78	camet	megan39@yahoo.com	7612
+1479	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-11-01	robert	obrien	male	78	camet	lovelindsay@hotmail.com	7612
+990	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-23	aaron	martin	male	30	landeta	christopher60@gmail.com	2531
+992	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-21	kimberly	robinson	female	38	antiguyos	combsjacob@yahoo.com	4643
+994	universidad abierta interamericana	ingeniería en informática	2020-11-29	robert	sullivan	male	24	rafael castillo	brenda14@gmail.com	1755
+998	universidad abierta interamericana	técnico para bioterios	2020-10-13	jaime	mayo	female	85	villa manzano	gordonshannon@yahoo.com	8308
+999	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-10-24	catherine	hernandez	female	70	centenario	taylortrevor@hotmail.com	8309
+1017	universidad abierta interamericana	ciencias veterinarias	2020-09-23	joseph	galvan	male	36	centenario	lindahoward@yahoo.com	8309
+1003	universidad abierta interamericana	contador público	2020-11-23	john	chen	male	63	colhue huapi	brandoncamacho@gmail.com	9021
+1004	universidad abierta interamericana	bioquímica	2020-11-30	sean	mack	male	28	alejandra	jessica08@yahoo.com	3051
+1007	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-02	stephanie	gonzales	female	39	aceilan	qmiller@gmail.com	7003
+1009	universidad abierta interamericana	diseño industrial	2020-11-18	stephen	gordon	male	63	balneario la caleta	carpenterbrian@gmail.com	7609
+1750	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-25	andrea	murphy	female	20	balneario la caleta	asims@gmail.com	7609
+1010	universidad abierta interamericana	agronomía	2020-11-14	thomas	johnson	male	99	francisco madero	matthew42@gmail.com	6472
+1299	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-10-07	michele	fernandez	female	19	francisco madero	sean68@hotmail.com	6472
+1011	universidad abierta interamericana	técnico para bioterios	2020-12-15	benjamin	conway	male	60	la esperanza rosas las flores	frostjared@hotmail.com	7205
+1083	universidad abierta interamericana	licenciatura en artes	2020-09-22	connie	goodwin	female	95	la esperanza rosas las flores	caseymichael@hotmail.com	7205
+1012	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2021-01-31	gabrielle	wells	female	51	aguas verdes	hardindiane@hotmail.com	7112
+1757	universidad abierta interamericana	medicina	2020-09-19	kevin	simpson	male	100	aguas verdes	harriscynthia@yahoo.com	7112
+1013	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-19	rebecca	wagner	female	26	benitez	jamesflores@yahoo.com	6632
+1335	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-11-22	tammy	freeman	female	55	benitez	bobby60@yahoo.com	6632
+1016	universidad abierta interamericana	medicina	2020-12-07	carol	smith	female	97	cañadita	christopher49@yahoo.com	3052
+1019	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-12	alan	norman	male	77	la oriental	roberttorres@gmail.com	6022
+1021	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-13	patricia	fowler	female	34	ituzaingo	davidduffy@yahoo.com	1714
+1357	universidad abierta interamericana	técnico para bioterios	2020-09-16	kimberly	myers	female	91	ituzaingo	amywest@yahoo.com	1714
+1024	universidad abierta interamericana	actuario	2020-12-19	charles	stephens	male	77	barrancas coloradas	joseph56@gmail.com	6300
+1025	universidad abierta interamericana	diseño de imagen y sonido	2020-09-02	tiffany	cooper	female	66	algarrobal puisoye	williamsdaniel@gmail.com	3405
+1452	universidad abierta interamericana	ciencias veterinarias	2020-11-08	patricia	banks	female	40	algarrobal puisoye	rspears@gmail.com	3405
+1026	universidad abierta interamericana	ingeniería electrónica	2020-09-27	dustin	foster	male	84	domselaar	mmyers@yahoo.com	1984
+1405	universidad abierta interamericana	medicina	2020-11-28	katherine	palmer	female	72	domselaar	mitchellpatricia@hotmail.com	1984
+1028	universidad abierta interamericana	ingeniería electrónica	2020-10-05	lisa	williams	female	23	aurelia	nancyboyd@yahoo.com	2318
+1030	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-18	ethan	prince	male	43	francisco berra	derek08@hotmail.com	7221
+1033	universidad abierta interamericana	licenciatura en administración	2020-09-05	matthew	kelly	male	87	las toninas	tony79@gmail.com	7106
+1273	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-20	matthew	mercado	male	34	las toninas	melaniecampbell@hotmail.com	7106
+1034	universidad abierta interamericana	ciencias veterinarias	2021-01-03	bridget	wallace	female	88	amalia	owilson@yahoo.com	6516
+1036	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-19	robert	rivas	male	34	colonia hardy	dweaver@hotmail.com	3592
+1038	universidad abierta interamericana	licenciatura en psicología	2021-01-23	stacy	schultz	female	19	antonio carboni	karen88@gmail.com	7243
+1592	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-26	darren	rogers	male	81	antonio carboni	cortezgeorge@hotmail.com	7243
+1039	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-11-24	james	allen	male	59	villa el chocon	rnewton@gmail.com	8311
+1042	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-12	andrew	wise	male	65	6 de septiembre	joseph95@hotmail.com	5703
+1736	universidad abierta interamericana	contador público	2020-11-24	timothy	trevino	male	77	6 de septiembre	wooddaniel@yahoo.com	5703
+1043	universidad abierta interamericana	diseño de imagen y sonido	2020-11-12	kayla	malone	female	87	estacion christophersen	montgomeryjeremiah@yahoo.com	2611
+1045	universidad abierta interamericana	contador público	2020-10-11	allen	mitchell	male	52	carbometal	dawn57@hotmail.com	5505
+1046	universidad abierta interamericana	licenciatura en administración	2021-01-14	timothy	foley	male	89	anderson	jason42@gmail.com	6621
+1206	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-05	carolyn	castro	female	36	anderson	tammylee@yahoo.com	6621
+1047	universidad abierta interamericana	medicina	2020-12-02	manuel	lewis	male	35	saldungaray	amann@gmail.com	8166
+1054	universidad abierta interamericana	agronomía	2020-12-06	nathan	sanchez	male	35	clason	jonathansmith@hotmail.com	2146
+1118	universidad abierta interamericana	agronomía	2020-09-05	sydney	jackson	female	54	clason	linda10@hotmail.com	2146
+1248	universidad abierta interamericana	diseño industrial	2020-10-17	larry	murphy	male	20	clason	hflores@yahoo.com	2146
+1056	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-14	jessica	perez	female	22	aguada de las tejas	martinkellie@yahoo.com	9121
+1058	universidad abierta interamericana	diseño industrial	2020-12-04	george	patton	male	42	estacion la rinconada	marshrachel@gmail.com	5433
+1059	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-11	lori	griffith	female	78	paso de los andes	qwilliams@yahoo.com	5503
+1727	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-12-29	shannon	johnson	female	50	paso de los andes	millerjames@gmail.com	5503
+1060	universidad abierta interamericana	licenciatura en ciencia política	2020-12-17	renee	mitchell	female	43	cara mala	cory97@gmail.com	9313
+1065	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-26	gabriel	burns	male	28	casalins	vmorales@yahoo.com	7225
+1066	universidad abierta interamericana	actuario	2020-11-07	matthew	murphy	male	90	colonia mabragaña	dianawarren@hotmail.com	3283
+1161	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-11-13	cameron	smith	male	36	colonia mabragaña	adamsjesse@gmail.com	3283
+1067	universidad abierta interamericana	ingeniería en informática	2020-11-26	karl	edwards	male	50	cristiano muerto	catherineburch@hotmail.com	7503
+1068	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-09-12	sharon	graham	female	26	canning	nicholasmorgan@hotmail.com	1804
+1069	universidad abierta interamericana	arquitectura	2020-09-09	hailey	ballard	female	48	bañado verde	heidi50@gmail.com	5598
+1070	universidad abierta interamericana	ingeniería mecánica	2020-11-06	jennifer	boyle	female	37	cantera villalonga	bakerdarlene@yahoo.com	8504
+1073	universidad abierta interamericana	farmacia	2020-09-16	john	smith	male	81	arbol solo	gregory74@hotmail.com	3513
+1075	universidad abierta interamericana	farmacia	2020-12-28	william	hall	male	52	cañadon la madera	fwelch@gmail.com	9220
+1078	universidad abierta interamericana	licenciatura en artes	2020-12-14	linda	wolfe	female	28	la pastora	wrightwilliam@yahoo.com	7001
+1209	universidad abierta interamericana	diseño industrial	2021-02-01	jose	oneal	male	87	la pastora	bschneider@gmail.com	7001
+1729	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-25	robert	vang	male	62	la pastora	williamsonvincent@yahoo.com	7001
+1079	universidad abierta interamericana	ingeniería electrónica	2020-12-12	mary	douglas	female	25	alsina	lgibson@gmail.com	2938
+1080	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-18	tina	parrish	female	83	colonia dr gdor udaondo	morganelizabeth@gmail.com	8180
+1081	universidad abierta interamericana	agronomía	2020-11-04	paula	walker	female	88	11 de mayo	ejohnson@gmail.com	5701
+1513	universidad abierta interamericana	ingeniería electrónica	2020-10-04	jennifer	schwartz	female	41	11 de mayo	alishafranklin@hotmail.com	5701
+1082	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-13	kim	gardner	female	84	casbas	rebeccacampbell@gmail.com	6417
+1127	universidad abierta interamericana	ciencias veterinarias	2020-09-18	joel	hernandez	male	54	casbas	zamoramichael@yahoo.com	6417
+1084	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-11-18	ashley	wilson	female	36	fortin irene	mark21@hotmail.com	7316
+1085	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-10-02	maria	miller	female	93	cuartel iv	jperkins@hotmail.com	7110
+1088	universidad abierta interamericana	licenciatura en musicoterapia	2021-01-17	tom	mahoney	male	39	colonia egido	cameronwheeler@gmail.com	3240
+1089	universidad abierta interamericana	ingeniería mecánica	2021-01-15	curtis	garza	male	85	villa adelina	anthonywright@gmail.com	1607
+1090	universidad abierta interamericana	técnico para bioterios	2020-10-07	joshua	george	male	54	adolfo alsina	jacksonjohn@hotmail.com	6430
+1091	universidad abierta interamericana	licenciatura en sociología	2020-12-12	randy	hatfield	male	46	jesus maria	jenningsricardo@yahoo.com	2204
+1093	universidad abierta interamericana	licenciatura en psicología	2020-12-09	laura	long	female	90	arroyo quintana	troy85@yahoo.com	3505
+1722	universidad abierta interamericana	contador público	2020-12-03	angela	miller	female	96	arroyo quintana	hgrant@hotmail.com	3505
+1094	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-02	christopher	johnson	male	32	boca p 25	dfowler@yahoo.com	2600
+1097	universidad abierta interamericana	técnico para bioterios	2020-12-09	kerri	shaw	female	35	andrade	andrew42@gmail.com	5575
+1098	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-21	joanna	moore	female	36	calera	vincentjohn@yahoo.com	3281
+1101	universidad abierta interamericana	licenciatura en administración	2020-09-17	w	lewis	male	52	berazategui	heatherscott@gmail.com	1884
+1104	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-09-16	joshua	mitchell	male	94	el zapallar	margaretstokes@yahoo.com	5353
+1410	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-10	pamela	morrison	female	54	el zapallar	lori32@gmail.com	5353
+1105	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-04	kelly	burke	female	94	desamparados	deckerarthur@yahoo.com	5400
+1292	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-09-27	timothy	gutierrez	male	56	desamparados	ashleymyers@hotmail.com	5400
+1108	universidad abierta interamericana	licenciatura en sociología	2020-12-11	douglas	costa	male	88	ricardone	snydervictoria@gmail.com	2201
+1109	universidad abierta interamericana	licenciatura en psicología	2021-01-20	dawn	allen	female	80	kilometro 208	acollins@hotmail.com	3172
+1113	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-23	benjamin	foster	male	59	bañado san antonio	vazquezjean@hotmail.com	3454
+1115	universidad abierta interamericana	técnico para bioterios	2021-01-27	paula	baldwin	female	44	agua linda	cunninghamrobert@gmail.com	5753
+1117	universidad abierta interamericana	arquitectura	2020-12-10	jill	byrd	female	43	campo magnin	lauren45@yahoo.com	3011
+1119	universidad abierta interamericana	diseño industrial	2020-11-13	charles	greene	male	51	villa lynch	jramirez@hotmail.com	1672
+1122	universidad abierta interamericana	diseño de imagen y sonido	2021-01-24	jessica	ramirez	female	73	bajo hondo	conniehopkins@gmail.com	8115
+1124	universidad abierta interamericana	ingeniería electrónica	2021-01-23	charlene	perez	female	18	mecha	lwilson@yahoo.com	6648
+1126	universidad abierta interamericana	ciencias veterinarias	2020-12-15	chad	brown	male	57	balde de leyes	austin13@hotmail.com	5446
+1383	universidad abierta interamericana	licenciatura en administración	2020-11-17	samantha	anderson	female	41	balde de leyes	pparrish@gmail.com	5446
+1131	universidad abierta interamericana	contador público	2021-01-23	carlos	moore	male	19	san antonio de obligado	cboyle@gmail.com	3587
+1133	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-07	amanda	hernandez	female	88	arroyo grande	michael21@yahoo.com	7174
+1141	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-10-03	bailey	barnes	female	32	arroyo grande	orrtimothy@yahoo.com	7174
+1559	universidad abierta interamericana	licenciatura en psicología	2020-09-26	diane	howard	female	79	arroyo grande	washingtonbarbara@yahoo.com	7174
+1836	universidad abierta interamericana	licenciatura en sociología	2021-01-17	kristopher	young	male	75	arroyo grande	ericwashington@hotmail.com	7174
+1136	universidad abierta interamericana	actuario	2020-10-31	michael	thompson	male	31	11 de septiembre	qsanders@hotmail.com	1657
+1137	universidad abierta interamericana	farmacia	2021-01-24	christine	mccann	female	35	labordeboy	solomonjames@gmail.com	2726
+1139	universidad abierta interamericana	licenciatura en relaciones del trabajo	2021-01-18	daniel	shah	male	57	agua azul	donald20@gmail.com	4132
+1140	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-12	michael	flores	male	42	la chirlandia	lovekenneth@hotmail.com	8203
+1150	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-25	tiffany	frank	female	34	pellegrini	omiller@gmail.com	6346
+1156	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-23	destiny	sanders	female	21	colonia monte la plata	pamela94@yahoo.com	8144
+1157	universidad abierta interamericana	ingeniería mecánica	2020-12-13	william	rice	male	88	benavidez	kimberly31@yahoo.com	1621
+1159	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-09	jessica	valencia	female	30	abel	swilliams@yahoo.com	6450
+1160	universidad abierta interamericana	licenciatura en ciencia política	2020-11-26	bradley	harris	male	85	paso del rey	vchen@hotmail.com	1742
+1179	universidad abierta interamericana	arquitectura	2020-12-15	robert	williams	male	97	paso del rey	xbeasley@hotmail.com	1742
+1163	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-03	valerie	jones	female	81	capilla del señor	zturner@gmail.com	2812
+1165	universidad abierta interamericana	licenciatura en sociología	2020-12-30	erin	wilson	female	45	chanilao	donna44@hotmail.com	6201
+1166	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-25	sandra	thomas	female	45	colonia la blanquita	gallen@hotmail.com	3254
+1448	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-16	kyle	jones	male	64	colonia la blanquita	wrighteric@yahoo.com	3254
+1168	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-19	susan	robinson	female	52	roldan	waynecarter@gmail.com	2134
+1169	universidad abierta interamericana	técnico para bioterios	2020-09-29	frances	navarro	female	39	moron	kelly31@yahoo.com	1708
+1171	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-19	sarah	harrington	female	29	la porteña	gibsonemily@yahoo.com	7241
+1172	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-10-05	elizabeth	parker	female	78	empalme villa constitucion	carrollthomas@yahoo.com	2918
+1173	universidad abierta interamericana	bioquímica	2020-12-29	jean	mckinney	female	75	arroyo seco	martinmarisa@yahoo.com	3641
+1646	universidad abierta interamericana	licenciatura en administración	2020-12-30	victoria	silva	female	78	arroyo seco	whamilton@yahoo.com	3641
+1794	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-12-16	brittany	owens	female	51	arroyo seco	robert64@gmail.com	3641
+1174	universidad abierta interamericana	técnico para bioterios	2020-10-04	tonya	lane	female	87	rincon de milberg	robinsoncheryl@gmail.com	1648
+1270	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-14	debbie	white	female	46	rincon de milberg	hallsylvia@yahoo.com	1648
+1175	universidad abierta interamericana	licenciatura en ciencias biológicas	2021-01-26	allison	shea	female	34	carcaraña	benjaminbrown@hotmail.com	2138
+1178	universidad abierta interamericana	licenciatura en administración	2021-01-18	edward	carlson	male	44	rawson	durantravis@yahoo.com	6734
+1181	universidad abierta interamericana	licenciatura en relaciones del trabajo	2021-01-18	lee	nguyen	male	89	base aeronaval punta indio	shannon42@gmail.com	1919
+1188	universidad abierta interamericana	agronomía	2020-09-29	thomas	floyd	male	63	agua amarga	christopherlawson@hotmail.com	5719
+1195	universidad abierta interamericana	farmacia	2020-10-24	jeremy	nguyen	male	32	huasa pampa norte	zkirk@yahoo.com	4163
+1196	universidad abierta interamericana	licenciatura en administración	2021-01-20	christopher	gonzalez	male	67	el brete	jacksonnicole@gmail.com	4126
+1719	universidad abierta interamericana	diseño de imagen y sonido	2020-11-26	mikayla	wright	female	97	el brete	xbean@yahoo.com	4126
+1199	universidad abierta interamericana	técnico para bioterios	2020-12-10	rhonda	adams	female	75	gonzalez catan	brittany34@hotmail.com	1759
+1200	universidad abierta interamericana	diseño industrial	2021-01-19	vincent	dixon	male	83	abra de peñas	zwalker@hotmail.com	4650
+1202	universidad abierta interamericana	ciencias veterinarias	2020-11-15	shawn	castillo	male	41	ingeniero williams	jeremy00@yahoo.com	6603
+1359	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-10	taylor	crawford	male	78	ingeniero williams	stephanie11@gmail.com	6603
+1203	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-16	leah	atkinson	female	48	kilometro 125	gramos@yahoo.com	6720
+1204	universidad abierta interamericana	ingeniería mecánica	2020-09-04	robert	sullivan	male	78	quiñihual estacion	dustinsmith@gmail.com	7533
+1205	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-17	theresa	novak	female	46	blaquier	douglasholland@yahoo.com	6065
+1207	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2021-01-03	antonio	white	male	70	casablanca	hayden36@yahoo.com	2317
+1698	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-10-25	joel	anderson	male	56	casablanca	matthew26@gmail.com	2317
+1208	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-12-11	jessica	carlson	female	62	aguada de la peña	masseylisa@gmail.com	5461
+1210	universidad abierta interamericana	actuario	2021-01-15	shane	morales	male	90	comandante granville	kimberly09@hotmail.com	5736
+1702	universidad abierta interamericana	diseño de imagen y sonido	2020-12-24	dakota	moses	male	42	comandante granville	tonysalinas@hotmail.com	5736
+1212	universidad abierta interamericana	arquitectura	2020-09-23	theresa	turner	female	56	azcuenaga	angelacook@yahoo.com	6721
+1215	universidad abierta interamericana	medicina	2020-10-22	joan	potter	female	31	alto grande	gordonbrandon@gmail.com	5572
+1781	universidad abierta interamericana	licenciatura en ciencia política	2020-09-25	sarah	rogers	female	91	alto grande	brittany76@yahoo.com	5572
+1216	universidad abierta interamericana	ciencias veterinarias	2020-09-09	karen	andrews	female	82	esteban de luca	alicia88@gmail.com	6475
+1218	universidad abierta interamericana	licenciatura en sociología	2020-12-21	adrian	clements	male	79	estacion saguier	sarah51@gmail.com	2315
+1458	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-12-31	michael	simpson	male	58	estacion saguier	ucurtis@gmail.com	2315
+1219	universidad abierta interamericana	actuario	2020-12-11	jon	rangel	male	59	primera junta	morriskenneth@gmail.com	6422
+1224	universidad abierta interamericana	ciencias veterinarias	2020-12-13	kayla	richardson	female	31	barrio villa saladillo	lewislaurie@gmail.com	7260
+1225	universidad abierta interamericana	licenciatura en ciencia política	2020-10-17	harold	howell	male	85	general galarza	jill12@hotmail.com	2843
+1291	universidad abierta interamericana	contador público	2020-09-17	christopher	rose	male	45	general galarza	jerry44@yahoo.com	2843
+1228	universidad abierta interamericana	diseño de imagen y sonido	2021-01-11	scott	richards	male	52	corbett	sandy17@hotmail.com	6507
+1229	universidad abierta interamericana	ingeniería electrónica	2021-01-27	eddie	kent	male	61	colonia los tres usaris	bradley13@hotmail.com	2760
+1269	universidad abierta interamericana	licenciatura en ciencias biológicas	2021-01-05	jeremy	mcdaniel	male	32	colonia los tres usaris	maddenalejandro@gmail.com	2760
+1795	universidad abierta interamericana	contador público	2020-09-22	james	manning	male	22	colonia los tres usaris	hfuller@yahoo.com	2760
+1231	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-29	jessica	wagner	female	44	chivilcoy	yolandapatterson@yahoo.com	6620
+1271	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-12-19	william	nichols	male	37	chivilcoy	rebeccabenton@gmail.com	6620
+1593	universidad abierta interamericana	ciencias veterinarias	2020-12-07	joseph	miller	male	76	chivilcoy	stephanie98@yahoo.com	6620
+1232	universidad abierta interamericana	licenciatura en psicología	2020-11-23	george	gonzalez	male	98	acuña cue	richardreese@gmail.com	3420
+1234	universidad abierta interamericana	licenciatura en artes	2021-01-05	kimberly	martin	female	73	felicia	joe97@hotmail.com	3087
+1236	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-27	austin	patrick	male	79	abra el candado	david19@hotmail.com	4124
+1237	universidad abierta interamericana	arquitectura	2020-09-19	danny	robinson	male	30	balde ahumada	guerrachristina@gmail.com	5713
+1731	universidad abierta interamericana	licenciatura en artes	2021-01-16	heather	smith	female	81	balde ahumada	ljimenez@yahoo.com	5713
+1241	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-09-18	brandon	mendez	male	57	las palmas	pricesteven@yahoo.com	2806
+1819	universidad abierta interamericana	farmacia	2020-11-20	nicole	webb	female	22	las palmas	pmedina@hotmail.com	2806
+1245	universidad abierta interamericana	licenciatura en ciencia política	2020-11-19	david	jones	male	52	del valle	gtownsend@yahoo.com	6509
+1246	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-12	victoria	bentley	female	62	san nicolas de los arroyos	mariaalvarado@yahoo.com	2900
+1247	universidad abierta interamericana	ingeniería mecánica	2021-01-08	alan	mcdonald	male	91	alto de la leña	ericnguyen@gmail.com	5750
+1257	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-09-07	michelle	cox	female	41	cucullu	barrettjacqueline@yahoo.com	6723
+1338	universidad abierta interamericana	ingeniería electrónica	2020-09-16	melissa	wood	female	58	cucullu	riverabreanna@yahoo.com	6723
+1258	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-06	jay	adams	male	28	la ines	levans@gmail.com	6100
+1259	universidad abierta interamericana	licenciatura en psicología	2020-09-28	dakota	anderson	male	27	arroyo fedor	johnsontyler@gmail.com	3360
+1680	universidad abierta interamericana	bioquímica	2020-12-11	john	herrera	male	51	arroyo fedor	amy13@yahoo.com	3360
+1260	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-26	rita	townsend	female	62	la buana moza	codyschmidt@gmail.com	2930
+1261	universidad abierta interamericana	técnico para bioterios	2020-12-16	charles	carlson	male	56	kilometro 45	williammarshall@gmail.com	1635
+1263	universidad abierta interamericana	diseño industrial	2021-01-24	timothy	robinson	male	42	aristia	lloydandre@gmail.com	3463
+1266	universidad abierta interamericana	técnico para bioterios	2020-12-07	kara	mccormick	female	73	bahia tranquila	alejandro23@yahoo.com	9405
+1267	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-04	matthew	conway	male	45	villa dominico	bwilliams@yahoo.com	1874
+1274	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-10-19	daniel	richardson	male	59	arroyo moreira	vbauer@gmail.com	3181
+1649	universidad abierta interamericana	licenciatura en ciencias ambientales	2021-01-30	andrew	roberts	male	86	arroyo moreira	april66@hotmail.com	3181
+1277	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-03	amanda	holt	female	29	angelica	rjimenez@gmail.com	2303
+1278	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-24	christian	allen	male	49	alagon	lunamarilyn@hotmail.com	6463
+1284	universidad abierta interamericana	diseño de imagen y sonido	2021-01-11	mary	johnson	female	68	bella italia	kelleychristopher@hotmail.com	2301
+1285	universidad abierta interamericana	agronomía	2020-12-10	kyle	gillespie	male	27	colonia florencia	mmcclain@hotmail.com	3500
+1843	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-09	daniel	anderson	male	88	colonia florencia	elizabethmartinez@hotmail.com	3500
+1288	universidad abierta interamericana	medicina	2021-01-26	linda	scott	female	71	buena vista	mitchellpaige@gmail.com	5525
+1290	universidad abierta interamericana	licenciatura en administración	2020-10-01	samuel	malone	male	93	caspinchango	allenangela@gmail.com	4135
+1293	universidad abierta interamericana	arquitectura	2020-11-08	sharon	townsend	female	89	cooper	jody67@hotmail.com	7639
+1298	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-10-15	dawn	bailey	female	95	13 de enero	alice05@yahoo.com	5741
+1300	universidad abierta interamericana	medicina	2020-10-24	judy	reynolds	female	44	algarrobito	kirkdevin@yahoo.com	5537
+1302	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-10	anthony	herrera	male	26	juan vela	greenrobert@hotmail.com	6663
+1309	universidad abierta interamericana	diseño de imagen y sonido	2021-01-29	holly	roth	female	42	alto de leiva	ljuarez@yahoo.com	4142
+1660	universidad abierta interamericana	bioquímica	2020-11-09	william	richard	male	31	alto de leiva	sanchezkaitlin@hotmail.com	4142
+1315	universidad abierta interamericana	actuario	2020-09-19	johnny	fisher	male	82	baños termales	james63@yahoo.com	5345
+1318	universidad abierta interamericana	licenciatura en ciencia política	2021-01-26	albert	moreno	male	59	san genaro norte	david10@gmail.com	2147
+1319	universidad abierta interamericana	contador público	2020-10-09	lori	watson	female	67	coronel isleños	robertsbrian@hotmail.com	2747
+1321	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-30	evelyn	villegas	female	95	centella	yacevedo@gmail.com	3261
+1323	universidad abierta interamericana	diseño industrial	2020-09-27	megan	reed	female	37	amilgancho	nicholas92@yahoo.com	5300
+1518	universidad abierta interamericana	técnico para bioterios	2020-09-10	michele	johnson	female	68	amilgancho	michael50@hotmail.com	5300
+1324	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-29	samuel	english	male	67	colonia clara	matthewpowell@gmail.com	3025
+1325	universidad abierta interamericana	licenciatura en administración	2020-12-05	emily	stone	female	83	caminera lujan	lauren27@yahoo.com	6700
+1328	universidad abierta interamericana	licenciatura en ciencias de la educación	2021-01-25	richard	zimmerman	male	50	arturo almaraz	rogerswilliam@gmail.com	6330
+1332	universidad abierta interamericana	ingeniería en informática	2020-12-25	carol	washington	female	52	caraguata	greenmichael@yahoo.com	3248
+1333	universidad abierta interamericana	contador público	2020-09-30	ashley	thompson	female	36	merlo	tamara51@hotmail.com	1722
+1336	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-04	victor	wallace	male	41	la ribera	judy60@yahoo.com	5734
+1337	universidad abierta interamericana	licenciatura en sociología	2020-10-10	julia	rodriguez	female	76	aguay	glenn36@yahoo.com	3407
+1339	universidad abierta interamericana	diseño de imagen y sonido	2020-12-25	zachary	figueroa	male	30	la lucila	dsantiago@yahoo.com	3072
+1340	universidad abierta interamericana	técnico para bioterios	2020-10-31	timothy	friedman	male	84	dho	nnicholson@yahoo.com	3070
+1344	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-29	mark	charles	male	35	banda de lucero	jimenezmichael@hotmail.com	5333
+1350	universidad abierta interamericana	actuario	2020-09-27	jorge	silva	male	66	bernardo de irigoyen	kevin39@gmail.com	2248
+1351	universidad abierta interamericana	farmacia	2020-10-20	randall	flores	male	52	centro agricola el pato	hrussell@gmail.com	1893
+1777	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-10-01	tiffany	daniels	female	47	centro agricola el pato	mhall@hotmail.com	1893
+1352	universidad abierta interamericana	actuario	2020-11-01	bobby	guerrero	male	62	alberto gerchunoff	coxtyler@yahoo.com	3170
+1353	universidad abierta interamericana	licenciatura en ciencias de la computación	2021-01-27	jasmine	martinez	female	22	colonia alberdi	crystaltaylor@yahoo.com	6034
+1358	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-29	james	edwards	male	62	22 de diciembre	johnsonmark@gmail.com	3378
+1423	universidad abierta interamericana	farmacia	2020-09-17	caleb	parks	male	65	22 de diciembre	irosales@yahoo.com	3378
+1361	universidad abierta interamericana	actuario	2021-01-31	dominique	orozco	female	50	alcaraz 2do	daviskaren@yahoo.com	3138
+1362	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-10-14	roberto	ray	male	95	aguada	jeanette32@gmail.com	5569
+1446	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-09-30	mary	carlson	female	69	aguada	mollyberry@hotmail.com	5569
+1366	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-12-29	adam	jones	male	85	ranelagh	taylorolivia@yahoo.com	1886
+1371	universidad abierta interamericana	agronomía	2020-10-16	tiffany	martin	female	36	base aerea teniente matienzo	anngordon@hotmail.com	9411
+1382	universidad abierta interamericana	ingeniería en informática	2020-09-29	gary	wilkins	male	52	dique toma	rollinsjustin@gmail.com	5407
+1384	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-12-18	rita	thompson	female	91	el alto	morgantaylor@gmail.com	5577
+1385	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-14	andrea	brewer	female	99	arroyo de la ventana	nfitzpatrick@hotmail.com	8521
+1386	universidad abierta interamericana	ingeniería mecánica	2020-09-27	marc	may	male	46	arroyo del pescado	cynthiasmith@gmail.com	1923
+1393	universidad abierta interamericana	licenciatura en administración	2020-11-19	ian	lewis	male	53	pilar	ibarrachristopher@hotmail.com	3085
+1396	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-11-11	douglas	ortiz	male	21	bahia bustamante	phillipcooper@yahoo.com	9111
+1401	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-09-02	joshua	wilson	male	33	estacion coronel pringles	gonzalezheather@hotmail.com	7536
+1402	universidad abierta interamericana	arquitectura	2021-01-13	justin	peterson	male	47	bajo de las palomas	meganmcgee@hotmail.com	6313
+1403	universidad abierta interamericana	licenciatura en ciencia política	2020-10-18	thomas	martinez	male	90	colonia las yescas	ashley45@gmail.com	6513
+1474	universidad abierta interamericana	ingeniería mecánica	2021-01-17	jeffrey	wilson	male	55	colonia las yescas	butlernicholas@yahoo.com	6513
+1404	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-12-12	darrell	obrien	male	21	baños lunlunta	westjessica@gmail.com	5507
+1413	universidad abierta interamericana	diseño de imagen y sonido	2020-09-17	adrian	hardy	male	27	bermudez	kreese@hotmail.com	6071
+1415	universidad abierta interamericana	ingeniería mecánica	2020-12-16	darlene	pearson	female	85	abra del trigo	xlewis@yahoo.com	4501
+1418	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-17	barbara	davis	female	54	arroyito	korr@gmail.com	8313
+1419	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-24	jessica	ross	female	68	la cañada	anthonychavez@gmail.com	5567
+1426	universidad abierta interamericana	ingeniería electrónica	2020-10-30	jennifer	taylor	female	35	arroyo corralito	ucarroll@hotmail.com	3122
+1655	universidad abierta interamericana	licenciatura en terapia ocupacional	2021-01-20	sara	grant	female	59	arroyo corralito	jamesfritz@gmail.com	3122
+1427	universidad abierta interamericana	bioquímica	2021-01-10	frank	randall	male	68	bernal este	kimberlyortiz@gmail.com	1876
+1430	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-23	maria	simmons	female	39	de bruyn	michael42@yahoo.com	6031
+1431	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-04	greg	ferguson	male	47	colonia bella vista	hgay@hotmail.com	5735
+1432	universidad abierta interamericana	diseño industrial	2020-12-28	sara	evans	female	21	fortin lavalle	berryjack@gmail.com	7404
+1482	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-03	david	gonzales	male	95	fortin lavalle	laurascott@gmail.com	7404
+1434	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-23	danielle	morris	female	89	abalo	christopherking@hotmail.com	3466
+1558	universidad abierta interamericana	diseño industrial	2020-12-11	brenda	simpson	female	99	abalo	ericjimenez@hotmail.com	3466
+1437	universidad abierta interamericana	diseño de imagen y sonido	2020-09-04	carlos	dixon	male	24	colonia baron hirsch	yrodriguez@gmail.com	6441
+1441	universidad abierta interamericana	actuario	2020-12-25	mark	sanders	male	85	cuenca	shawn05@yahoo.com	6231
+1442	universidad abierta interamericana	bioquímica	2020-11-20	janice	dillon	female	63	barrio carosio	mitchelljonathan@gmail.com	6000
+1451	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-16	darrell	mclaughlin	male	29	aimogasta	jennifer18@yahoo.com	5310
+1453	universidad abierta interamericana	licenciatura en producción de bioimagenes	2020-10-18	sandy	wilson	female	49	acerillos	joseph45@gmail.com	5467
+1456	universidad abierta interamericana	medicina	2020-12-10	sara	frazier	female	36	aeropuerto ezeiza	samanthafleming@gmail.com	1802
+1457	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-10-15	stacie	mckinney	female	59	el campamento	watsonjames@yahoo.com	3524
+1615	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-25	brian	white	male	41	el campamento	dixonmaria@hotmail.com	3524
+1462	universidad abierta interamericana	licenciatura en ciencia política	2020-10-25	gina	conley	female	28	agua de dionisio	penningtoncatherine@gmail.com	4751
+1469	universidad abierta interamericana	actuario	2020-09-09	monica	mcconnell	female	41	abra de hinojo	ray55@hotmail.com	8170
+1477	universidad abierta interamericana	ingeniería electrónica	2020-11-02	jeremy	eaton	male	57	almirante solier	hendersonamy@gmail.com	8109
+1478	universidad abierta interamericana	diseño de imagen y sonido	2020-09-17	calvin	campbell	male	42	gonzalez moreno	doughertykimberly@yahoo.com	6239
+1480	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-10-18	w	meyers	male	41	calle larga vieja	anthonytanner@yahoo.com	5605
+1484	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-19	tammy	duncan	female	75	campo salusso	margaretcasey@gmail.com	6369
+1490	universidad abierta interamericana	ingeniería mecánica	2021-01-13	christopher	hensley	male	79	cascada los cantaros	david25@gmail.com	8411
+1494	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-09	raymond	mcconnell	male	38	alfalad	smithmichael@hotmail.com	6555
+1573	universidad abierta interamericana	ingeniería electrónica	2020-09-26	grace	allen	female	78	alfalad	kevindavis@yahoo.com	6555
+1497	universidad abierta interamericana	ciencias veterinarias	2020-12-01	bruce	morris	male	71	chovet	johnsonthomas@yahoo.com	2633
+1499	universidad abierta interamericana	ingeniería electrónica	2020-09-07	manuel	lopez	male	27	2 de mayo	carol80@hotmail.com	3722
+1500	universidad abierta interamericana	licenciatura en psicología	2020-09-02	suzanne	hall	female	50	huanqueros	katie66@yahoo.com	3076
+1502	universidad abierta interamericana	contador público	2020-10-28	nathan	wilkinson	male	50	chilecito	christopher65@hotmail.com	5360
+1503	universidad abierta interamericana	técnico para bioterios	2020-12-22	richard	rios	male	18	colman	donaldbrady@gmail.com	7201
+1689	universidad abierta interamericana	ciencias veterinarias	2020-10-04	rachel	berger	female	71	colman	pamelahays@gmail.com	7201
+1504	universidad abierta interamericana	ingeniería electrónica	2020-11-12	michelle	hill	female	100	barrio belgrano	brownkaren@yahoo.com	4146
+1650	universidad abierta interamericana	actuario	2020-09-20	paul	english	male	61	barrio belgrano	stephanie14@gmail.com	4146
+1816	universidad abierta interamericana	licenciatura en psicología	2021-01-20	michelle	ellis	female	73	barrio belgrano	beardbilly@yahoo.com	4146
+1512	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-10-07	christopher	donaldson	male	42	cespedes	jonestony@yahoo.com	5517
+1516	universidad abierta interamericana	licenciatura en ciencias de la computación	2021-01-09	christine	edwards	female	75	la gama	lisaallen@yahoo.com	2615
+1522	universidad abierta interamericana	medicina	2020-09-30	paul	henderson	male	60	alvarez jonte	alexanderamy@hotmail.com	1921
+1523	universidad abierta interamericana	licenciatura en administración	2020-10-01	heather	greene	female	68	campo de villamil	johnsonisabella@gmail.com	3241
+1524	universidad abierta interamericana	ciencias veterinarias	2020-12-05	andrea	scott	female	66	villa eloisa	ortegajoseph@hotmail.com	2503
+1526	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-09-08	deborah	green	female	86	luis guillon	amandawalker@yahoo.com	1838
+1527	universidad abierta interamericana	agronomía	2020-12-02	richard	garrett	male	47	bajo las tunas	bradleylauren@yahoo.com	3017
+1528	universidad abierta interamericana	actuario	2020-12-14	carlos	mitchell	male	47	atahualpa	sberry@yahoo.com	6471
+1529	universidad abierta interamericana	licenciatura en sociología	2021-01-10	maria	brown	female	54	bajastine	jenkinsrobin@yahoo.com	4164
+1631	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-11-08	madison	marks	female	70	bajastine	tracey81@yahoo.com	4164
+1533	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-23	erin	nielsen	female	37	estancia las isletas	joneswyatt@yahoo.com	8148
+1561	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-29	william	gutierrez	male	66	estancia las isletas	ewilson@hotmail.com	8148
+1540	universidad abierta interamericana	licenciatura en musicoterapia	2020-12-04	tina	williams	female	43	alto el puesto	santosmiguel@hotmail.com	4159
+1542	universidad abierta interamericana	ingeniería electrónica	2020-10-31	brenda	beck	female	42	3 de mayo	lsmith@hotmail.com	5543
+1545	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2021-01-01	karen	cohen	female	54	balsa senillosa	ujones@yahoo.com	8316
+1546	universidad abierta interamericana	farmacia	2020-11-22	lauren	fernandez	female	22	dock sud	sanchezkatie@hotmail.com	1871
+1774	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-05	scott	downs	male	76	dock sud	rachel34@gmail.com	1871
+1547	universidad abierta interamericana	licenciatura en musicoterapia	2020-11-29	karen	garcia	female	66	brea chimpana	williamswilliam@hotmail.com	4230
+1548	universidad abierta interamericana	licenciatura en administración	2020-12-21	nicholas	grant	male	95	aguada san roque	jamesmiller@gmail.com	8305
+1551	universidad abierta interamericana	licenciatura en ciencia política	2021-01-15	nathan	luna	male	34	agua amarilla la hoyada	wbrown@gmail.com	4139
+1553	universidad abierta interamericana	licenciatura en ciencias de la computación	2021-01-18	jenny	reynolds	female	95	carilo	petersenthomas@yahoo.com	7167
+1560	universidad abierta interamericana	ingeniería en informática	2020-10-17	phillip	li	male	56	el perdido est jose guisasola	earlpacheco@yahoo.com	8156
+1716	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-20	heather	price	female	53	el perdido est jose guisasola	milesstephen@gmail.com	8156
+1562	universidad abierta interamericana	ingeniería mecánica	2021-01-07	jessica	powers	female	19	antiguo	vanessaleon@gmail.com	4631
+1563	universidad abierta interamericana	licenciatura en administración	2021-01-05	thomas	shelton	male	62	guamini	camachomelinda@gmail.com	6435
+1572	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-09-23	abigail	christian	female	49	colonia velez	fieldsjohn@gmail.com	2933
+1578	universidad abierta interamericana	actuario	2020-09-16	amy	smith	female	61	la sara	brianpeters@hotmail.com	7621
+1579	universidad abierta interamericana	diseño de imagen y sonido	2020-11-20	mark	kelly	male	100	aero club rosario	gonzaleskim@gmail.com	2132
+1582	universidad abierta interamericana	bioquímica	2020-10-25	david	avila	male	44	bahia lapataia	amymcguire@gmail.com	9410
+1583	universidad abierta interamericana	licenciatura en musicoterapia	2020-10-31	andre	hayden	male	35	arbol verde	shirley50@yahoo.com	5715
+1586	universidad abierta interamericana	licenciatura en producción de bioimagenes	2021-01-30	melanie	miller	female	75	los indios	ddavis@gmail.com	2709
+1591	universidad abierta interamericana	licenciatura en ciencia política	2020-09-11	johnny	hart	male	57	arrechea	tranashley@gmail.com	3355
+1601	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-12-01	matthew	patterson	male	63	colonia leiva	amandaford@gmail.com	3326
+1602	universidad abierta interamericana	agronomía	2020-09-21	maria	estes	female	67	balneario oriente	craigdiana@yahoo.com	8153
+1606	universidad abierta interamericana	licenciatura en ciencias geológicas	2020-12-21	samantha	li	female	62	alejandro petion	hcollins@yahoo.com	1808
+1608	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-26	tiffany	lopez	female	23	cupiles	bwall@yahoo.com	5595
+1609	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-09-26	sheri	lopez	female	39	arroyo casco	christopherboyd@hotmail.com	3465
+1611	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-09-12	erin	ochoa	female	25	antonio pini	michaeljohnson@gmail.com	3061
+1617	universidad abierta interamericana	licenciatura en administración	2020-09-08	wendy	leon	female	66	campo quiñones	pamelafowler@gmail.com	2258
+1618	universidad abierta interamericana	licenciatura en relaciones del trabajo	2020-11-13	kevin	murray	male	41	buen pasto	pkeller@yahoo.com	9023
+1645	universidad abierta interamericana	medicina	2020-10-08	jeremy	young	male	66	buen pasto	laurawinters@hotmail.com	9023
+1621	universidad abierta interamericana	ingeniería mecánica	2020-09-26	ann	williams	female	69	aneque grande	sbrooks@yahoo.com	7011
+1623	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-09-04	kevin	williams	male	35	almacen piatti	andrea01@yahoo.com	2711
+1626	universidad abierta interamericana	contador público	2020-10-24	anthony	bender	male	84	cañadon del corral	ysantana@hotmail.com	8412
+1629	universidad abierta interamericana	agronomía	2020-12-10	gwendolyn	thompson	female	93	belgrano	fergusonandrea@hotmail.com	5439
+1630	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-11-03	alyssa	peterson	female	56	alcete	crystal21@hotmail.com	3127
+1632	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-24	paul	carlson	male	62	barro negro	lynn70@hotmail.com	4718
+1635	universidad abierta interamericana	farmacia	2020-10-13	brenda	cabrera	female	95	cerana	rguerra@hotmail.com	2202
+1806	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-11-10	amy	riley	female	91	cerana	melendezmichael@gmail.com	2202
+1637	universidad abierta interamericana	ingeniería mecánica	2020-10-05	tara	harris	female	31	favelli	michelledrake@gmail.com	5636
+1638	universidad abierta interamericana	actuario	2021-01-20	thomas	alexander	male	25	abo nezu	brian80@gmail.com	3461
+1641	universidad abierta interamericana	licenciatura en kinesiología y fisiatría	2020-10-04	harold	brown	male	96	colonia zambungo	alyssamartin@gmail.com	6628
+1643	universidad abierta interamericana	licenciatura en artes	2020-12-24	mary	adams	female	34	alfredo demarchi	hillteresa@yahoo.com	6533
+1644	universidad abierta interamericana	farmacia	2021-01-31	donald	graves	male	48	oriente	curtis18@gmail.com	7509
+1647	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-12-12	nicole	underwood	female	79	camino centenario km 11500	millerrichard@hotmail.com	1896
+1651	universidad abierta interamericana	arquitectura	2020-09-07	jeremy	fuentes	male	23	barrancas	leahsmith@hotmail.com	2246
+1662	universidad abierta interamericana	contador público	2020-09-23	karen	parker	female	87	barrio garin norte	jchen@yahoo.com	1623
+1666	universidad abierta interamericana	contador público	2020-11-30	courtney	rose	female	23	aldea santa maria	yholder@yahoo.com	3123
+1671	universidad abierta interamericana	farmacia	2020-10-12	aaron	brown	male	89	colonia los sauces	hannahbaker@yahoo.com	3200
+1673	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-25	dennis	fleming	male	42	adrogue	espinozaevan@hotmail.com	1846
+1678	universidad abierta interamericana	agronomía	2020-12-19	jennifer	jones	female	42	2 de julio	psanchez@hotmail.com	3344
+1693	universidad abierta interamericana	farmacia	2020-10-03	stanley	norris	male	62	colonia matilde	joneskenneth@yahoo.com	3013
+1694	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-11-09	amanda	ruiz	female	88	olascoaga	suarezwendy@yahoo.com	6652
+1840	universidad abierta interamericana	licenciatura en artes	2020-09-04	paige	hines	female	53	olascoaga	freemanmichael@yahoo.com	6652
+1699	universidad abierta interamericana	licenciatura en ciencias ambientales	2020-12-04	rachel	tucker	female	81	isla los laureles	jamiegarcia@yahoo.com	2931
+1700	universidad abierta interamericana	contador público	2020-10-28	john	reeves	male	64	esc nav militar rio sant	clayjames@hotmail.com	1927
+1701	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-11-14	michael	leon	male	48	puesto de isla	lucasmassey@yahoo.com	3487
+1703	universidad abierta interamericana	bioquímica	2020-09-05	derek	clark	male	76	adrian maturano	jason73@gmail.com	5590
+1704	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-10-10	katie	dalton	female	84	casimiro gomez	lopezmichael@hotmail.com	6214
+1705	universidad abierta interamericana	ciencias veterinarias	2020-10-02	tina	olson	female	60	ricardo rojas	uobrien@gmail.com	1618
+1706	universidad abierta interamericana	licenciatura en artes	2020-12-26	ryan	larson	male	86	colonia la marta	jeffrey53@yahoo.com	3185
+1708	universidad abierta interamericana	agronomía	2020-11-21	april	patel	female	31	membrillar	kdominguez@yahoo.com	6748
+1712	universidad abierta interamericana	licenciatura en artes	2020-11-17	becky	anderson	female	72	estacion saladas	christineross@gmail.com	3428
+1713	universidad abierta interamericana	ingeniería electrónica	2021-01-25	tina	lee	female	52	indio rico	watsonmary@gmail.com	7501
+1718	universidad abierta interamericana	técnico para bioterios	2020-09-10	john	jordan	male	96	monte chingolo	tasha78@hotmail.com	1825
+1730	universidad abierta interamericana	contador público	2020-09-26	kevin	allen	male	87	capihuas	ddennis@yahoo.com	5327
+1849	universidad abierta interamericana	ciencias veterinarias	2020-09-26	samantha	howard	female	25	capihuas	rfischer@hotmail.com	5327
+1737	universidad abierta interamericana	arquitectura	2020-11-11	melanie	gray	female	29	atalaya	padillajason@yahoo.com	1913
+1738	universidad abierta interamericana	actuario	2020-11-11	gavin	acosta	male	48	desvio kilometro 234	seanpotter@hotmail.com	6503
+1748	universidad abierta interamericana	arquitectura	2020-10-08	laura	garcia	female	49	los gauchos	jessica43@gmail.com	6343
+1754	universidad abierta interamericana	diseño industrial	2020-10-15	james	hernandez	male	61	de la canal	lesterlauren@gmail.com	7013
+1756	universidad abierta interamericana	licenciatura en ciencia y tecnología de alimentos	2020-10-05	matthew	collins	male	81	arrascaeta	ibishop@hotmail.com	3046
+1805	universidad abierta interamericana	actuario	2020-09-07	maxwell	hughes	male	93	arrascaeta	gutierrezmatthew@gmail.com	3046
+1821	universidad abierta interamericana	licenciatura en artes	2020-10-11	matthew	norton	male	69	arrascaeta	scosta@hotmail.com	3046
+1765	universidad abierta interamericana	ingeniería en informática	2020-10-28	megan	pierce	female	41	agua de las palomas	michellecollins@yahoo.com	4741
+1857	universidad abierta interamericana	ingeniería electrónica	2021-01-16	sandra	harrison	female	65	agua de las palomas	joshuareed@yahoo.com	4741
+1766	universidad abierta interamericana	diseño de imagen y sonido	2020-10-30	amy	richard	female	23	boeuf	leahgriffin@hotmail.com	6380
+1772	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-09-18	sarah	webster	female	33	cañada la rica	todd56@gmail.com	6625
+1776	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-12-24	julia	rodriguez	female	55	coronel charlone	dennisstephanie@yahoo.com	6223
+1784	universidad abierta interamericana	ingeniería mecánica	2020-12-03	stacy	mcconnell	female	55	correntoso	kfrazier@hotmail.com	8407
+1790	universidad abierta interamericana	bioquímica	2020-09-29	nancy	adams	female	93	paso telegrafo	leedavid@gmail.com	3194
+1791	universidad abierta interamericana	medicina	2020-11-21	madison	rodriguez	female	34	puente del inca	michaeljohnson@hotmail.com	5555
+1796	universidad abierta interamericana	ciencias veterinarias	2020-12-05	jill	sanchez	female	32	libano	reedangel@hotmail.com	7407
+1799	universidad abierta interamericana	licenciatura en terapia ocupacional	2020-09-30	jill	newton	female	47	victoria	brittanychang@hotmail.com	1644
+1808	universidad abierta interamericana	ingeniería en informática	2020-10-26	patrick	mooney	male	99	campo moreno	davisbrittany@yahoo.com	3734
+1813	universidad abierta interamericana	licenciatura en ciencias antropológicas	2020-12-09	franklin	scott	male	73	almacen cristian schubert	clarkedward@yahoo.com	3111
+1814	universidad abierta interamericana	arquitectura	2021-01-24	tyler	morton	male	20	plomer	allisonhowe@yahoo.com	1733
+1818	universidad abierta interamericana	ingeniería electrónica	2020-10-03	courtney	sosa	female	89	la banda	natashamoore@gmail.com	4133
+1827	universidad abierta interamericana	licenciatura en planificación y diseño del paisaje	2020-09-28	jacqueline	robinson	female	62	abdon castro tolay	andrew68@gmail.com	4641
+1828	universidad abierta interamericana	licenciatura en ciencias de la educación	2020-11-10	christopher	bond	male	99	trujui	annabailey@yahoo.com	1664
+1830	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2020-12-19	shannon	adams	female	33	juan vucetich ex dr r levene	djackson@hotmail.com	1894
+1831	universidad abierta interamericana	licenciatura en ciencias geológicas	2021-01-15	troy	hoffman	male	95	acebal	dlowe@yahoo.com	2109
+1833	universidad abierta interamericana	licenciatura en musicoterapia	2020-09-22	daniel	vaughn	male	27	cheroguita	jacobgraves@yahoo.com	3358
+1837	universidad abierta interamericana	licenciatura en ciencias antropológicas	2021-01-18	mark	blevins	male	21	colonia bella italia	michaelbarr@hotmail.com	2300
+1838	universidad abierta interamericana	actuario	2020-11-08	jason	rosario	male	24	cangrejillos	epatrick@yahoo.com	4644
+1854	universidad abierta interamericana	agronomía	2021-01-09	angela	kennedy	female	91	barrialitos	tinarodgers@gmail.com	5403
+1855	universidad abierta interamericana	licenciatura en ciencias de la computación	2020-11-23	kenneth	greene	male	21	cachari	dmurphy@hotmail.com	7214
+1856	universidad abierta interamericana	licenciatura en gestión de agroalimentos	2021-01-31	jose	clark	male	20	abra guazu	william80@yahoo.com	3197
+1859	universidad abierta interamericana	licenciatura en ciencias biológicas	2020-12-07	mary	harrison	female	89	arroyo tomas	melissa15@hotmail.com	3309
+1862	universidad abierta interamericana	farmacia	2020-10-08	manuel	wright	male	30	betbeder	christopher73@hotmail.com	3156
+1864	universidad abierta interamericana	ingeniería en informática	2021-01-20	megan	lester	female	60	campo redondo	taylorluna@gmail.com	3581

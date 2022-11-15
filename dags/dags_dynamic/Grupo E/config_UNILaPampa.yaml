@@ -1,0 +1,4 @@
+dag_id: ETL_GEUNLapampa
+schedule_interval: '@hourly'
+catchup: False
+input: LaPampa
