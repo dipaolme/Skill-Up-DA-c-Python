@@ -50,4 +50,6 @@ grupo de universidades, utilizando Pandas.
 
 - [Di Paola, Matias](https://github.com/dipaolme) - Grupo A
 - [Breyner Ocampo Cardenas](https://github.com/BROC95) - Grupo B
+- [Francisco Ezequiel Cambiagno](https://github.com/FranciscoCambiagno) - Grupo C
 - [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
+
