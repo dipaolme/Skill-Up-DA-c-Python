@@ -12,12 +12,12 @@ from pathlib import Path
 
 
 LOGS_DIR = '/usr/local/airflow/assets/'
-LOGGER = logging.getLogger('GC_UniPalermo')
+LOGGER = logging.getLogger('{{ nombre }}')
 LOGGER.setLevel(logging.INFO)
 
 FORMATTER = logging.Formatter('%(asctime)s - %(name)s - %(message)s', '%Y-%m-%d')
 
-HANDLER = logging.FileHandler(os.path.join(LOGS_DIR, 'GC_UniPalermo.log'))
+HANDLER = logging.FileHandler(os.path.join(LOGS_DIR, '{{ nombre }}.log'))
 HANDLER.setFormatter(FORMATTER)
 
 LOGGER.addHandler(HANDLER)
@@ -29,7 +29,7 @@ def extract():
     LOGGER.info("Comenzando proceso de ETL ...")
     LOGGER.info("Cargando query...")
     
-    with open("/usr/local/airflow/include/GC_UniPalermo.sql", "r", encoding='utf8') as archivo:
+    with open("/usr/local/airflow/include/{{ nombre }}.sql", "r", encoding='utf8') as archivo:
         sql_query = archivo.read()
 
     LOGGER.info("Extrayendo datos...")
@@ -40,14 +40,14 @@ def extract():
     LOGGER.info("Guardando datos extraidos...")
 
     df = hook.get_pandas_df(sql=sql_query)
-    df.to_csv('./files/GC_UniPalermo_select.csv', index=False)
+    df.to_csv('./files/{{ nombre }}_select.csv', index=False)
     conn.close()
 
 
 def transform():
     LOGGER.info("Iniciando proceso de tranformacion de datos...")
 
-    df = pd.read_csv('./files/GC_UniPalermo_select.csv')
+    df = pd.read_csv('./files/{{ nombre }}_select.csv')
 
     LOGGER.info("Transformando datos...")
 
@@ -56,14 +56,14 @@ def transform():
 
     LOGGER.info("Guardando datos transformados...")
 
-    df.to_csv('./datasets/GC_UniPalermo_process.txt', sep='\t', index=False)
+    df.to_csv('./datasets/{{ nombre }}_process.txt', sep='\t', index=False)
 
     LOGGER.info("Enviando datos al bucket...")
     
 
 with DAG(
-    dag_id='GC_UniPalermo_dag_elt',
-    description='Extrraccion, tranformacion y carga a s3 de datos de la Universidad De Palermo.',
+    dag_id='{{ nombre }}_dag_elt',
+    description='Extrraccion transformacion y carga a s3 de datos de la universidad de las universidades.',
     schedule_interval=timedelta(days=1),
     start_date=datetime(2022, 11, 4),
     max_active_runs=5
@@ -81,8 +81,8 @@ with DAG(
 
     load_task = LocalFilesystemToS3Operator(
         task_id='load_to_s3_task',
-        filename='/usr/local/airflow/datasets/GC_UniPalermo_process.txt',
-        dest_key='GC_UniPalermo_process.txt',
+        filename='/usr/local/airflow/datasets/{{ nombre }}_process.txt',
+        dest_key='{{ nombre }}_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
         replace=True,

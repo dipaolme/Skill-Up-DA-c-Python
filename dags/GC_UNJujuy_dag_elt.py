@@ -65,7 +65,7 @@ def transform():
 
 with DAG(
     dag_id='GC_UNJujuy_dag_elt',
-    description='Este es un tutorial de dags',
+    description='Extrraccion, tranformacion y carga a s3 de datos de la Universidad Nacional de Jujuy.',
     schedule_interval=timedelta(days=1),
     start_date=datetime(2022, 11, 4),
     max_active_runs=5

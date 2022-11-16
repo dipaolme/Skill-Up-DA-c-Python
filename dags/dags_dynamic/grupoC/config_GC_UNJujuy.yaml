@@ -1,0 +1,6 @@
+
+nombre : 'GC_UNJujuy'
+start_date : '2022, 4, 11'
+schedule_interval: '@hourly'
+retries : 5
+bucket : 'dipa-s3'
