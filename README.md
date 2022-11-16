@@ -15,7 +15,7 @@ Repositorio del proyecto grupal a entregar que se llevo a cabo durante la aceler
 ## Objetivo
 
 - Implementar un flujo de ejecución que ejecute un proceso ETL (extraccion, transformacion, carga) utilizando datos de Universidades Argentinas
-- Realizar comparaciones y generar KPIs de los previamente transformados
+- Realizar comparaciones y generar KPIs de los datos previamente transformados
 
 
 ## Contexto
