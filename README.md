@@ -1,6 +1,24 @@
+# Skill-Up-DA-c-Python
+
+Repositorio del proyecto grupal a entregar que se llevo a cabo durante la aceleracion de Alkemy durante Noviembre 2022  
+
+## Grupo 1 - AstroData
+
+## Integrantes y grupos asignados
+
+- [Di Paola, Matias](https://github.com/dipaolme) - Grupo A
+- [Breyner Ocampo Cardenas](https://github.com/BROC95) - Grupo B
+- [Francisco Ezequiel Cambiagno](https://github.com/FranciscoCambiagno) - Grupo C
+- [Alfredo Rodríguez](https://github.com/elalfredoignacio) - Grupo E
+- [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
+
+### Objetivo
+
+- Implementar un flujo de ejecución que ejecute un proceso ETL (extraccion, transformacion, carga) utilizando datos de Universidades Argentinas
+- Realizar comparaciones y generar KPIs de los previamente transformados
 
 
-## Descripción
+## Contexto
 Client: Ministerio de Educación de la Nación
 Situación inicial
 📍
@@ -20,11 +38,6 @@ El CNCE requiere que preparemos el set de datos para que puedan analizar la info
 relevante y tomar directrices en cuanto a qué carreras universitarias requieren programa de
 becas, qué planes de estudios tienen adhesión, entre otros.
 
-### Tu objetivo
-
-📋 Como parte de un equipo de desarrollo y data analytics de “MyData”, deberás analizar y
-preparar flujos de ejecución del set de datos recibido para obtener las comparaciones y
-mediciones requeridas por el CNCE.
 
 #### Requerimientos 🔧
 
@@ -44,12 +57,3 @@ consultas SQL.
 ● Calcular, evaluar y ajustar formatos de determinados datos como fechas, nombres,
 códigos postales según requerimientos normalizados que se especifican para cada
 grupo de universidades, utilizando Pandas.
-
-
-## Integrantes y grupos asignados
-
-- [Di Paola, Matias](https://github.com/dipaolme) - Grupo A
-- [Breyner Ocampo Cardenas](https://github.com/BROC95) - Grupo B
-- [Francisco Ezequiel Cambiagno](https://github.com/FranciscoCambiagno) - Grupo C
-- [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
-
