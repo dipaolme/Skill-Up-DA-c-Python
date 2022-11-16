@@ -40,7 +40,7 @@ def pd_transform2txt():
   # columns style and type convertion
   df['university'] = df['university'].str.lower().str.replace('_',' ').str.strip()
   df['career'] = df['career'].str.lower().str.replace('_',' ').str.strip()
-  df['last_name'] = df['last_name'].str.lower().str.replace('_',' ').str.strip()
+  df['last_name'] = df['last_name'].str.lower().str.replace('_',' ').str.strip().str.replace('(m[r|s]|[.])|(\smd\s)', '', regex=True)
   df['email'] = df['email'].str.lower().str.replace('_',' ').str.strip()
   df['location'] = df['location'].str.lower().str.replace('_',' ').str.strip()
   df['gender'] = df['gender'].map({'F': 'female', 'M': 'male'})
