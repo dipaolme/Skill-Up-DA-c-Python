@@ -5,42 +5,68 @@ from airflow.operators.python import PythonOperator
 import pandas as pd
 from airflow.providers.amazon.aws.transfers.local_to_s3 import LocalFilesystemToS3Operator
 #from decouple import config
-
+import logging
 from assets.transform_dfs import transform_df
-
+import os
 from pathlib import Path
+
+
+LOGS_DIR = '/usr/local/airflow/assets/'
+LOGGER = logging.getLogger('GC_UniPalermo')
+LOGGER.setLevel(logging.INFO)
+
+FORMATTER = logging.Formatter('%(asctime)s - %(name)s - %(message)s', '%Y-%m-%d')
+
+HANDLER = logging.FileHandler(os.path.join(LOGS_DIR, 'GC_UniPalermo.log'))
+HANDLER.setFormatter(FORMATTER)
+
+LOGGER.addHandler(HANDLER)
+
 
 def extract():
     sql_query = ""
 
+    LOGGER.info("Comenzando proceso de ETL ...")
+    LOGGER.info("Cargando query...")
+    
     with open("/usr/local/airflow/include/GC_UniPalermo.sql", "r", encoding='utf8') as archivo:
         sql_query = archivo.read()
 
-    hook = PostgresHook(postgres_conn_id='alkemy_db')
+    LOGGER.info("Extrayendo datos...")
 
+    hook = PostgresHook(postgres_conn_id='alkemy_db')
     conn = hook.get_conn()
     
+    LOGGER.info("Guardando datos extraidos...")
+
     df = hook.get_pandas_df(sql=sql_query)
-
     df.to_csv('./files/GC_UniPalermo_select.csv', index=False)
-
     conn.close()
 
 
 def transform():
+    LOGGER.info("Iniciando proceso de tranformacion de datos...")
+
     df = pd.read_csv('./files/GC_UniPalermo_select.csv')
+
+    LOGGER.info("Transformando datos...")
 
     df.rename(columns={'codigo_postal':'postal_code'}, inplace=True)
     df = transform_df(df)
 
+    LOGGER.info("Guardando datos transformados...")
+
     df.to_csv('./datasets/GC_UniPalermo_process.txt', sep='\t', index=False)
+
+    LOGGER.info("Enviando datos al bucket...")
     
 
 with DAG(
     dag_id='GC_UniPalermo_dag_elt',
     description='Extrraccion de datos de la Universidad De Palermo.',
     schedule_interval=timedelta(days=1),
-    start_date=datetime(2022, 11, 4)
+    start_date=datetime(2022, 11, 4),
+    max_active_runs=5
 ) as dag:
 
     extract_task = PythonOperator(
