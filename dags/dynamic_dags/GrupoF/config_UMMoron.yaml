@@ -1,0 +1,6 @@
+dag_id: "GFUMMoron_dyn"
+universidad: "GFUMMoron"
+schedule: "@hourly"
+catchup: False
+query: "include/GFUMMoron"
+uni_csv: "files/GFUMMoron"
