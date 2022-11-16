@@ -73,7 +73,11 @@ def transform_data():
     df['university']        = legible(df['university'])
     df['career']            = legible(df['career'])
     df['email']             = legible(df['email'])
-    df['location']          = legible(df['location'])
+    df['first_name']        = legible(df['first_name'])
+
+    # Convierto postal_code a string
+    df['postal_code']       = df['postal_code'].astype(str)
+    df['location']          = df['location'].astype(str)
 
     # inscription_date pasa de str a datetime y despues a formato %Y-%m-%d (2022-01-01)
     df['inscription_date']  = pd.to_datetime(df['inscription_date'])
@@ -82,16 +86,20 @@ def transform_data():
     # M -> male | F -> female
     df['gender']            = df['gender'].replace(['M','F'],['male','female'])
 
-    # droppeo los duplicados en cod_postales['localidad'] para evitar errores antes de asignar los cp
-    cod_postales            = cod_postales.drop_duplicates(subset='localidad', keep="first")
-    df['postal_code']       = df['postal_code'].astype(str)
-    df['postal_code']       = df.join(cod_postales.set_index('localidad'), on='location')['codigo_postal']
-
     # legible() para normalizar los nombres
-    df.first_name           = legible(df.first_name)
     aux_df                  = df['first_name'].str.split(" ", 1, expand=True)
     df['first_name']        = aux_df[0]
     df['last_name']         = aux_df[1]
+
+    # checkeo que universidad se ingreso
+    if UNI == 'GFUNRioCuarto':
+        df['location']          = legible(df['location'])
+        cod_postales            = cod_postales.drop_duplicates(subset='localidad', keep="first")
+        df['postal_code']       = df['postal_code'].astype(str)
+        df['postal_code']       = df.join(cod_postales.set_index('localidad'), on='location')['codigo_postal']
+
+    elif UNI == 'GFUMMoron':
+        df['location']          = df.join(cod_postales.set_index('codigo_postal'), on='postal_code')['localidad']
     
 
     df.to_csv(('files/' + UNI + '_process.txt'), index=None)
