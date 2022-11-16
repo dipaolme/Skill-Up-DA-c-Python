@@ -1,4 +1,4 @@
-nombre : 'test'
+nombre : 'GAUFLores'
 start_date : '2022, 3, 11'
 max_active_runs : 3
 schedule_interval: '@daily'
