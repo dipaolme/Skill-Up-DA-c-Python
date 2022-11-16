@@ -52,9 +52,9 @@ def pd_transform2txt():
   df = pd.read_csv('/usr/local/airflow/tests/GAUFlores_select.csv', index_col=0)
   
   df['university'] = df['university'].str.lower().str.replace('_',' ').str.strip()
-  df['career'] = df['career'].str.lower().str.strip()
-  df['last_name'] = df['last_name'].str.lower().str.strip().str.replace('(m[r|s]|[.])|(\smd\s)', '', regex=True)
-  df['email'] = df['email'].str.lower().str.strip()
+  df['career'] = df['career'].str.lower().str.replace('_',' ').str.strip()
+  df['last_name'] = df['last_name'].str.lower().str.replace('_',' ').str.strip().str.replace('(m[r|s]|[.])|(\smd\s)', '', regex=True)
+  df['email'] = df['email'].str.lower().str.replace('_',' ').str.strip()
   df['gender'] = df['gender'].map({'F': 'female', 'M': 'male'})
   df['inscription_date'] = pd.to_datetime(df['inscription_date'], format='%Y/%m/%d')
   df['fecha_nacimiento'] = pd.to_datetime(df['fecha_nacimiento'])
