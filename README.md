@@ -12,7 +12,7 @@ Repositorio del proyecto grupal a entregar que se llevo a cabo durante la aceler
 - [Alfredo Rodríguez](https://github.com/elalfredoignacio) - Grupo E
 - [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
 
-### Objetivo
+## Objetivo
 
 - Implementar un flujo de ejecución que ejecute un proceso ETL (extraccion, transformacion, carga) utilizando datos de Universidades Argentinas
 - Realizar comparaciones y generar KPIs de los previamente transformados
