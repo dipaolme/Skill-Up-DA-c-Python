@@ -90,7 +90,7 @@ def transform_data():
     df['last_name']         = aux_df[1]
     
 
-    df.to_csv('files/GFUNRioCuarto_process.txt', index=None)
+    df.to_csv('datasets/GFUNRioCuarto_process.txt', index=None)
 
     LOGGER.info('Success')
     LOGGER.info('Uploading data to s3 bucket...')
@@ -120,7 +120,7 @@ with DAG(
 
     s3_load = LocalFilesystemToS3Operator(
         task_id = "load",
-        filename='files/GFUNRioCuarto_process.txt',
+        filename='datasets/GFUNRioCuarto_process.txt',
         dest_key='GFUNRioCuarto_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
@@ -220,7 +220,7 @@ def transform_data():
     df['last_name']         = aux_df[1]
     
 
-    df.to_csv('files/GFUNRioCuarto_process.txt', index=None)
+    df.to_csv('datasets/GFUNRioCuarto_process.txt', index=None)
 
     LOGGER.info('Success')
     LOGGER.info('Uploading data to s3 bucket...')
@@ -250,7 +250,7 @@ with DAG(
 
     s3_load = LocalFilesystemToS3Operator(
         task_id = "load",
-        filename='files/GFUNRioCuarto_process.txt',
+        filename='datasets/GFUNRioCuarto_process.txt',
         dest_key='GFUNRioCuarto_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
