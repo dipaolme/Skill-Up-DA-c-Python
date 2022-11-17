@@ -1,0 +1,4 @@
+dag_id: ETL_GEUNInteramericana
+schedule_interval: '@hourly'
+catchup: False
+input: Interamericana

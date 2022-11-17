@@ -1,5 +1,29 @@
+<<<<<<< HEAD
 # Proyecto #1 Flujos de ejecución
 ## Descripción
+=======
+# Skill-Up-DA-c-Python
+
+Repositorio del proyecto grupal a entregar que se llevo a cabo durante la aceleracion de Alkemy durante Noviembre 2022  
+
+## Grupo 1 - AstroData
+
+## Integrantes y grupos asignados
+
+- [Di Paola, Matias](https://github.com/dipaolme) - Grupo A
+- [Breyner Ocampo Cardenas](https://github.com/BROC95) - Grupo B
+- [Francisco Ezequiel Cambiagno](https://github.com/FranciscoCambiagno) - Grupo C
+- [Alfredo Rodríguez](https://github.com/elalfredoignacio) - Grupo E
+- [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
+
+## Objetivo
+
+- Implementar un flujo de ejecución que ejecute un proceso ETL (extraccion, transformacion, carga) utilizando datos de Universidades Argentinas
+- Realizar comparaciones y generar KPIs de los datos previamente transformados
+
+
+## Contexto
+>>>>>>> 0928fb96ec19c4e94313cb00e4976b5a5114cd08
 Client: Ministerio de Educación de la Nación
 Situación inicial
 📍
@@ -19,11 +43,14 @@ El CNCE requiere que preparemos el set de datos para que puedan analizar la info
 relevante y tomar directrices en cuanto a qué carreras universitarias requieren programa de
 becas, qué planes de estudios tienen adhesión, entre otros.
 
+<<<<<<< HEAD
 ### Tu objetivo
 
 📋 Como parte de un equipo de desarrollo y data analytics de “MyData”, deberás analizar y
 preparar flujos de ejecución del set de datos recibido para obtener las comparaciones y
 mediciones requeridas por el CNCE.
+=======
+>>>>>>> 0928fb96ec19c4e94313cb00e4976b5a5114cd08
 
 #### Requerimientos 🔧
 
@@ -43,6 +70,7 @@ consultas SQL.
 ● Calcular, evaluar y ajustar formatos de determinados datos como fechas, nombres,
 códigos postales según requerimientos normalizados que se especifican para cada
 grupo de universidades, utilizando Pandas.
+<<<<<<< HEAD
 
 ### Assets 🎨
 
@@ -198,3 +226,5 @@ https://docs.python.org/3/library/logging.config.html#logging-config-fileformat
 https://realpython.com/lessons/logger-config-file/
 
 
+=======
+>>>>>>> 0928fb96ec19c4e94313cb00e4976b5a5114cd08

@@ -1,0 +1,105 @@
+import logging
+import logging.config
+from os import path
+from pathlib import Path 
+from airflow import DAG
+from datetime import datetime
+from airflow.providers.postgres.hooks.postgres import PostgresHook
+from airflow.providers.amazon.aws.transfers.local_to_s3 import LocalFilesystemToS3Operator
+from airflow.operators.python import PythonOperator
+import pandas as pd
+import numpy as np
+
+#logging.config.fileConfig('usr/local/airflow/plugins/logging.conf')
+#log_file_path = path.join(path.dirname(path.abspath(__file__)), 'logging.conf')
+#logging.config.fileConfig(log_file_path)
+#LOGGING_CONFIG = Path(__file__).parent/'logging.conf'
+#logging.config.fileConfig(LOGGING_CONFIG, disable_existing_loggers=True)
+#LOGGER = logging.getLogger("GBUNComahue_dag_elt")
+
+POSTGRES_CONN_ID = "alkemy_db"
+AWS_CONN_ID = "aws_s3_bucket"
+
+
+def pg_extract2csv():  
+  
+  pg_hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
+  
+  with open('/usr/local/airflow/include/{{ nombre }}.sql','r') as sqlfile:
+    sql_stm= sqlfile.read()
+  
+  df = pg_hook.get_pandas_df(sql = f'{sql_stm}')
+  
+  df.to_csv('/usr/local/airflow/tests/{{ nombre }}_select.csv')
+
+def pd_transform2txt():
+  
+  # load input file
+  df = pd.read_csv('/usr/local/airflow/tests/{{ nombre }}_select.csv', index_col=0)
+  
+  # columns style and type convertion
+  df['university'] = df['university'].str.lower().str.replace('_',' ').str.strip()
+  df['career'] = df['career'].str.lower().str.replace('_',' ').str.strip()
+  df['last_name'] = df['last_name'].str.lower().str.replace('_',' ').str.strip().str.replace('(m[r|s]|[.])|(\smd\s)', '', regex=True)
+  df['email'] = df['email'].str.lower().str.replace('_',' ').str.strip()
+  df['location'] = df['location'].str.lower().str.replace('_',' ').str.strip()
+  df['gender'] = df['gender'].map({'F': 'female', 'M': 'male'})
+  df['inscription_date'] = pd.to_datetime(df['inscription_date'], format='%Y/%m/%d')
+  df['fecha_nacimiento'] = pd.to_datetime(df['fecha_nacimiento'])
+
+  # calculate column Age
+  today = datetime.now()
+  df['age'] = np.floor((today - df['fecha_nacimiento']).dt.days / 365)
+  df['age'] = df['age'].apply(lambda x: int(x) if (x > 16.0) and (x < 80) else -1)
+
+  df = df.drop(columns='fecha_nacimiento')
+  
+  # Get column location ot postal_code from external file
+  cp_loc_df = pd.read_csv('/usr/local/airflow/tests/codigos_postales.csv')
+  cp_loc_df = cp_loc_df.rename(columns={'codigo_postal':'postal_code', 'localidad':'location'})
+  cp_loc_df['location'] = cp_loc_df['location'].str.lower().str.strip().str.replace('_',' ')
+
+  if 'location' in df.columns.to_list:
+    df = df.merge(cp_loc_df, how='inner', on='location')
+  else:
+    df = df.merge(cp_loc_df, how='inner', on='postal_code')
+
+  #order columns
+  df = df[['university', 'career', 'inscription_date', 'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
+
+  # save processed file  
+  df.to_csv('/usr/local/airflow/tests/{{ nombre }}_process.txt', sep=' ', index=False)
+
+# Instantiate DAG
+with DAG(
+    "{{ nombre }}_ETL",
+    start_date=datetime({{ start_date }}),
+    max_active_runs= {{ max_active_runs }},
+    schedule_interval= "{{ schedule_interval }}",
+    default_args={
+        "retries": {{ retries }},
+    #    "retry_delay": timedelta(minutes=1),
+    },
+    catchup=False,
+    #template_searchpath="/usr/local/airflow/include/"
+) as dag:
+    extract = PythonOperator(
+        task_id="extract_task",
+        python_callable=pg_extract2csv
+    )
+
+    transform = PythonOperator(
+        task_id="transform_task",
+        python_callable = pd_transform2txt
+    )
+
+    load = LocalFilesystemToS3Operator(
+        task_id='load_to_s3_task',
+        filename='/usr/local/airflow/tests/{{ nombre }}_process.txt',
+        dest_key='{{ nombre }}_process.txt',
+        dest_bucket="{{ bucket }}",
+        aws_conn_id=AWS_CONN_ID,
+        replace=True,
+    )
+    
+    extract >> transform >> load

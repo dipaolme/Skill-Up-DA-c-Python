@@ -1,0 +1,2 @@
+SELECT universidad AS university, carrera AS career, fecha_de_inscripcion AS inscription_date, name AS first_name, NULL AS last_name, sexo AS gender, fecha_nacimiento AS fecha_nacimiento, NULL AS age, codigo_postal AS postal_code, NULL AS location, correo_electronico as email FROM flores_comahue 
+WHERE universidad = 'UNIVERSIDAD DE FLORES' and fecha_de_inscripcion  BETWEEN '2020-09-01' AND '2021-02-01';
