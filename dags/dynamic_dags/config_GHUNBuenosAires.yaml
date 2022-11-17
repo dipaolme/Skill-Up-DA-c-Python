@@ -1,4 +1,0 @@
-  dag_id:'BuenosAires'
-  schedule_interval:'@hourly'
-  catchup: False
-  input: Buenos_Aires

@@ -1,0 +1,4 @@
+dag_id: 'GHUNBuenosAires'
+schedule_interval: '@hourly'
+catchup: False
+input: 'Buenos_Aires'

@@ -124,7 +124,7 @@ def procesamiento_pandas():
     union = union.sort_values(by=['ID'])
     print(union.head())
     #Convirtiendo el archivo procesado en .txt
-    union.to_csv('/usr/local/airflow/files/GHUNBuenosAires_process.txt', sep='\t', index=False)
+    union.to_csv('/usr/local/airflow/datasets/GHUNBuenosAires_process.txt', sep='\t', index=False)
     
 #  Ejecución de DAGS
 
@@ -141,13 +141,13 @@ with DAG(
                              python_callable=extract_data)
     tarea_2 = PythonOperator(task_id='procesamiento_pandas', 
                              python_callable=procesamiento_pandas)
-    tarea_3 = LocalFilesystemToS3Operator(
+    """tarea_3 = LocalFilesystemToS3Operator(
         task_id='create_local_to_s3_job',
         filename='/usr/local/airflow/files/GHUNBuenosAires_process.txt',
         dest_key='GHUNBuenosAires_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id='aws_s3_bucket',
         replace=True,
-)
+)"""
     
-tarea_1 >> tarea_2 >> tarea_3
+tarea_1 >> tarea_2 #>> tarea_3

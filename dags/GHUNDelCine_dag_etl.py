@@ -76,6 +76,8 @@ def procesamiento_pandas():
     df_csv = pd.read_csv('/usr/local/airflow/files/GHUNDelcine_select.csv')
     df_pc = pd.read_csv('/usr/local/airflow/assets/codigos_postales.csv')
     
+    #logging.info("... PROCESANDO Y NORMALIZANDO LA INFORMACIÓN")
+    
     #cambiar nombre de la columna 1 a ID:
     df_csv = df_csv.rename(columns = {'Unnamed: 0': 'ID'})
     
@@ -91,15 +93,16 @@ def procesamiento_pandas():
     year= today.year
     #print("la fecha actual es:", today)
     #print("El año actual es:", year)
-    
+    print(df_csv['birth_dates'])
     #Calculando la edad a partir de las fechas de nacimiento
-    df_csv['birth_dates'] = pd.to_datetime(df_csv['birth_dates'], format='%y-%b-%d')
+    df_csv['birth_dates'] = pd.to_datetime(df_csv['birth_dates'], format='%d-%m-%Y')
+    """
     do = pd.tseries.offsets.DateOffset(years= 100)
     
     #Cambiando los "años de nacimiento" mayores a 2022 restándoles 100 años
     df_csv['birth_dates'] = ((df_csv['birth_dates']) - do).where(((df_csv['birth_dates']).dt.year > 2022), df_csv['birth_dates'])
     print(df_csv['birth_dates'])
-    
+    """
     #Calculando los años:
     df_csv['age'] = (today.year - (df_csv['birth_dates']).dt.year) -((today.month) <(df_csv['birth_dates'].dt.month)) -(((today.month) == (df_csv['birth_dates'].dt.month)) & (today.day<df_csv['birth_dates'].dt.day))
     print(df_csv['age'])
@@ -117,27 +120,30 @@ def procesamiento_pandas():
     df_csv['last_name']=new[1]
     
     #Géneros
-    df_csv['gender'].iloc[df_csv['gender'] == 'm'] = 'male'
-    df_csv['gender'].iloc[df_csv['gender'] == 'f'] = 'female'
+    df_csv['gender'] = df_csv['gender'].iloc[df_csv['gender'] == 'M'] = 'male'
+    df_csv['gender'] = df_csv['gender'].iloc[df_csv['gender'] == 'F'] = 'female'
+    df_csv['gender']
     
     #Eliminando columnas innecesarias
-    col_drop=['birth_dates', 'location']
+    col_drop=['birth_dates']
     df_csv.drop(columns=col_drop, inplace=True)
     
     #archivo de códigos postales
     df_pc['localidad'] = df_pc['localidad'].astype(str)
-    df_pc['localidad'] = df_pc['localidad'].str.lower().str.replace("-", " ").str.replace("  ", " ")
+    df_pc['localidad'] = df_pc['localidad'].str.replace("-", " ").str.replace("  ", " ")
     
     #Borrar localidades duplicadas
     df_pc = df_pc.drop_duplicates(['localidad'], keep='last')
+
     
     #uniendo los códigos postales con las respectivas localidades
-    union = pd.merge(right=df_pc, left=df_csv, how='inner', right_on='postal_code', left_on='postal_code')
-    
+    print(df_csv['location'])
+    union = pd.merge(right=df_pc, left=df_csv, how='inner', right_on='localidad', left_on='location')
+    print(union.head())
     #Eliminando columnas innecesarias
-    #union = union.drop(columns=['codigo_postal'])
-    #union = union.rename(columns={'localidad':'location'})
-    #print(union.columns.values)
+    union = union.drop(columns=['postal_code', 'location'])
+    union = union.rename(columns={'localidad':'location', 'codigo_postal':'postal_code'})
+    print('los indices son:', union.columns.values)
     
     #Cambiando el orden de las columnas al orden indicado:
     union = union.reindex(columns=['ID', 'university', 'career', 'inscription_date', 'first_name', 'last_name','gender', 'age', 'postal_code', 'location', 'email'])
@@ -146,10 +152,13 @@ def procesamiento_pandas():
     union['location'] = union['location'].str.lower().str.replace("-", " ").str.replace("  ", " ")
     union['email'] = union['email'].str.lower().str.replace("-", " ").str.replace("  ", " ")
     union = union.sort_values(by=['ID'])
-    print(union.head())
+
+
+        #Convirtiendo el archivo procesado en .txt
+
     
     #Convirtiendo el archivo procesado en .txt
-    union.to_csv('/usr/local/airflow/files/GHUNDelcine_process.txt', sep='\t', index=False)
+    union.to_csv('/usr/local/airflow/datasets/GHUNDelcine_process.txt', sep='\t', index=False)
     #logging.info("... TRANSFORMACIÓN EXITOSA ..." )
     #logging.info("... CARGANDO LOS ARCHIVOS A S3 ...")
     

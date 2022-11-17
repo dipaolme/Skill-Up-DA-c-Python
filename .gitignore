@@ -1,0 +1,17 @@
+.git
+.env
+packages.txt
+tests
+airflow_settings.yaml
+astro
+requirements.txt
+Dockerfile
+docker-compose.override.yml
+packages.txtREADME.md
+.dockerignore
+.astro
+example_dag_basic.py
+example_dag_advanced.py
+__pycache__
+logs
+airflow.cfg
