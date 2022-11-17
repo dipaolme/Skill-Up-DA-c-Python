@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+dag_id: "GFUMMoron_dyn"
+universidad: "GFUMMoron"
+schedule: "@hourly"
+catchup: False
+query: "include/GFUMMoron"
+=======
+dag_id: "GFUMMoron_dyn"
+universidad: "GFUMMoron"
+schedule: "@hourly"
+catchup: False
+query: "include/GFUMMoron"
+>>>>>>> cd481ad119f5296390759ecda4e6d99915d9938f
+uni_csv: "files/GFUMMoron"
