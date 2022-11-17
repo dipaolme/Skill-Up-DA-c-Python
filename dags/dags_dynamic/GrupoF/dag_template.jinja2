@@ -103,7 +103,7 @@ def transform_data():
         df['location']          = df.join(cod_postales.set_index('codigo_postal'), on='postal_code')['localidad']
     
 
-    df.to_csv(('files/' + UNI + '_process.txt'), index=None)
+    df.to_csv(('datasets/' + UNI + '_process.txt'), index=None)
 
     LOGGER.info('Success')
     LOGGER.info('Uploading data to s3 bucket...')
@@ -131,7 +131,7 @@ with DAG(
 
     s3_load = LocalFilesystemToS3Operator(
         task_id = "load",
-        filename='files/' + UNI + '_process.txt',
+        filename='datasets/' + UNI + '_process.txt',
         dest_key=UNI + '_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
@@ -244,7 +244,7 @@ def transform_data():
         df['location']          = df.join(cod_postales.set_index('codigo_postal'), on='postal_code')['localidad']
     
 
-    df.to_csv(('files/' + UNI + '_process.txt'), index=None)
+    df.to_csv(('datasets/' + UNI + '_process.txt'), index=None)
 
     LOGGER.info('Success')
     LOGGER.info('Uploading data to s3 bucket...')
@@ -272,7 +272,7 @@ with DAG(
 
     s3_load = LocalFilesystemToS3Operator(
         task_id = "load",
-        filename='files/' + UNI + '_process.txt',
+        filename='datasets/' + UNI + '_process.txt',
         dest_key=UNI + '_process.txt',
         dest_bucket='dipa-s3',
         aws_conn_id="aws_s3_bucket",
