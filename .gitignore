@@ -15,3 +15,5 @@ example_dag_advanced.py
 __pycache__
 logs
 airflow.cfg
+.gitignore
+webserver_config.py
