@@ -11,6 +11,7 @@ Repositorio del proyecto grupal a entregar que se llevo a cabo durante la aceler
 - [Breyner Ocampo Cardenas](https://github.com/BROC95) - Grupo B
 - [Francisco Ezequiel Cambiagno](https://github.com/FranciscoCambiagno) - Grupo C
 - [Alfredo Rodríguez](https://github.com/elalfredoignacio) - Grupo E
+- [Juan Santiago Nicotra](https://github.com/slash-w) - Grupo F
 - [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
 
 ### Objetivo
