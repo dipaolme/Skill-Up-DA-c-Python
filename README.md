@@ -7,8 +7,8 @@ Repositorio del proyecto grupal a entregar que se llevo a cabo durante la aceler
 ## Integrantes y grupos asignados
 
 - [Alfredo Rodríguez](https://github.com/elalfredoignacio) - Grupo E
-- [Di Paola, Matias](https://github.com/dipaolme) - Grupo A
 - [Breyner Ocampo Cardenas](https://github.com/BROC95) - Grupo B
+- [Di Paola, Matias](https://github.com/dipaolme) - Grupo A
 - [Francisco Ezequiel Cambiagno](https://github.com/FranciscoCambiagno) - Grupo C
 - [Juan Santiago Nicotra](https://github.com/slash-w) - Grupo F
 - [Wilmar Murillo Carmona](https://github.com/murillowilmar1) - Grupo I
