@@ -39,15 +39,15 @@ becas, qué planes de estudios tienen adhesión, entre otros.
 
 ## Requerimientos 
 
--El Ministerio necesita que ordenemos los datos para obtener un archivo con sólo la
+- El Ministerio necesita que ordenemos los datos para obtener un archivo con sólo la
 información necesaria de cierto periodo de tiempo y de determinados lugares
 geográficos de una base de datos SQL (las especificaciones serán vistas en la primera
 reunión de equipo). Será necesario generar un diagrama de base de datos para que se
 comprenda la estructura.
--Los datos deben ser procesados de manera que se puedan ejecutar consultas a dos
+- Los datos deben ser procesados de manera que se puedan ejecutar consultas a dos
 universidades del total disponible para hacer análisis parciales. Para esto será
 necesario realizar DAGs con Airflow que permitan procesar datos con Python y
 consultas SQL.
--Calcular, evaluar y ajustar formatos de determinados datos como fechas, nombres,
+- Calcular, evaluar y ajustar formatos de determinados datos como fechas, nombres,
 códigos postales según requerimientos normalizados que se especifican para cada
 grupo de universidades, utilizando Pandas.
