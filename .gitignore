@@ -1,4 +1,24 @@
 .git
+<<<<<<< HEAD
+.env
+packages.txt
+tests
+airflow_settings.yaml
+astro
+requirements.txt
+Dockerfile
+docker-compose.override.yml
+packages.txtREADME.md
+.dockerignore
+.astro
+example_dag_basic.py
+example_dag_advanced.py
+__pycache__
+logs
+airflow.cfg
+.gitignore
+webserver_config.py
+=======
 .vscode
 .env
 .ipynb_checkpoints
@@ -42,3 +62,4 @@ po.py
 GAUNVillaMaria_dag_etl.py
 
 
+>>>>>>> 0928fb96ec19c4e94313cb00e4976b5a5114cd08
