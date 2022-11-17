@@ -1,0 +1,571 @@
+Unnamed: 0,university,career,inscription_date,first_name,last_name,gender,age,postal_code,location,email
+4,universidad nacional de río cuarto,ingeniería en informática,2015-01-21,michael,smith,male,27,8366,chelforo,laura64@yahoo.com
+6,universidad nacional de río cuarto,farmacia,2002-10-20,jacqueline,gray,female,30,8412,cañadon del corral,uodonnell@yahoo.com
+7,universidad nacional de río cuarto,contador público ,2024-11-20,denise,richard,female,51,2622,maggiolo,trevor97@gmail.com
+10,universidad nacional de río cuarto,licenciatura en ciencia política ,2018-09-20,steven,blake,male,34,1854,longchamps,amandapalmer@yahoo.com
+11,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2002-09-20,elizabeth,stewart,female,22,2848,berisso,ajohnson@gmail.com
+12,universidad nacional de río cuarto,ingeniería en informática,2020-01-21,johnny,hull,male,39,3136,alcaraz norte,ehale@gmail.com
+14,universidad nacional de río cuarto,licenciatura en artes,2009-09-20,morgan,hale,female,18,2142,campo medina,jacobdunn@hotmail.com
+15,universidad nacional de río cuarto,arquitectura,2003-12-20,brandi,norman,female,26,3334,3 de mayo,wjohnson@yahoo.com
+18,universidad nacional de río cuarto,ciencias veterinarias,2007-09-20,leslie,walsh,female,26,3445,9 de julio,turnercory@yahoo.com
+20,universidad nacional de río cuarto,diseño de imagen y sonido,2010-09-20,wesley,taylor,male,27,7020,benito juarez,johnhughes@gmail.com
+22,universidad nacional de río cuarto,actuario ,2001-01-21,brendan,bell,male,40,3317,arroyo magdalena,sampsonsara@hotmail.com
+26,universidad nacional de río cuarto,licenciatura en ciencia política ,2021-11-20,rebecca,young,female,48,3051,alejandra,wdavis@gmail.com
+28,universidad nacional de río cuarto,ciencias veterinarias,2014-11-20,sandra,moore,female,49,1669,del viso,austinwolfe@yahoo.com
+30,universidad nacional de río cuarto,licenciatura en artes,2002-09-20,matthew,thomas,male,45,8301,planicie banderita,teresa21@gmail.com
+31,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2016-12-20,tina,reid,female,49,6603,ingeniero williams,teresa52@hotmail.com
+32,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2008-12-20,joseph,peterson,male,49,2501,berretta,wongjames@yahoo.com
+35,universidad nacional de río cuarto,licenciatura en musicoterapia,2012-09-20,sue,franklin,female,19,7541,d orbigny,fbyrd@yahoo.com
+38,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2001-12-20,brian,moore,male,42,8536,chipauquil,donna26@yahoo.com
+39,universidad nacional de río cuarto,licenciatura en sociología ,2012-09-20,alexandra,hale,female,30,5715,arbol verde,jason45@gmail.com
+41,universidad nacional de río cuarto,licenciatura en artes,2019-11-20,jennifer,moss,female,45,6013,baigorrita,drewhunter@gmail.com
+49,universidad nacional de río cuarto,licenciatura en sociología ,2024-12-20,jamie,jackson,female,32,2527,colonia san francisco,castrosamuel@yahoo.com
+54,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2020-10-20,james,andersen,male,25,6437,alamos,rachelcobb@yahoo.com
+59,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2013-12-20,clinton,jimenez,male,26,4603,catamontaña,ryan68@hotmail.com
+62,universidad nacional de río cuarto,medicina,2021-09-20,alicia,martin,female,27,4115,agua azul,bwheeler@gmail.com
+67,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2005-09-20,ryan,jenkins,male,31,8363,colonia josefa,nathan34@yahoo.com
+71,universidad nacional de río cuarto,contador público ,2015-10-20,travis,lawson,male,33,5873,isla,vanessasanchez@yahoo.com
+74,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2025-12-20,susan,singleton,female,33,6077,encina,amanda37@gmail.com
+77,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2019-12-20,william,daniel,male,50,3363,25 de mayo,alejandromccall@yahoo.com
+79,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2005-11-20,james,reynolds,male,40,7161,labarden,laurieyoung@hotmail.com
+83,universidad nacional de río cuarto,diseño de imagen y sonido,2020-11-20,mary,hernandez,female,35,3572,campo garabato,gsalas@hotmail.com
+88,universidad nacional de río cuarto,diseño de imagen y sonido,2029-11-20,danielle,ramos,female,47,9009,cañadon lagarto,michaelgardner@gmail.com
+90,universidad nacional de río cuarto,agronomía,2012-11-20,daniel,jones,male,26,8503,chocori,rodriguezcorey@yahoo.com
+91,universidad nacional de río cuarto,ciencias veterinarias,2006-09-20,rebecca,reilly,female,39,2441,crispi,zvillegas@gmail.com
+95,universidad nacional de río cuarto,licenciatura en sociología ,2015-01-21,crystal,cameron,female,36,3032,nelson,leejames@gmail.com
+99,universidad nacional de río cuarto,contador público ,2014-12-20,jeremy,sweeney,male,53,4119,agua colorada,ngibbs@gmail.com
+100,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2006-09-20,joseph,phillips,male,19,4713,ocho vados,josephbanks@gmail.com
+102,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2021-12-20,amanda,lawson,female,21,3445,9 de julio,jeffrey85@yahoo.com
+103,universidad nacional de río cuarto,diseño de imagen y sonido,2023-09-20,andrew,webster,male,28,3134,antonio tomas sud,vwalker@yahoo.com
+112,universidad nacional de río cuarto,licenciatura en sociología ,2022-10-20,brittney,parks,female,25,1633,empalme,william86@yahoo.com
+113,universidad nacional de río cuarto,diseño de imagen y sonido,2021-09-20,laura,bruce,female,48,3061,antonio pini,brittneymurphy@gmail.com
+116,universidad nacional de río cuarto,agronomía,2026-11-20,jose,lopez,male,25,4157,arroyo mal paso,cartercarolyn@gmail.com
+117,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2018-10-20,jose,jordan,male,28,1663,muñiz,lcampbell@gmail.com
+120,universidad nacional de río cuarto,ingeniería mecánica,2023-01-21,sharon,hernandez,female,21,3454,bañado san antonio,jonescatherine@hotmail.com
+122,universidad nacional de río cuarto,diseño de imagen y sonido,2016-10-20,anna,le,female,44,3524,el campamento,christinapalmer@yahoo.com
+123,universidad nacional de río cuarto,contador público ,2030-09-20,jessica,dyer,female,49,8214,colonia cazaux,alexandra15@hotmail.com
+124,universidad nacional de río cuarto,agronomía,2005-09-20,aaron,strong,male,42,5503,paso de los andes,briansanders@gmail.com
+125,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2025-09-20,jennifer,sanders,female,21,2717,acevedo,erin58@yahoo.com
+135,universidad nacional de río cuarto,ciencias veterinarias,2009-12-20,adam,jacobs,male,40,1611,don torcuato,josephhess@gmail.com
+136,universidad nacional de río cuarto,ciencias veterinarias,2022-10-20,brandi,wood,female,51,6533,alfredo demarchi,christopher82@gmail.com
+138,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2029-10-20,jonathan,hayes,male,36,4500,alto del saladillo,tnelson@yahoo.com
+141,universidad nacional de río cuarto,ingeniería electrónica,2030-09-20,john,taylor,male,18,6703,alastuey,carolyn02@hotmail.com
+142,universidad nacional de río cuarto,licenciatura en sociología ,2007-10-20,francisco,bishop,male,46,3708,concepcion del bermejo,lallen@hotmail.com
+144,universidad nacional de río cuarto,técnico para bioterios ,2020-10-20,marcus,kidd,male,33,3580,kilometro 408,stephenkelley@gmail.com
+156,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2014-01-21,edwin,sparks,male,42,1881,san francisco solano,wilsonmichelle@hotmail.com
+158,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2022-10-20,catherine,watson,female,25,5384,punta de los llanos,pbenson@yahoo.com
+159,universidad nacional de río cuarto,ingeniería en informática,2011-10-20,nathaniel,coleman,male,39,5304,el tala,shill@gmail.com
+163,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2016-01-21,amy,gaines,female,33,6439,bonifacio,ehansen@hotmail.com
+164,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2008-09-20,rebecca,frederick,female,31,5465,baños pismanta,ritaanderson@yahoo.com
+170,universidad nacional de río cuarto,medicina,2005-11-20,valerie,henry,female,30,8349,aguas de las mulas,juanmora@yahoo.com
+173,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2006-12-20,jeffrey,vasquez,male,24,4500,alto del saladillo,benjaminbullock@hotmail.com
+174,universidad nacional de río cuarto,licenciatura en musicoterapia,2023-01-21,bryan,johnson,male,38,3014,angel gallardo,robertgomez@yahoo.com
+176,universidad nacional de río cuarto,técnico para bioterios ,2010-12-20,elizabeth,wong,female,26,6205,el guanaco,timothy50@gmail.com
+183,universidad nacional de río cuarto,agronomía,2002-01-21,robin,olson,female,47,1907,el pino,amanda83@yahoo.com
+184,universidad nacional de río cuarto,ingeniería mecánica,2025-09-20,martha,ferguson,female,41,8170,abra de hinojo,davidwebster@hotmail.com
+185,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2024-12-20,april,martin,female,26,3433,carrizal norte,carolynsweeney@yahoo.com
+188,universidad nacional de río cuarto,licenciatura en administración ,2017-01-21,brett,dominguez,male,34,2741,el retiro,cgutierrez@gmail.com
+190,universidad nacional de río cuarto,licenciatura en musicoterapia,2015-11-20,scott,weaver,male,41,5351,banda florida,kathysmith@hotmail.com
+195,universidad nacional de río cuarto,contador público ,2003-10-20,angie,hoffman,female,37,3112,colonia loma negra,zdavis@hotmail.com
+198,universidad nacional de río cuarto,bioquímica,2031-12-20,john,charles,male,40,3232,cabred,jasonbarber@gmail.com
+203,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2030-12-20,taylor,shepard,female,31,3338,17 de agosto,jennifer33@gmail.com
+204,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2010-11-20,heidi,pope,female,49,1716,libertad,valerie14@yahoo.com
+206,universidad nacional de río cuarto,licenciatura en ciencia política ,2015-11-20,daniel,hunt,male,22,7208,coronel boerr,riosrichard@yahoo.com
+208,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2006-12-20,terry,harris,male,29,5711,angelita,elizabethroberts@gmail.com
+210,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2030-12-20,melanie,kennedy,female,52,9311,cañadon leon,zwilliams@gmail.com
+213,universidad nacional de río cuarto,ingeniería en informática,2024-09-20,james,hughes,male,50,3363,25 de mayo,istephenson@yahoo.com
+227,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2017-12-20,sharon,reyes,female,21,3138,alcaraz 2do,tylercrawford@gmail.com
+233,universidad nacional de río cuarto,ciencias veterinarias,2004-11-20,troy,foley,male,34,1842,el jaguel,walkerjason@hotmail.com
+240,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2002-01-21,jennifer,johnson,female,30,2821,arroyo del cura,adamgolden@yahoo.com
+242,universidad nacional de río cuarto,ciencias veterinarias,2005-01-21,linda,smith,female,22,2520,la california,cheryljefferson@gmail.com
+244,universidad nacional de río cuarto,bioquímica,2019-09-20,kara,reyes,female,24,7160,la union,pbooker@hotmail.com
+249,universidad nacional de río cuarto,ciencias veterinarias,2015-12-20,heather,walsh,female,27,3334,3 de mayo,michael52@yahoo.com
+253,universidad nacional de río cuarto,bioquímica,2030-12-20,brianna,burke,female,30,2258,campo quiñones,davidmatthews@gmail.com
+254,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2006-11-20,janice,shelton,female,46,7500,el carretero,kjimenez@hotmail.com
+255,universidad nacional de río cuarto,agronomía,2013-12-20,mrs.,dawn casey,female,44,3153,kilmetro 165,amy30@hotmail.com
+260,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2014-09-20,dr.,scott harris,male,23,3230,arbol solo,robertahenderson@hotmail.com
+261,universidad nacional de río cuarto,licenciatura en psicología,2030-11-20,lauren,yang,female,19,3328,colonia japonesa,josephyoung@hotmail.com
+263,universidad nacional de río cuarto,técnico para bioterios ,2022-01-21,andrew,tucker,male,41,3265,arroyo caraballo,peter00@hotmail.com
+264,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2013-12-20,evan,wallace,male,41,7607,balneario atlantida,carlwilliams@gmail.com
+266,universidad nacional de río cuarto,agronomía,2029-12-20,jennifer,gomez,female,23,3158,20 de septiembre,samanthabrown@hotmail.com
+269,universidad nacional de río cuarto,contador público ,2016-01-21,jennifer,smith,female,38,5365,el jumeal,stacy34@hotmail.com
+273,universidad nacional de río cuarto,licenciatura en administración ,2031-10-20,michelle,robinson,female,19,3052,cañadita,erin64@gmail.com
+274,universidad nacional de río cuarto,diseño de imagen y sonido,2004-12-20,teresa,carpenter,female,38,9120,bahia cracher,susanyoder@gmail.com
+278,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2002-09-20,david,brooks,male,28,8160,fortin chaco,qgordon@gmail.com
+283,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2017-12-20,jessica,williams,female,40,6315,colonia baron,timothyhart@hotmail.com
+291,universidad nacional de río cuarto,contador público ,2018-01-21,amy,robinson,female,37,8000,adela corti,kelly19@yahoo.com
+292,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2021-10-20,brittany,coleman,female,40,6533,alfredo demarchi,brettanderson@hotmail.com
+299,universidad nacional de río cuarto,farmacia,2013-11-20,catherine,moore,female,26,3009,el tropezon,courtneywilliams@gmail.com
+300,universidad nacional de río cuarto,arquitectura,2026-10-20,amy,brady,female,41,3076,huanqueros,yjones@gmail.com
+311,universidad nacional de río cuarto,técnico para bioterios ,2021-01-21,alison,young,female,25,4740,agua salada,amber27@hotmail.com
+316,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2030-11-20,johnny,crawford,male,29,3732,colonia abate,frazierroger@yahoo.com
+318,universidad nacional de río cuarto,actuario ,2008-12-20,kimberly,gomez,female,52,1664,trujui,ronald86@gmail.com
+320,universidad nacional de río cuarto,actuario ,2024-09-20,blake,glass,male,23,2935,algarrobo,andrew33@yahoo.com
+329,universidad nacional de río cuarto,ingeniería en informática,2011-01-21,pamela,chen,female,40,2533,los cardos,lauriebrown@hotmail.com
+330,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2002-10-20,alison,brooks,female,25,9217,cholila,nicholasweiss@hotmail.com
+333,universidad nacional de río cuarto,licenciatura en ciencia política ,2004-01-21,lindsey,smith,female,18,4719,balcosna,cnguyen@hotmail.com
+334,universidad nacional de río cuarto,ciencias veterinarias,2009-01-21,james,king,male,42,6703,alastuey,ctanner@yahoo.com
+335,universidad nacional de río cuarto,actuario ,2029-12-20,heidi,pearson,female,43,2824,britos,iwright@yahoo.com
+337,universidad nacional de río cuarto,licenciatura en administración ,2015-11-20,rebecca,mcneil,female,49,2324,colonia tacurales,mallory90@gmail.com
+340,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2009-11-20,lacey,richardson,female,48,4141,fuerte quemado,gward@yahoo.com
+342,universidad nacional de río cuarto,ingeniería en informática,2004-09-20,catherine,vasquez,female,46,1702,ciudadela,jane59@gmail.com
+343,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2031-01-21,brandy,thompson,female,48,9030,rio mayo,markjones@gmail.com
+346,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2028-01-21,christina,mitchell,female,25,8328,allen,curtisjessica@yahoo.com
+349,universidad nacional de río cuarto,ingeniería en informática,2008-01-21,tamara,holland,female,18,3481,angostura,gomezjessica@yahoo.com
+350,universidad nacional de río cuarto,contador público ,2026-01-21,michael,hopkins,male,42,7533,quiñihual estacion,brownkimberly@hotmail.com
+351,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2010-01-21,christina,williams,female,23,8146,el rincon,kelly96@gmail.com
+357,universidad nacional de río cuarto,bioquímica,2015-12-20,todd,simmons,male,37,3567,dest aeronautico milit reconqu,anthonycook@yahoo.com
+358,universidad nacional de río cuarto,técnico para bioterios ,2027-09-20,nancy,martinez,female,47,1706,haedo,samanthahughes@hotmail.com
+361,universidad nacional de río cuarto,licenciatura en musicoterapia,2025-09-20,christopher,williams,male,30,4753,corralito,donna12@yahoo.com
+362,universidad nacional de río cuarto,ciencias veterinarias,2007-10-20,julie,patrick,female,29,5429,el abanico,juanthomas@yahoo.com
+364,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2016-12-20,jacob,taylor,male,31,5636,favelli,imalone@yahoo.com
+365,universidad nacional de río cuarto,diseño industrial,2012-12-20,zachary,jackson,male,18,9009,cañadon lagarto,mendezcharles@hotmail.com
+366,universidad nacional de río cuarto,actuario ,2012-11-20,kristin,bennett,female,51,2138,carcaraña,kimberlydecker@gmail.com
+369,universidad nacional de río cuarto,ingeniería en informática,2016-12-20,kristen,rocha,female,23,8375,cañadon de los indios,cory16@yahoo.com
+371,universidad nacional de río cuarto,actuario ,2022-09-20,john,mitchell,male,44,4718,barro negro,matthew24@hotmail.com
+376,universidad nacional de río cuarto,diseño industrial,2003-10-20,thomas,smith,male,32,3016,san jose,gregory86@gmail.com
+378,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2006-12-20,mario,roberson,male,53,2631,cora,finleyrobert@yahoo.com
+379,universidad nacional de río cuarto,técnico para bioterios ,2017-09-20,megan,perez,female,45,3200,colonia los sauces,davidwest@gmail.com
+380,universidad nacional de río cuarto,licenciatura en psicología,2008-10-20,pamela,alvarez,female,46,8328,allen,wilsonandrew@gmail.com
+382,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2008-11-20,robert,campos,male,27,2202,cerana,dward@gmail.com
+389,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2023-11-20,erin,summers,female,33,4716,amadores,silvajon@gmail.com
+393,universidad nacional de río cuarto,arquitectura,2023-09-20,tammy,gibson,female,51,8168,sierra de la ventana,andrew32@gmail.com
+394,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2020-10-20,alexander,kaiser,male,33,1651,san andres,tyler73@yahoo.com
+396,universidad nacional de río cuarto,arquitectura,2028-11-20,melanie,french dds,female,21,8508,ambrosio p lezica,millerrobert@gmail.com
+398,universidad nacional de río cuarto,ingeniería en informática,2010-12-20,sarah,perkins,female,18,1647,zona delta san fernando,alexanderbrian@yahoo.com
+411,universidad nacional de río cuarto,licenciatura en musicoterapia,2019-11-20,jonathan,reyes,male,49,3114,aldea maria luisa,riddlenicholas@yahoo.com
+413,universidad nacional de río cuarto,licenciatura en ciencia política ,2010-11-20,matthew,chung,male,50,9217,cholila,ymccann@gmail.com
+416,universidad nacional de río cuarto,técnico para bioterios ,2014-01-21,taylor,franklin,male,43,6607,anasagasti,craigjessica@yahoo.com
+419,universidad nacional de río cuarto,ingeniería electrónica,2004-09-20,matthew,hoffman,male,33,4144,amberes,flynnjoseph@yahoo.com
+420,universidad nacional de río cuarto,licenciatura en administración ,2011-11-20,kristen,ray,female,37,4715,agua verde,matthewcooper@yahoo.com
+425,universidad nacional de río cuarto,ingeniería mecánica,2024-12-20,anna,curtis,female,48,6277,buena esperanza,goodalex@gmail.com
+427,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2023-09-20,ian,smith,male,37,3005,colonia california,wbaker@gmail.com
+432,universidad nacional de río cuarto,licenciatura en musicoterapia,2019-01-21,joseph,stewart,male,44,1618,ricardo rojas,antoniowalker@gmail.com
+433,universidad nacional de río cuarto,licenciatura en administración ,2017-01-21,russell,coleman,male,49,5470,abra verde,bpeterson@hotmail.com
+434,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2009-12-20,fernando,goodman,male,39,2946,el espinillo,ijones@hotmail.com
+437,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2027-11-20,elizabeth,johnson,female,37,6078,bayauca,kramerbenjamin@yahoo.com
+440,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2026-12-20,adrienne,mckenzie,female,19,3524,el campamento,iliu@hotmail.com
+443,universidad nacional de río cuarto,ingeniería en informática,2025-10-20,justin,estes,male,42,6034,colonia alberdi,davisdavid@hotmail.com
+449,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2016-11-20,kristopher,cox,male,52,3515,capitan solari,lbradshaw@gmail.com
+450,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2021-01-21,david,lawson,male,53,9420,aserradero arroyo,allenbrandon@yahoo.com
+453,universidad nacional de río cuarto,técnico para bioterios ,2007-01-21,cassandra,spencer,female,24,8300,las perlas,johnsonmelvin@yahoo.com
+457,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2017-12-20,erin,goodwin,female,37,4722,el duraznillo,lwatts@hotmail.com
+463,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2008-12-20,jessica,clarke,female,36,7507,el bombero,maria55@gmail.com
+470,universidad nacional de río cuarto,licenciatura en artes,2002-01-21,lucas,gordon,male,18,7267,alvarez de toledo,robin46@yahoo.com
+471,universidad nacional de río cuarto,licenciatura en ciencia política ,2031-12-20,brandon,little,male,20,7111,san bernardo del tuyu,taylor89@gmail.com
+472,universidad nacional de río cuarto,ingeniería en informática,2008-12-20,alex,jacobson,male,42,4434,anta,nataliejones@hotmail.com
+474,universidad nacional de río cuarto,diseño de imagen y sonido,2022-10-20,shawn,santiago,male,36,6748,membrillar,stephensjennifer@gmail.com
+486,universidad nacional de río cuarto,licenciatura en administración ,2001-12-20,lori,hodges,female,37,6616,castilla,michellewilliams@hotmail.com
+487,universidad nacional de río cuarto,bioquímica,2003-01-21,andrea,taylor,female,33,3287,aldea san gregorio,collinsandrea@hotmail.com
+491,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2020-01-21,deborah,nguyen,female,30,5436,colonia zapata,donald94@hotmail.com
+492,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2016-01-21,joshua,adams,male,40,2317,casablanca,jordanmedina@yahoo.com
+493,universidad nacional de río cuarto,medicina,2023-09-20,george,carter,male,48,6212,adolfo van praet,olee@hotmail.com
+494,universidad nacional de río cuarto,contador público ,2005-12-20,eric,miller,male,49,2173,campo pesoa,ruben79@gmail.com
+496,universidad nacional de río cuarto,arquitectura,2005-01-21,shannon,snyder,female,24,1708,moron,adam20@hotmail.com
+498,universidad nacional de río cuarto,farmacia,2014-10-20,bianca,carter,female,25,6307,colonia la oracion,ambertaylor@yahoo.com
+499,universidad nacional de río cuarto,farmacia,2017-11-20,paul,jones,male,39,9017,cameron,bernardmark@gmail.com
+503,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2017-09-20,andrew,wallace,male,46,3300,arroyo,james52@hotmail.com
+506,universidad nacional de río cuarto,ciencias veterinarias,2026-01-21,angela,clark,female,26,5553,empalme frontera,duanecarney@gmail.com
+509,universidad nacional de río cuarto,diseño de imagen y sonido,2013-12-20,christopher,delacruz,male,37,1852,burzaco,dominique46@hotmail.com
+510,universidad nacional de río cuarto,diseño industrial,2012-10-20,mary,williams phd,female,37,6450,abel,evan37@gmail.com
+511,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2022-09-20,walter,schneider,male,37,7412,las hermanas,brandon45@hotmail.com
+514,universidad nacional de río cuarto,ingeniería mecánica,2027-10-20,ellen,horne,female,31,7212,doctor domingo harosteguy,chenlarry@gmail.com
+516,universidad nacional de río cuarto,agronomía,2025-11-20,kevin,fitzpatrick,male,38,3265,arroyo caraballo,anna20@hotmail.com
+517,universidad nacional de río cuarto,agronomía,2028-09-20,richard,tanner,male,44,3042,abipones,currybarbara@yahoo.com
+519,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2021-10-20,erik,lin,male,32,7301,ariel,crawfordjoshua@yahoo.com
+531,universidad nacional de río cuarto,licenciatura en artes,2030-12-20,william,brown,male,34,8156,el perdido est jose guisasola,davischarles@gmail.com
+533,universidad nacional de río cuarto,bioquímica,2009-11-20,robert,branch,male,33,4605,alisos  de abajo,jjones@gmail.com
+539,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2001-10-20,michael,garcia,male,35,1889,bosques,danielharvey@yahoo.com
+546,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2014-10-20,debbie,manning,female,47,3105,diamante,davidrodriguez@hotmail.com
+547,universidad nacional de río cuarto,ingeniería en informática,2015-11-20,shelby,henderson,female,38,4516,caimancito,brandonmorgan@hotmail.com
+559,universidad nacional de río cuarto,licenciatura en sociología ,2002-12-20,james,townsend,male,50,3511,colonia coronel dorrego,barreracynthia@yahoo.com
+560,universidad nacional de río cuarto,licenciatura en artes,2022-12-20,jeffrey,watson,male,31,5623,atuel sud,blucero@hotmail.com
+561,universidad nacional de río cuarto,bioquímica,2025-09-20,derek,fisher,male,24,3042,abipones,ktorres@hotmail.com
+570,universidad nacional de río cuarto,ingeniería mecánica,2007-01-21,henry,proctor,male,41,1648,rincon de milberg,jasonmcdonald@yahoo.com
+576,universidad nacional de río cuarto,farmacia,2025-12-20,melissa,lopez,female,37,2300,colonia bella italia,amy11@yahoo.com
+577,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2024-01-21,jessica,phillips,female,38,9220,cañadon la madera,stevenschad@gmail.com
+578,universidad nacional de río cuarto,ciencias veterinarias,2017-09-20,joshua,pierce,male,34,5470,abra verde,rbradley@hotmail.com
+579,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2024-01-21,alexander,may,male,21,6422,primera junta,patelbenjamin@yahoo.com
+580,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2024-09-20,tammy,middleton,female,42,2121,perez,davidwilkins@gmail.com
+586,universidad nacional de río cuarto,contador público ,2024-11-20,aimee,murphy,female,39,6648,mecha,michellesteele@yahoo.com
+588,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2022-10-20,susan,acosta,female,43,4705,aguadita,mscott@gmail.com
+591,universidad nacional de río cuarto,licenciatura en psicología,2028-12-20,tyler,bowers,male,33,8313,arroyito,powellbrian@yahoo.com
+594,universidad nacional de río cuarto,ingeniería electrónica,2017-09-20,jennifer,king,female,25,5777,adolfo rodriguez saa,garygibson@yahoo.com
+600,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2022-01-21,maria,park,female,25,5584,barrio villa adela,janetwoods@gmail.com
+605,universidad nacional de río cuarto,ingeniería mecánica,2007-11-20,gina,cunningham,female,41,3133,arroyo burgos,john80@yahoo.com
+608,universidad nacional de río cuarto,actuario ,2014-11-20,eddie,tucker,male,46,6075,arenaza,clewis@gmail.com
+610,universidad nacional de río cuarto,licenciatura en musicoterapia,2012-12-20,helen,johnson,female,19,1825,monte chingolo,emiller@hotmail.com
+611,universidad nacional de río cuarto,farmacia,2021-09-20,cheryl,pena,female,28,1846,adrogue,nicholasrivera@yahoo.com
+613,universidad nacional de río cuarto,ciencias veterinarias,2031-10-20,ryan,bernard,male,30,3155,costa del nogoya,xhampton@hotmail.com
+615,universidad nacional de río cuarto,contador público ,2016-12-20,amanda,taylor,female,18,2935,algarrobo,walter33@yahoo.com
+616,universidad nacional de río cuarto,licenciatura en musicoterapia,2030-09-20,jamie,haynes,female,32,5321,el potrero,wendyyoung@hotmail.com
+618,universidad nacional de río cuarto,licenciatura en psicología,2005-09-20,deborah,morris,female,46,1896,camino centenario km 11500,wnewman@yahoo.com
+619,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2026-11-20,dawn,harrison,female,38,4603,catamontaña,gwilliams@gmail.com
+622,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2015-11-20,austin,mcguire,male,28,6701,carlos keen,farnold@yahoo.com
+629,universidad nacional de río cuarto,medicina,2007-11-20,rebecca,hart,female,24,4504,23 de agosto,smithkristi@gmail.com
+633,universidad nacional de río cuarto,ingeniería mecánica,2003-11-20,jessica,ramirez,female,20,4632,antumpa,brentparker@gmail.com
+634,universidad nacional de río cuarto,técnico para bioterios ,2028-12-20,dana,webster,female,36,4504,23 de agosto,davidspence@yahoo.com
+636,universidad nacional de río cuarto,arquitectura,2007-09-20,sara,white,female,48,3071,aguara grande,khall@yahoo.com
+638,universidad nacional de río cuarto,licenciatura en administración ,2019-12-20,melissa,hull,female,46,5415,angaco norte,laura50@yahoo.com
+642,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2018-12-20,cristina,ward,female,29,4709,san jose de piedra blanca,tanyamurphy@gmail.com
+644,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2016-09-20,megan,baker,female,27,4630,aparzo,patrick77@gmail.com
+646,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2010-11-20,william,parker,male,24,6511,hale,anna80@gmail.com
+649,universidad nacional de río cuarto,bioquímica,2025-09-20,thomas,boyd,male,20,4139,agua amarilla la hoyada,sharris@gmail.com
+650,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2021-10-20,jessica,long,female,24,2400,villani,millerdennis@hotmail.com
+657,universidad nacional de río cuarto,ciencias veterinarias,2026-12-20,alexis,gray,female,33,4716,amadores,vaughncourtney@hotmail.com
+661,universidad nacional de río cuarto,ingeniería electrónica,2026-11-20,david,gibson,male,43,2852,alarcon,zmiller@yahoo.com
+665,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2025-11-20,gregg,weaver,male,36,3246,achiras,erica53@yahoo.com
+668,universidad nacional de río cuarto,licenciatura en musicoterapia,2008-09-20,jason,rosario,male,40,8512,igarzabal,chungkenneth@gmail.com
+675,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2019-10-20,denise,sherman,female,20,2635,cañada del ucle,cfoley@yahoo.com
+676,universidad nacional de río cuarto,farmacia,2030-11-20,bonnie,stewart,female,27,3038,cayastacito,frivera@yahoo.com
+681,universidad nacional de río cuarto,farmacia,2025-01-21,dawn,marshall,female,38,9017,cameron,reedtimothy@gmail.com
+684,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2004-09-20,kristen,sexton,female,41,6315,colonia baron,sierrawise@gmail.com
+689,universidad nacional de río cuarto,medicina,2012-11-20,darryl,blake,male,49,3021,campo andino,michael90@yahoo.com
+693,universidad nacional de río cuarto,diseño industrial,2002-11-20,melissa,rich,female,47,3023,cululu,robinhurst@yahoo.com
+694,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2003-11-20,sean,wells,male,35,7400,barrio la luisa,robertwalker@gmail.com
+697,universidad nacional de río cuarto,contador público ,2019-01-21,adrienne,perez,female,27,8332,colonia rusa,snyderbernard@hotmail.com
+698,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2009-11-20,jason,zimmerman,male,18,5565,campo de los andes,uhall@gmail.com
+700,universidad nacional de río cuarto,actuario ,2006-01-21,susan,mccullough,female,44,6360,barrio el molino,christopherbennett@yahoo.com
+704,universidad nacional de río cuarto,licenciatura en administración ,2025-01-21,kristine,herman,female,53,2617,sancti spiritu,taylorbishop@hotmail.com
+713,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2007-01-21,thomas,burnett,male,30,5717,el pimpollo,colejeffrey@hotmail.com
+714,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2026-01-21,kara,farmer,female,44,8363,colonia josefa,ginawood@gmail.com
+715,universidad nacional de río cuarto,medicina,2019-09-20,kristina,long md,female,23,3150,algarrobitos 1ro,nelsonalexis@hotmail.com
+718,universidad nacional de río cuarto,licenciatura en musicoterapia,2007-09-20,brandon,jimenez,male,53,8164,arquedas,garrettmccoy@hotmail.com
+721,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2031-10-20,lindsay,miller,female,52,7513,adolfo gonzales chaves,heidierickson@yahoo.com
+736,universidad nacional de río cuarto,bioquímica,2021-12-20,keith,porter,male,47,2307,ataliva,carlanash@gmail.com
+740,universidad nacional de río cuarto,licenciatura en ciencia política ,2008-10-20,greg,hamilton,male,51,6533,alfredo demarchi,fnicholson@yahoo.com
+746,universidad nacional de río cuarto,técnico para bioterios ,2009-09-20,alexander,martinez,male,29,3565,arroyo del rey,mayers@yahoo.com
+749,universidad nacional de río cuarto,licenciatura en sociología ,2027-10-20,george,bell,male,30,2147,san genaro norte,reedmichael@yahoo.com
+754,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2023-10-20,melanie,barrett,female,52,9313,cara mala,kevinlewis@yahoo.com
+758,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2001-11-20,todd,le,male,46,9030,rio mayo,matthewperry@yahoo.com
+759,universidad nacional de río cuarto,ciencias veterinarias,2021-01-21,joshua,perry,male,31,4634,abralaite,kelly94@hotmail.com
+761,universidad nacional de río cuarto,diseño de imagen y sonido,2028-12-20,cassandra,white,female,42,4195,7 de abril,jensenkevin@yahoo.com
+763,universidad nacional de río cuarto,medicina,2010-01-21,megan,brown,female,44,3085,pilar,zkelly@hotmail.com
+767,universidad nacional de río cuarto,ingeniería en informática,2025-10-20,rachel,gonzalez,female,22,5779,la chilca,cweber@hotmail.com
+770,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2011-10-20,anthony,ochoa,male,27,6331,colonia beaufort,gilbert37@hotmail.com
+773,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2026-09-20,julia,robertson,female,46,7519,san mayol,harrisanthony@yahoo.com
+781,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2003-01-21,karen,gonzalez,female,37,3620,kilometro 184,lrogers@gmail.com
+792,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2002-10-20,amber,hicks,female,39,8418,anecon chico,christian03@yahoo.com
+795,universidad nacional de río cuarto,contador público ,2005-09-20,heather,lopez,female,49,3013,colonia matilde,mary87@gmail.com
+797,universidad nacional de río cuarto,bioquímica,2003-11-20,francisco,johnson,male,52,9107,28 de julio,andrew65@hotmail.com
+800,universidad nacional de río cuarto,ingeniería electrónica,2011-10-20,brittney,mack,female,20,6015,campo coliqueo,tonyamcgrath@hotmail.com
+801,universidad nacional de río cuarto,arquitectura,2021-10-20,henry,james,male,38,3316,arroyo pastora,samuelpayne@yahoo.com
+809,universidad nacional de río cuarto,diseño industrial,2030-10-20,christine,kennedy,female,39,1617,el talar,cweeks@gmail.com
+811,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2005-01-21,vincent,huang,male,19,4158,campo de talamayo,mark00@gmail.com
+812,universidad nacional de río cuarto,arquitectura,2023-10-20,sandra,carroll,female,33,7150,ayacucho,matthewjohnson@yahoo.com
+820,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2004-12-20,lisa,meza,female,20,5537,algarrobito,annerichardson@yahoo.com
+827,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2007-01-21,joel,salinas,male,21,3133,arroyo burgos,brownjose@hotmail.com
+830,universidad nacional de río cuarto,licenciatura en psicología,2015-11-20,kiara,franklin,female,51,8373,alianza,patrickpotter@gmail.com
+832,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2003-10-20,michael,davenport,male,46,6348,bocayuba,qsmith@yahoo.com
+836,universidad nacional de río cuarto,licenciatura en sociología ,2017-11-20,robert,mckenzie,male,41,2732,4 de febrero,katie53@yahoo.com
+843,universidad nacional de río cuarto,ciencias veterinarias,2014-12-20,melissa,garcia,female,27,2342,campo el mataco,joshua73@hotmail.com
+846,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2005-10-20,jennifer,brown,female,34,6381,campo caretto,jeremyclayton@hotmail.com
+854,universidad nacional de río cuarto,contador público ,2004-09-20,micheal,shea,male,42,4119,agua colorada,stephen51@gmail.com
+859,universidad nacional de río cuarto,contador público ,2013-10-20,tyler,miller,male,19,5321,el potrero,dennis73@hotmail.com
+872,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2004-12-20,nathan,johns,male,35,2253,campo gimenez,anthony07@yahoo.com
+873,universidad nacional de río cuarto,ingeniería en informática,2012-12-20,stacy,burns,female,47,5350,el molle,pattersonkeith@gmail.com
+878,universidad nacional de río cuarto,arquitectura,2014-12-20,rebecca,gilmore,female,20,6383,campo moises seccion 1a,brandypark@gmail.com
+881,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2029-09-20,jennifer,odonnell,female,49,3372,cataratas del iguazu,rburns@yahoo.com
+882,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2018-09-20,jonathan,mclaughlin,male,53,3231,colonia arocena ina,kevinedwards@yahoo.com
+884,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2028-10-20,kristen,walker,female,48,2342,campo el mataco,robinsonandrea@gmail.com
+889,universidad nacional de río cuarto,licenciatura en musicoterapia,2018-11-20,debra,hanson,female,26,6405,30 de agosto,donnabrown@hotmail.com
+891,universidad nacional de río cuarto,ingeniería en informática,2025-12-20,brandon,brewer,male,49,1741,enrique fynn,ahamilton@gmail.com
+893,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2030-11-20,natalie,lucas,female,45,3231,colonia arocena ina,eclark@yahoo.com
+898,universidad nacional de río cuarto,ingeniería electrónica,2023-09-20,melissa,ward,female,35,6703,alastuey,josephle@yahoo.com
+900,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2027-11-20,brandon,cooke,male,53,6608,agote,zsanchez@hotmail.com
+903,universidad nacional de río cuarto,ingeniería electrónica,2008-09-20,jerry,smith,male,18,3572,campo garabato,gsullivan@hotmail.com
+906,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2014-11-20,connie,mann,female,42,7118,general guido,zbaldwin@hotmail.com
+910,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2030-01-21,heather,baker,female,41,6216,bagual,shirley77@gmail.com
+912,universidad nacional de río cuarto,licenciatura en ciencia política ,2010-10-20,christopher,rodriguez jr.,male,19,7119,cari larquea,millerjoshua@hotmail.com
+914,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2006-11-20,kathryn,garner,female,40,2138,carcaraña,stevenpearson@gmail.com
+915,universidad nacional de río cuarto,licenciatura en ciencia política ,2022-09-20,jamie,scott dvm,female,37,1888,florencio varela,jamesmartinez@gmail.com
+916,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2007-12-20,jennifer,paul,female,35,3000,barranquitas,nancyperez@gmail.com
+917,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2029-11-20,manuel,garcia,male,53,6455,carlos tejedor,chloewood@yahoo.com
+921,universidad nacional de río cuarto,técnico para bioterios ,2014-09-20,amber,carter,female,19,2311,adolfo alsina,ayerssusan@yahoo.com
+922,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2006-11-20,jason,green,male,24,3460,arroyo castillo,tracyschultz@gmail.com
+924,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2009-11-20,bruce,adams,male,45,6220,bernardo larroude,carlos17@hotmail.com
+928,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2027-09-20,mrs.,laura austin,female,30,1629,almirante irizar,brianna52@gmail.com
+934,universidad nacional de río cuarto,ingeniería mecánica,2016-10-20,brian,adams,male,48,3032,nelson,tina72@hotmail.com
+939,universidad nacional de río cuarto,diseño industrial,2011-12-20,tiffany,edwards,female,45,6516,amalia,gary14@gmail.com
+941,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2013-09-20,patricia,west,female,34,8127,estela,leslie49@gmail.com
+942,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2002-10-20,stephanie,massey,female,52,1659,campo de mayo,alexgreen@gmail.com
+944,universidad nacional de río cuarto,farmacia,2008-09-20,alexander,harmon,male,48,2841,aldea asuncion,zroach@hotmail.com
+946,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2015-10-20,alejandro,cooley,male,25,5575,andrade,vincentestrada@gmail.com
+949,universidad nacional de río cuarto,medicina,2017-10-20,jason,rodriguez md,male,23,8113,baterias,rfrost@hotmail.com
+951,universidad nacional de río cuarto,ingeniería mecánica,2005-01-21,johnny,todd,male,53,6058,pazos kanki,fmartinez@yahoo.com
+952,universidad nacional de río cuarto,técnico para bioterios ,2006-09-20,andrew,martinez,male,27,4500,alto del saladillo,daltonsavage@hotmail.com
+959,universidad nacional de río cuarto,licenciatura en psicología,2021-09-20,vickie,brown,female,20,7107,santa teresita,colleen14@hotmail.com
+961,universidad nacional de río cuarto,técnico para bioterios ,2007-01-21,william,huerta,male,29,1986,altamirano,fbarajas@hotmail.com
+963,universidad nacional de río cuarto,agronomía,2018-01-21,courtney,clark,female,20,2715,el socorro,sleonard@hotmail.com
+965,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2023-01-21,philip,johnson,male,52,6326,anguil,crystal08@yahoo.com
+968,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2015-10-20,katherine,conley,female,19,4641,abdon castro tolay,bmay@hotmail.com
+973,universidad nacional de río cuarto,ingeniería electrónica,2024-11-20,ethan,bates,male,51,2848,berisso,michealanderson@yahoo.com
+979,universidad nacional de río cuarto,agronomía,2028-11-20,russell,murphy,male,37,5443,algarrobo verde,shirleywilliams@yahoo.com
+988,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2004-01-21,franklin,chan,male,42,3355,arrechea,ibarratanner@hotmail.com
+994,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2024-12-20,kimberly,whitney,female,44,2501,berretta,qjones@hotmail.com
+1001,universidad nacional de río cuarto,diseño industrial,2022-10-20,samantha,yates,female,20,6623,indacochea,michaelholmes@hotmail.com
+1005,universidad nacional de río cuarto,farmacia,2017-09-20,jennifer,roberson,female,43,3263,1 de mayo,cpowell@gmail.com
+1010,universidad nacional de río cuarto,diseño industrial,2026-12-20,david,edwards,male,27,1664,trujui,khill@gmail.com
+1011,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2021-10-20,brendan,nichols,male,25,1766,tablada,codysuarez@hotmail.com
+1019,universidad nacional de río cuarto,ingeniería electrónica,2027-12-20,charles,walker,male,38,3733,campo el jacaranda,greenerobert@gmail.com
+1020,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2024-09-20,lisa,chen,female,40,6361,agustoni,timothybryant@gmail.com
+1022,universidad nacional de río cuarto,licenciatura en artes,2007-01-21,diana,dickerson,female,41,7116,camaron chico,victoria45@hotmail.com
+1025,universidad nacional de río cuarto,licenciatura en sociología ,2007-01-21,daisy,morris,female,31,8316,balsa senillosa,heatherthomas@yahoo.com
+1030,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2011-01-21,brandon,gray,male,22,2846,anahi,gomezjessica@gmail.com
+1033,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2012-10-20,vanessa,miller,female,48,2445,cristolia,daltonalexandria@gmail.com
+1034,universidad nacional de río cuarto,licenciatura en musicoterapia,2021-09-20,luke,hunter,male,35,5380,chamical,rodriguezlisa@gmail.com
+1035,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2010-11-20,april,wilson,female,35,3500,colonia florencia,christine77@yahoo.com
+1041,universidad nacional de río cuarto,medicina,2022-12-20,kenneth,riley,male,33,6740,chacabuco,prattjacob@hotmail.com
+1042,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2015-01-21,karen,bean,female,19,6507,corbett,annphillips@yahoo.com
+1046,universidad nacional de río cuarto,licenciatura en artes,2006-12-20,marcus,davis,male,44,9217,cholila,williamsstephanie@hotmail.com
+1049,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2024-12-20,jason,torres jr.,male,42,6032,blandengues,austin82@hotmail.com
+1051,universidad nacional de río cuarto,ciencias veterinarias,2004-12-20,michelle,gould,female,29,5736,comandante granville,xgallagher@gmail.com
+1055,universidad nacional de río cuarto,ingeniería mecánica,2015-11-20,james,brown,male,49,1871,dock sud,fitzgeraldjulie@yahoo.com
+1057,universidad nacional de río cuarto,agronomía,2005-12-20,jeff,walker,male,43,2445,cristolia,zgarcia@yahoo.com
+1060,universidad nacional de río cuarto,diseño de imagen y sonido,2001-02-21,linda,arellano,female,18,2707,4 de noviembre,colin64@yahoo.com
+1062,universidad nacional de río cuarto,arquitectura,2008-10-20,samuel,cruz,male,28,6515,carlos maria naon,mgarcia@gmail.com
+1074,universidad nacional de río cuarto,licenciatura en administración ,2025-09-20,andrew,vasquez,male,49,3363,25 de mayo,sarahhale@yahoo.com
+1075,universidad nacional de río cuarto,licenciatura en artes,2004-09-20,danielle,james,female,27,7245,campo sabate,craigfitzpatrick@hotmail.com
+1076,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2017-01-21,timothy,tucker,male,19,1865,el pampero,pateljoshua@gmail.com
+1078,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2019-01-21,randy,olson,male,21,8415,arroyo las minas,bbush@gmail.com
+1079,universidad nacional de río cuarto,agronomía,2012-01-21,steven,parsons,male,19,7500,el carretero,samanthanunez@yahoo.com
+1080,universidad nacional de río cuarto,licenciatura en ciencia política ,2012-09-20,lauren,wiley,female,31,3418,bartolome mitre,carlaharris@gmail.com
+1081,universidad nacional de río cuarto,ingeniería mecánica,2001-12-20,anne,miller,female,28,5505,carbometal,uhale@hotmail.com
+1082,universidad nacional de río cuarto,licenciatura en artes,2005-01-21,michael,watkins,male,18,1889,bosques,ychambers@hotmail.com
+1087,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2010-10-20,kimberly,browning,female,40,5372,nonogasta,jbird@gmail.com
+1092,universidad nacional de río cuarto,ingeniería electrónica,2025-10-20,donald,riley,male,20,8187,bordenave,roy00@yahoo.com
+1093,universidad nacional de río cuarto,licenciatura en ciencia política ,2015-01-21,yolanda,davis,female,26,5427,apeadero quiroga,stevenruiz@hotmail.com
+1099,universidad nacional de río cuarto,ingeniería en informática,2006-09-20,sarah,campbell,female,31,4514,calilegua,matthewdelgado@hotmail.com
+1102,universidad nacional de río cuarto,licenciatura en artes,2004-09-20,nicole,jackson,female,49,5582,alberto flores,allisonsmith@yahoo.com
+1107,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2003-12-20,angelica,molina,female,42,6319,carro quemado,teresahoward@gmail.com
+1109,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2022-12-20,melissa,crawford,female,30,1663,muñiz,ndavidson@yahoo.com
+1110,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2026-11-20,stefanie,jacobs,female,53,5424,villa lerga,tonycooper@yahoo.com
+1114,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2011-09-20,yolanda,jones,female,25,3032,nelson,matakathleen@yahoo.com
+1124,universidad nacional de río cuarto,técnico para bioterios ,2006-12-20,kenneth,harris,male,35,3041,cacique ariacaiquin,jrush@hotmail.com
+1129,universidad nacional de río cuarto,arquitectura,2009-01-21,debbie,wilson,female,20,5596,12 de octubre,brian25@gmail.com
+1131,universidad nacional de río cuarto,ingeniería mecánica,2017-11-20,derek,hunt dds,male,43,6237,america,qbowman@yahoo.com
+1132,universidad nacional de río cuarto,diseño industrial,2028-09-20,noah,stein,male,50,7249,el araza,andrewrobertson@hotmail.com
+1135,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2007-12-20,richard,sparks,male,33,3228,cabi monda,hillmackenzie@gmail.com
+1137,universidad nacional de río cuarto,ingeniería en informática,2003-01-21,tommy,hernandez,male,43,4653,casira,adam88@hotmail.com
+1138,universidad nacional de río cuarto,ingeniería en informática,2008-12-20,robert,obrien,male,51,6740,chacabuco,harrisontracey@gmail.com
+1142,universidad nacional de río cuarto,ingeniería mecánica,2015-10-20,randy,peterson,male,52,7165,faro querandi,choward@gmail.com
+1144,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2029-10-20,james,morgan,male,22,2170,candelaria sud,joelmontgomery@hotmail.com
+1145,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2030-11-20,charles,shields,male,49,3283,colonia mabragaña,mhorton@gmail.com
+1148,universidad nacional de río cuarto,licenciatura en ciencia política ,2016-09-20,gabriella,hanson,female,52,5515,maipu,christina54@gmail.com
+1152,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2020-10-20,lawrence,peck,male,51,1752,lomas del mirador,jessica95@gmail.com
+1154,universidad nacional de río cuarto,ciencias veterinarias,2014-11-20,ryan,williamson,male,29,4648,barrio la union,emiller@gmail.com
+1156,universidad nacional de río cuarto,licenciatura en artes,2017-09-20,richard,hendricks,male,45,4145,ingenio la providencia,bpalmer@hotmail.com
+1160,universidad nacional de río cuarto,actuario ,2006-01-21,sara,brooks,female,50,3407,aguay,deborahsmith@yahoo.com
+1165,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2001-02-21,nicole,wheeler,female,49,3218,arroyo palmar,meghanvillarreal@hotmail.com
+1169,universidad nacional de río cuarto,ingeniería electrónica,2019-09-20,jeanne,clark,female,23,5351,banda florida,ymiller@hotmail.com
+1172,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2005-10-20,douglas,martin,male,44,3423,arañita,jamessantiago@yahoo.com
+1173,universidad nacional de río cuarto,medicina,2001-11-20,mason,johnson,male,42,3620,kilometro 184,buckleybrittany@hotmail.com
+1175,universidad nacional de río cuarto,actuario ,2022-09-20,george,martinez,male,47,7603,comandante nicanor otamendi,andrewjackson@hotmail.com
+1180,universidad nacional de río cuarto,farmacia,2007-09-20,alicia,davenport,female,31,1642,san isidro,heathermartin@yahoo.com
+1183,universidad nacional de río cuarto,licenciatura en sociología ,2010-12-20,tony,sanders,male,49,3376,gobernador lanusse,tstephens@hotmail.com
+1184,universidad nacional de río cuarto,agronomía,2006-12-20,louis,williams,male,28,1722,merlo,kpeterson@yahoo.com
+1185,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2031-01-21,julie,stephenson,female,36,5623,atuel sud,nterry@yahoo.com
+1186,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2028-09-20,kristy,sutton,female,22,2148,campo castro,qlara@gmail.com
+1188,universidad nacional de río cuarto,actuario ,2018-10-20,justin,sullivan,male,50,1735,el durazno,nwiggins@gmail.com
+1192,universidad nacional de río cuarto,diseño industrial,2005-10-20,jennifer,chan,female,18,5755,alto del molle,rachel79@gmail.com
+1194,universidad nacional de río cuarto,licenciatura en musicoterapia,2026-01-21,paul,black,male,31,7607,balneario atlantida,sara68@yahoo.com
+1196,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2025-01-21,richard,rivera,male,34,5333,banda de lucero,calebhoward@gmail.com
+1199,universidad nacional de río cuarto,licenciatura en sociología ,2027-11-20,cheryl,blake,female,44,4105,abra del tafi,ewhite@yahoo.com
+1201,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2031-12-20,thomas,schneider,male,34,2946,el espinillo,wmorgan@hotmail.com
+1203,universidad nacional de río cuarto,licenciatura en psicología,2009-11-20,rachel,torres,female,50,1842,el jaguel,gbrewer@yahoo.com
+1209,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2004-10-20,julian,jacobs,male,34,3551,campo monte la viruela,scottariel@yahoo.com
+1214,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2030-09-20,krista,robinson,female,41,3125,antonio tomas,ryanreed@hotmail.com
+1222,universidad nacional de río cuarto,licenciatura en musicoterapia,2004-11-20,betty,hodges,female,24,7403,alvaro barros,brenda85@yahoo.com
+1226,universidad nacional de río cuarto,arquitectura,2004-09-20,megan,grant,female,53,8109,almirante solier,ryanclark@hotmail.com
+1229,universidad nacional de río cuarto,diseño industrial,2021-10-20,javier,daniels md,male,23,4705,aguadita,jodidiaz@yahoo.com
+1230,universidad nacional de río cuarto,ingeniería en informática,2022-10-20,leonard,trevino,male,21,1759,gonzalez catan,tanya13@hotmail.com
+1232,universidad nacional de río cuarto,licenciatura en ciencia política ,2011-10-20,amanda,clark,female,22,6600,kilometro 125,llane@gmail.com
+1234,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2015-09-20,brian,bonilla,male,23,3386,caraguatay,vsmith@hotmail.com
+1239,universidad nacional de río cuarto,contador público ,2010-09-20,brian,wilson,male,41,5350,el molle,jerryyang@yahoo.com
+1241,universidad nacional de río cuarto,diseño de imagen y sonido,2009-10-20,ashley,mullen,female,19,2147,san genaro norte,nancy11@yahoo.com
+1242,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2024-12-20,scott,huerta,male,35,6634,alberti,webbmandy@gmail.com
+1243,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2011-10-20,beverly,lane,female,29,6476,chiclana,flawrence@yahoo.com
+1244,universidad nacional de río cuarto,arquitectura,2014-11-20,keith,warren,male,50,6305,atreuco,peter95@gmail.com
+1245,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2014-10-20,kelly,johnson,female,18,1635,kilometro 45,michelle23@hotmail.com
+1249,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2019-01-21,patricia,baker,female,28,1771,mercado central,marcus85@gmail.com
+1256,universidad nacional de río cuarto,ingeniería mecánica,2016-01-21,amanda,williams,female,36,9003,bahia solano,hdunn@yahoo.com
+1259,universidad nacional de río cuarto,farmacia,2004-01-21,ryan,martinez,male,43,4231,albigasta,bennettmatthew@yahoo.com
+1269,universidad nacional de río cuarto,farmacia,2020-09-20,matthew,hernandez,male,45,3203,arroyo grande,wholt@hotmail.com
+1274,universidad nacional de río cuarto,arquitectura,2010-12-20,patrick,reeves,male,43,3199,los laureles,jamesdeleon@yahoo.com
+1280,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2027-12-20,charles,luna,male,38,3334,3 de mayo,hensleybrandon@yahoo.com
+1284,universidad nacional de río cuarto,licenciatura en ciencia política ,2021-09-20,daniel,howell,male,26,6237,america,mariowashington@yahoo.com
+1288,universidad nacional de río cuarto,ciencias veterinarias,2021-01-21,angela,murphy,female,31,5755,alto del molle,owood@hotmail.com
+1289,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2021-11-20,erica,gilbert,female,37,1889,bosques,robintorres@yahoo.com
+1292,universidad nacional de río cuarto,ingeniería en informática,2009-11-20,amy,perez,female,31,4133,la banda,smithjohn@yahoo.com
+1293,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2030-01-21,glenn,valencia,male,50,5444,ampacama,mackenziecarter@yahoo.com
+1295,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2027-11-20,jordan,anderson,male,22,3449,boliche lata,bellnatasha@hotmail.com
+1296,universidad nacional de río cuarto,ingeniería electrónica,2014-11-20,patricia,crane,female,29,2303,angelica,sanchezalfred@yahoo.com
+1301,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2028-10-20,elaine,hart,female,39,3514,cacui,qkirk@yahoo.com
+1303,universidad nacional de río cuarto,licenciatura en ciencia política ,2002-09-20,theresa,yang,female,20,3532,curandu,colleen77@yahoo.com
+1305,universidad nacional de río cuarto,licenciatura en sociología ,2013-10-20,ryan,bowers,male,46,8315,achico,isaiahlivingston@gmail.com
+1309,universidad nacional de río cuarto,licenciatura en administración ,2024-12-20,paul,reid,male,27,4231,albigasta,thomasking@hotmail.com
+1310,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2009-09-20,zachary,petty,male,48,8347,arroyo cahunco,brooke68@hotmail.com
+1318,universidad nacional de río cuarto,arquitectura,2007-09-20,kyle,rose,male,20,5313,estacion mazan,nwalters@gmail.com
+1320,universidad nacional de río cuarto,licenciatura en musicoterapia,2011-12-20,dylan,baker,male,34,9001,cañadon ferrais,davidbrown@yahoo.com
+1323,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2022-01-21,beth,nguyen,female,23,2175,barlett,rodrigueztanner@gmail.com
+1327,universidad nacional de río cuarto,licenciatura en musicoterapia,2009-12-20,jessica,alexander,female,43,2740,almacen la colina,richard86@gmail.com
+1334,universidad nacional de río cuarto,licenciatura en psicología,2016-01-21,andrew,dickerson,male,36,1981,desvio kilometro 55,rhiggins@yahoo.com
+1335,universidad nacional de río cuarto,farmacia,2021-11-20,maria,beasley,female,37,1712,castelar,fnichols@yahoo.com
+1344,universidad nacional de río cuarto,diseño industrial,2029-11-20,mary,mendoza,female,30,2447,los sembrados,logan97@hotmail.com
+1345,universidad nacional de río cuarto,ciencias veterinarias,2018-01-21,karen,collins,female,33,2806,las palmas,gperez@gmail.com
+1348,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2017-01-21,timothy,hobbs,male,33,2729,carreras,jason27@hotmail.com
+1350,universidad nacional de río cuarto,contador público ,2022-01-21,alice,williams,female,26,1647,zona delta san fernando,chadgarza@gmail.com
+1351,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2001-11-20,matthew,nielsen,male,52,6331,colonia beaufort,vsullivan@gmail.com
+1353,universidad nacional de río cuarto,ingeniería mecánica,2013-11-20,jennifer,martinez,female,35,2801,alto verde,brandon82@yahoo.com
+1358,universidad nacional de río cuarto,licenciatura en psicología,2027-10-20,amber,harmon,female,53,4134,acheral,christina40@yahoo.com
+1359,universidad nacional de río cuarto,licenciatura en sociología ,2010-09-20,elizabeth,barr,female,48,6034,colonia alberdi,harrisjessica@hotmail.com
+1362,universidad nacional de río cuarto,agronomía,2006-09-20,diana,carr,female,44,3308,candelaria,adrianadiaz@gmail.com
+1363,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2002-11-20,zachary,oliver,male,45,7407,libano,garciaangel@hotmail.com
+1368,universidad nacional de río cuarto,ingeniería en informática,2025-11-20,mark,sampson,male,24,2503,villa eloisa,apriljackson@hotmail.com
+1370,universidad nacional de río cuarto,diseño industrial,2030-09-20,john,johnson,male,46,8417,cañadon chileno,ftaylor@hotmail.com
+1372,universidad nacional de río cuarto,arquitectura,2008-09-20,jamie,graves,male,34,6435,guamini,dayjoseph@gmail.com
+1373,universidad nacional de río cuarto,técnico para bioterios ,2021-11-20,brandy,serrano,female,24,2705,haras san jacinto,thompsongeorge@yahoo.com
+1376,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2004-10-20,rachel,powers,female,39,6330,arturo almaraz,johncampbell@hotmail.com
+1378,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2012-12-20,jeffrey,carson,male,33,6614,franklin,uhayes@yahoo.com
+1389,universidad nacional de río cuarto,ciencias veterinarias,2026-12-20,chad,lee,male,35,7260,barrio villa saladillo,thompsoncameron@hotmail.com
+1393,universidad nacional de río cuarto,licenciatura en ciencia política ,2002-10-20,justin,freeman,male,37,3553,colonia duran,ortizbrian@yahoo.com
+1395,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2011-11-20,emily,cohen,female,45,1931,punta lara,palmermichael@yahoo.com
+1397,universidad nacional de río cuarto,ingeniería en informática,2021-09-20,michelle,schroeder,female,41,1905,jose ferrari,wisebrian@gmail.com
+1398,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2014-11-20,rhonda,mitchell,female,31,8500,el dique,david59@gmail.com
+1403,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2017-01-21,sergio,smith,male,26,9033,aldea apeleg,nicolebauer@gmail.com
+1404,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2009-10-20,brandon,ortega,male,32,1735,el durazno,theodore84@yahoo.com
+1405,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2028-12-20,linda,patel,female,51,7404,fortin lavalle,vwatkins@gmail.com
+1407,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2024-01-21,sara,jones,female,30,1913,atalaya,brownjeffrey@yahoo.com
+1408,universidad nacional de río cuarto,actuario ,2025-10-20,heather,roberson,female,49,2611,estacion christophersen,william94@gmail.com
+1411,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2031-12-20,brian,banks,male,27,7533,quiñihual estacion,abush@gmail.com
+1412,universidad nacional de río cuarto,contador público ,2002-01-21,maria,white,female,39,6381,campo caretto,garciaeric@gmail.com
+1415,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2026-12-20,sarah,williamson,female,30,3409,arroyo san juan,matthewlong@yahoo.com
+1417,universidad nacional de río cuarto,agronomía,2018-10-20,mrs.,amber garrison md,female,41,3450,8 de diciembre,austinmatthews@hotmail.com
+1420,universidad nacional de río cuarto,contador público ,2015-01-21,sarah,duncan phd,female,20,7169,juancho,coreygarner@gmail.com
+1425,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2013-11-20,ryan,young,male,36,6516,amalia,jessicagraves@gmail.com
+1428,universidad nacional de río cuarto,actuario ,2009-09-20,david,miller,male,25,6062,coronel granada,qwolfe@gmail.com
+1429,universidad nacional de río cuarto,licenciatura en administración ,2018-09-20,larry,fuentes,male,38,8349,aguas de las mulas,youngjennifer@hotmail.com
+1430,universidad nacional de río cuarto,licenciatura en psicología,2010-12-20,lorraine,warren,female,26,8208,campo cicare,oconnorcheryl@yahoo.com
+1432,universidad nacional de río cuarto,licenciatura en sociología ,2020-01-21,benjamin,ruiz,male,50,2707,4 de noviembre,juanmurphy@hotmail.com
+1435,universidad nacional de río cuarto,ingeniería mecánica,2003-11-20,paige,ray,female,32,4709,san jose de piedra blanca,jpowell@yahoo.com
+1438,universidad nacional de río cuarto,licenciatura en relaciones del trabajo ,2014-01-21,anna,howard,female,24,3174,altamirano sud,antonio18@hotmail.com
+1445,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2009-09-20,pamela,ware,female,35,3587,san antonio de obligado,andersonrobert@yahoo.com
+1446,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2017-01-21,alexis,stephens,male,38,8315,achico,qbrennan@hotmail.com
+1458,universidad nacional de río cuarto,licenciatura en psicología,2001-12-20,molly,mahoney,female,25,1815,escuela agricola don bosco,twebb@gmail.com
+1459,universidad nacional de río cuarto,diseño industrial,2022-11-20,sheila,casey,female,37,2454,cañada rosquin,carmenvillarreal@hotmail.com
+1460,universidad nacional de río cuarto,contador público ,2019-09-20,valerie,dudley,female,35,6616,castilla,fward@hotmail.com
+1461,universidad nacional de río cuarto,arquitectura,2030-09-20,laura,fuller,female,48,4715,agua verde,erinhenry@gmail.com
+1462,universidad nacional de río cuarto,licenciatura en psicología,2019-11-20,amanda,brown,female,48,3226,buena vista,erindalton@hotmail.com
+1465,universidad nacional de río cuarto,licenciatura en psicología,2017-01-21,jessica,choi,female,28,2441,crispi,amanda22@gmail.com
+1471,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2019-11-20,andrew,mills,male,41,8422,aguada de piedra,butlerkenneth@gmail.com
+1482,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2015-09-20,kenneth,reeves,male,34,8144,colonia monte la plata,zpugh@yahoo.com
+1483,universidad nacional de río cuarto,agronomía,2027-01-21,kevin,howard,male,21,8508,ambrosio p lezica,vbrown@gmail.com
+1484,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2017-11-20,michelle,lopez,female,45,2824,britos,ududley@yahoo.com
+1490,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2001-12-20,timothy,moore,male,31,1676,santos lugares,vmorris@gmail.com
+1492,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2018-11-20,michael,cooper,male,34,5400,desamparados,samanthaburns@hotmail.com
+1494,universidad nacional de río cuarto,diseño industrial,2020-01-21,anthony,mckinney,male,29,3382,colonia cunci,ashley86@hotmail.com
+1498,universidad nacional de río cuarto,licenciatura en psicología,2015-09-20,joanne,wolf,female,27,2813,arroyo de la cruz,whicks@hotmail.com
+1500,universidad nacional de río cuarto,diseño industrial,2030-11-20,jennifer,fowler,female,33,2603,chapuy,wernerkimberly@yahoo.com
+1502,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2010-12-20,alex,ramirez,male,51,3071,aguara grande,donnaflores@gmail.com
+1504,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2016-12-20,sean,ellis,male,49,2156,arsenal de guerra san lorenzo,jason39@hotmail.com
+1505,universidad nacional de río cuarto,técnico para bioterios ,2002-11-20,susan,haas,female,31,6203,el olivo,jennifer31@hotmail.com
+1506,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2002-12-20,deanna,vasquez,female,23,3344,2 de julio,christophercollins@gmail.com
+1507,universidad nacional de río cuarto,medicina,2013-12-20,benjamin,young,male,52,1640,acassuso,markssamantha@gmail.com
+1511,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2013-12-20,sandra,lane dvm,female,24,3263,1 de mayo,rgarcia@gmail.com
+1513,universidad nacional de río cuarto,contador público ,2011-10-20,don,reyes,male,36,2173,campo pesoa,paul32@hotmail.com
+1524,universidad nacional de río cuarto,licenciatura en musicoterapia,2004-01-21,edward,estes,male,32,2820,colonia el potrero,hray@hotmail.com
+1528,universidad nacional de río cuarto,diseño de imagen y sonido,2026-12-20,kendra,ortega,female,30,3420,acuña cue,wilsoncharles@hotmail.com
+1529,universidad nacional de río cuarto,arquitectura,2022-12-20,justin,williams,male,46,6455,carlos tejedor,mitchellcarter@yahoo.com
+1530,universidad nacional de río cuarto,técnico para bioterios ,2031-10-20,ryan,rice,male,50,6337,ingeniero thompson,jasongriffin@gmail.com
+1535,universidad nacional de río cuarto,actuario ,2028-10-20,kathryn,castillo,female,38,1607,villa adelina,nelsonalexander@hotmail.com
+1536,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2001-02-21,christine,williams,female,48,6634,alberti,cdrake@gmail.com
+1537,universidad nacional de río cuarto,licenciatura en psicología,2011-11-20,david,greene,male,41,4728,chumbicha,mcarter@yahoo.com
+1540,universidad nacional de río cuarto,ingeniería mecánica,2025-01-21,shawn,hines,male,39,6367,argentina belvedere,davisryan@yahoo.com
+1544,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2002-11-20,david,thornton,male,28,5595,cupiles,foxryan@gmail.com
+1553,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2014-11-20,isaac,lambert,male,40,1636,la lucila,vlamb@yahoo.com
+1557,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2003-10-20,natasha,brown,female,33,5741,13 de enero,lperez@gmail.com
+1558,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2029-12-20,christopher,johnson,male,33,9211,cushamen,xcurry@yahoo.com
+1563,universidad nacional de río cuarto,agronomía,2005-12-20,jesse,robinson,male,30,9301,el chalten,michaelgriffin@yahoo.com
+1565,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2022-10-20,thomas,rivera,male,40,8124,berraondo,brittanygreen@hotmail.com
+1568,universidad nacional de río cuarto,ingeniería mecánica,2021-12-20,crystal,lawson,female,36,6627,achupallas,fgomez@hotmail.com
+1569,universidad nacional de río cuarto,ciencias veterinarias,2007-10-20,christopher,ford,male,20,3048,angeloni,pameladoyle@gmail.com
+1571,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2024-11-20,heather,tucker,female,37,7265,cazon,pdavies@yahoo.com
+1584,universidad nacional de río cuarto,licenciatura en kinesiología y fisiatría,2014-10-20,david,smith,male,39,8124,berraondo,michellenelson@hotmail.com
+1585,universidad nacional de río cuarto,técnico para bioterios ,2029-10-20,jenna,castro,female,34,1633,empalme,vblair@gmail.com
+1586,universidad nacional de río cuarto,agronomía,2026-12-20,preston,acosta,male,44,5409,adan quiroga,rodney51@hotmail.com
+1589,universidad nacional de río cuarto,ingeniería mecánica,2023-01-21,anthony,washington,male,49,3567,dest aeronautico milit reconqu,clara@hotmail.com
+1590,universidad nacional de río cuarto,diseño de imagen y sonido,2025-11-20,terry,elliott,male,19,6380,boeuf,ecarroll@gmail.com
+1593,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2023-01-21,chris,murray,male,49,6701,carlos keen,dylanmccoy@hotmail.com
+1601,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2022-09-20,melanie,garcia,female,30,2933,colonia velez,suarezcharles@hotmail.com
+1602,universidad nacional de río cuarto,licenciatura en artes,2017-09-20,natalie,butler,female,52,8183,avestruz,ujohnson@yahoo.com
+1605,universidad nacional de río cuarto,licenciatura en musicoterapia,2017-10-20,charles,hogan,male,25,1872,sarandi,scottobrien@gmail.com
+1606,universidad nacional de río cuarto,farmacia,2015-09-20,terri,bailey,female,52,5353,el zapallar,scotttimothy@gmail.com
+1609,universidad nacional de río cuarto,diseño de imagen y sonido,2014-09-20,alec,wood,male,39,7605,barrio chapadmalal,rmoses@yahoo.com
+1615,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2005-09-20,angela,reese,female,25,2801,alto verde,danielleatkins@yahoo.com
+1618,universidad nacional de río cuarto,contador público ,2028-10-20,donald,meyer,male,27,9041,los antiguos,vmarshall@gmail.com
+1621,universidad nacional de río cuarto,contador público ,2018-09-20,jeremiah,le,male,39,7201,colman,amandahaney@hotmail.com
+1622,universidad nacional de río cuarto,bioquímica,2016-12-20,suzanne,jones,female,30,6348,bocayuba,debra60@yahoo.com
+1623,universidad nacional de río cuarto,licenciatura en administración ,2004-10-20,veronica,lopez,female,49,6734,rawson,larry90@hotmail.com
+1631,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2020-12-20,danielle,mclean,female,48,2852,alarcon,beckdaniel@gmail.com
+1632,universidad nacional de río cuarto,diseño industrial,2020-11-20,joshua,adams,male,38,2170,candelaria sud,nfletcher@hotmail.com
+1633,universidad nacional de río cuarto,licenciatura en artes,2030-12-20,adam,smith,male,23,6441,colonia baron hirsch,dthompson@gmail.com
+1648,universidad nacional de río cuarto,diseño de imagen y sonido,2009-01-21,matthew,snow,male,30,6634,alberti,fryewillie@yahoo.com
+1649,universidad nacional de río cuarto,agronomía,2027-09-20,catherine,anderson,female,34,2912,la querencia,victor74@hotmail.com
+1650,universidad nacional de río cuarto,farmacia,2022-10-20,jennifer,sims,female,26,6031,de bruyn,vickie88@gmail.com
+1656,universidad nacional de río cuarto,ingeniería en informática,2021-10-20,isaac,green,male,39,4147,alto las lechuzas,tinamejia@gmail.com
+1658,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2030-01-21,april,larsen,female,48,5881,cañada la negra,emmalane@yahoo.com
+1659,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2003-12-20,charles,johnson,male,25,6073,el triunfo,bullockanthony@gmail.com
+1661,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2020-09-20,sara,richardson,female,27,3183,albariño,hsavage@gmail.com
+1664,universidad nacional de río cuarto,diseño de imagen y sonido,2008-01-21,jodi,carrillo,female,37,1614,villa de mayo,martinalan@hotmail.com
+1665,universidad nacional de río cuarto,ingeniería en informática,2030-01-21,brian,boyle,male,22,8514,laguna del barro,bowmansteven@gmail.com
+1666,universidad nacional de río cuarto,ingeniería electrónica,2030-09-20,james,miller,male,19,2508,armstrong,melissabean@yahoo.com
+1667,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2022-10-20,pamela,adams,female,25,9107,28 de julio,katherine47@gmail.com
+1670,universidad nacional de río cuarto,licenciatura en sociología ,2017-09-20,carla,taylor,female,38,3541,campo las puertas,johnherrera@yahoo.com
+1675,universidad nacional de río cuarto,diseño de imagen y sonido,2006-10-20,travis,smith,male,23,6339,cailomuta,uross@yahoo.com
+1676,universidad nacional de río cuarto,licenciatura en artes,2002-01-21,michael,martinez,male,22,5553,empalme frontera,adamperez@gmail.com
+1679,universidad nacional de río cuarto,licenciatura en administración ,2021-09-20,emily,sexton,female,31,1815,escuela agricola don bosco,marchunter@gmail.com
+1689,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2030-01-21,michael,andrews,male,46,2905,general rojo,steven96@yahoo.com
+1690,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2017-01-21,robert,scott,male,39,6605,campo peña lopez,qkennedy@hotmail.com
+1694,universidad nacional de río cuarto,licenciatura en artes,2023-11-20,robert,cohen,male,20,2938,alsina,judithmyers@yahoo.com
+1696,universidad nacional de río cuarto,farmacia,2026-01-21,dr.,donald callahan,male,33,2208,gaboto,powellwilliam@gmail.com
+1699,universidad nacional de río cuarto,licenciatura en ciencia política ,2024-12-20,ivan,wagner,male,29,1678,caseros,fmann@yahoo.com
+1706,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2022-12-20,john,wade,male,31,1737,kilometro 77,mleonard@hotmail.com
+1709,universidad nacional de río cuarto,licenciatura en administración ,2013-09-20,haley,edwards,female,18,3196,arroyo vega,crystal32@hotmail.com
+1710,universidad nacional de río cuarto,ingeniería electrónica,2001-02-21,paula,hughes,female,48,6708,colonia nac de alienados,brownyvonne@yahoo.com
+1713,universidad nacional de río cuarto,licenciatura en producción de bioimagenes,2001-09-20,katie,jensen,female,28,6345,la bilbaina,rdoyle@gmail.com
+1717,universidad nacional de río cuarto,licenciatura en sociología ,2003-01-21,amanda,jones,female,26,8345,alumine,sandersjessica@yahoo.com
+1724,universidad nacional de río cuarto,farmacia,2010-09-20,john,lee,male,39,1609,boulogne,hduncan@yahoo.com
+1731,universidad nacional de río cuarto,licenciatura en musicoterapia,2020-01-21,clayton,jones,male,21,2501,berretta,brett22@hotmail.com
+1732,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2017-09-20,mary,simpson,female,45,4413,catua,gonzalezapril@yahoo.com
+1733,universidad nacional de río cuarto,bioquímica,2006-10-20,cory,hill,male,20,6381,campo caretto,hspencer@hotmail.com
+1736,universidad nacional de río cuarto,ciencias veterinarias,2021-09-20,jesse,parker,male,22,6513,colonia las yescas,hpetersen@gmail.com
+1738,universidad nacional de río cuarto,licenciatura en ciencias ambientales,2028-12-20,pamela,wise,female,30,3133,arroyo burgos,msmith@yahoo.com
+1740,universidad nacional de río cuarto,farmacia,2007-11-20,bryan,bradley,male,33,1870,avellaneda,nancy93@yahoo.com
+1741,universidad nacional de río cuarto,ingeniería mecánica,2018-10-20,kristen,pierce,female,36,8375,cañadon de los indios,barberstephanie@hotmail.com
+1747,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2007-09-20,jeffrey,jones,male,33,3565,arroyo del rey,preyes@yahoo.com
+1750,universidad nacional de río cuarto,licenciatura en ciencias biológicas,2021-12-20,laura,yang,female,25,3151,antelo,kellyralph@yahoo.com
+1751,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2003-12-20,christopher,black,male,38,2445,cristolia,eric76@yahoo.com
+1757,universidad nacional de río cuarto,ingeniería mecánica,2023-11-20,robert,newman,male,26,7112,aguas verdes,carolynhenderson@gmail.com
+1761,universidad nacional de río cuarto,licenciatura en ciencias de la computación,2006-10-20,jennifer,walters,female,36,3381,maria magdalena,hannahstanley@hotmail.com
+1763,universidad nacional de río cuarto,licenciatura en ciencia política ,2022-10-20,zachary,francis,male,23,6103,amenabar,floresvictor@hotmail.com
+1764,universidad nacional de río cuarto,licenciatura en administración ,2006-09-20,zachary,perry,male,27,6228,aguas buenas,hthomas@yahoo.com
+1768,universidad nacional de río cuarto,ciencias veterinarias,2025-01-21,nancy,munoz,female,53,1834,temperley,diamondjohnson@yahoo.com
+1771,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2022-11-20,james,bush md,male,40,3328,colonia japonesa,frederickfitzpatrick@yahoo.com
+1772,universidad nacional de río cuarto,contador público ,2013-12-20,nina,foster,female,53,7623,campo la plata,tonylloyd@hotmail.com
+1775,universidad nacional de río cuarto,contador público ,2018-10-20,bonnie,carey,female,26,2204,jesus maria,lewismary@yahoo.com
+1777,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2027-09-20,scott,scott,male,31,8407,correntoso,susan25@yahoo.com
+1778,universidad nacional de río cuarto,contador público ,2021-12-20,mary,sanchez md,female,31,6417,casbas,bryan06@hotmail.com
+1783,universidad nacional de río cuarto,ingeniería en informática,2029-11-20,scott,howard,male,25,1889,bosques,ztate@gmail.com
+1786,universidad nacional de río cuarto,licenciatura en ciencias geológicas,2017-11-20,cynthia,ferguson,female,36,3448,alamo,zcarter@yahoo.com
+1788,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2020-12-20,cheryl,stokes,female,40,5529,colonia bombal,goodmanmark@gmail.com
+1793,universidad nacional de río cuarto,licenciatura en gestión de agroalimentos,2008-12-20,jill,thornton,female,28,5775,bajo grande,deborahperkins@yahoo.com
+1795,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2012-12-20,jennifer,walker,female,52,8364,chimpay,klopez@hotmail.com
+1802,universidad nacional de río cuarto,licenciatura en planificación y diseño del paisaje,2021-09-20,rachel,carter md,female,45,5572,alto grande,thomasmedina@gmail.com
+1803,universidad nacional de río cuarto,contador público ,2020-11-20,alison,kaufman,female,43,3162,aranguren,jade42@yahoo.com
+1806,universidad nacional de río cuarto,farmacia,2007-01-21,alison,smith,female,18,2300,colonia bella italia,psmith@hotmail.com
+1811,universidad nacional de río cuarto,licenciatura en ciencias de la educación ,2021-11-20,mark,mullen,male,20,5425,albarracin,davidriley@yahoo.com
+1815,universidad nacional de río cuarto,ciencias veterinarias,2029-11-20,lindsay,jefferson,female,35,1847,rafael calzada,xjohnson@hotmail.com
+1826,universidad nacional de río cuarto,licenciatura en ciencias antropológicas,2011-09-20,tammy,cruz,female,31,8532,arroyo salado,sbarrett@gmail.com
+1827,universidad nacional de río cuarto,diseño de imagen y sonido,2014-10-20,dustin,nelson,male,18,5333,banda de lucero,wjohnson@yahoo.com
+1831,universidad nacional de río cuarto,licenciatura en terapia ocupacional,2028-12-20,mark,montoya,male,47,5442,ambas puntillas,aaronterry@gmail.com
+1833,universidad nacional de río cuarto,licenciatura en ciencia y tecnología de alimentos,2024-01-21,erika,lee,female,34,7633,maori,bennettanthony@yahoo.com
