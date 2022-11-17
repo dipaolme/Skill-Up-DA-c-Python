@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+dag_id: "GFUNRioCuarto_dyn"
+universidad: "GFUNRioCuarto"
+schedule: "@hourly"
+catchup: False
+query: "include/GFUNRioCuarto"
+=======
+dag_id: "GFUNRioCuarto_dyn"
+universidad: "GFUNRioCuarto"
+schedule: "@hourly"
+catchup: False
+query: "include/GFUNRioCuarto"
+>>>>>>> cd481ad119f5296390759ecda4e6d99915d9938f
+uni_csv: "files/GFUNRioCuarto"
